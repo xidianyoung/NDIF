@@ -1,0 +1,37 @@
+==============================================================================
+NDIF certificates on Sleep-EDF cassette, all primary nights, by scored stage
+153 nights, 78 participants, 602 night-stage cells (>= 6 epochs), package default replicates
+==============================================================================
+ stage  estimator    n   L2 adm   L3 adm  median G3  MDE fold  binding gates for L3 (refused cells)
+------------------------------------------------------------------------------
+  Wake        ols   97    100%      0%      0.264      5.25  G1 x97
+  Wake     kalman   97    100%     10%      0.833      2.81  G3 x79, G2 x8
+    N1        ols  139    100%      0%      0.473      2.17  G1 x138, G3 x1
+    N1     kalman  139    100%     13%      0.932      2.53  G3 x75, G2 x46
+    N2        ols  153    100%      0%      0.728      1.49  G1 x147, G2 x1, G3 x1
+    N2     kalman  153    100%     25%      0.956      1.83  G2 x81, G3 x32
+    N3        ols   77    100%      0%      0.527      2.65  G1 x54, G3 x11, G2 x6
+    N3     kalman   77    100%      8%      0.902      3.40  G2 x54, G3 x15
+    N4        ols   29    100%      0%      0.361      8.85  G1 x17, G3 x8, G2 x3
+    N4     kalman   29    100%     14%      0.845      9.04  G2 x18, G3 x6
+   REM        ols  107    100%      0%      0.395      3.48  G1 x104, G2 x1, G3 x1
+   REM     kalman  107    100%      9%      0.893      3.52  G2 x56, G3 x41
+------------------------------------------------------------------------------
+   all        ols  602    100%      0%  G1 x557, G3 x22, G2 x11
+   all     kalman  602    100%     14%  G2 x263, G3 x248
+
+level 1, G6 per cell (estimator-free, from the ols pass):
+ stage    n  G6 cleared  median TPR  median FPR
+  Wake   97          97       1.000       0.000
+    N1  139         139       1.000       0.000
+    N2  153         153       1.000       0.000
+    N3   77          77       1.000       0.000
+    N4   29          29       1.000       0.000
+   REM  107         107       1.000       0.000
+
+level 1, G5 on adjacent stage pairs within a night:
+  Wake vs N1 n   95  cleared   95  median separation 1.247  median floor 0.219
+  N1 vs N2   n  139  cleared  139  median separation 1.033  median floor 0.162
+  N2 vs N3   n   77  cleared   77  median separation 1.250  median floor 0.164
+  N3 vs N4   n   25  cleared   25  median separation 0.706  median floor 0.195
+  all pairs: G5 cleared in 336 of 336 contrasts

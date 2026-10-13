@@ -1,0 +1,55 @@
+{
+ "n": 646,
+ "best_threshold": 3.3530000000000024,
+ "best_agree": 623,
+ "reference_threshold": 2.31,
+ "agree_at_reference": 557,
+ "per_cohort_at_best": {
+  "ds003838": [
+   64,
+   64
+  ],
+  "eegmmidb": [
+   104,
+   104
+  ],
+  "fmri": [
+   195,
+   198
+  ],
+  "meg": [
+   83,
+   83
+  ],
+  "sleep": [
+   177,
+   197
+  ]
+ },
+ "per_cohort_at_reference": {
+  "ds003838": [
+   64,
+   64
+  ],
+  "eegmmidb": [
+   104,
+   104
+  ],
+  "fmri": [
+   195,
+   198
+  ],
+  "meg": [
+   83,
+   83
+  ],
+  "sleep": [
+   111,
+   197
+  ]
+ },
+ "plateau_within_1": [
+  3.3460000000000027,
+  3.3760000000000026
+ ]
+}

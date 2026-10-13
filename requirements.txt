@@ -1,0 +1,15 @@
+# Package: numpy and scipy only (pip install -e .).  The versions below are those used for the reported analyses
+# (Python 3.13.9 on Windows 11; the noise-aware bootstrap records its own environment in its results.json); any
+# numpy >= 1.21 and scipy >= 1.7 satisfy the package.
+numpy==2.4.4
+scipy==1.17.1
+# COG-BCI state construction (analyses/workload_certificates/features)
+scikit-learn==1.8.0
+# Non-neural series (examples/example_03_cross_domain.py; the series and co2 parts of
+# analyses/g8_configuration/benchmark_10_real_recordings.py), loaded through pandas
+statsmodels==0.14.5
+pandas==2.3.3
+# Risk-coverage plot of analyses/g8_configuration/noise_aware_bootstrap
+matplotlib==3.10.6
+# Tests
+pytest>=7.0

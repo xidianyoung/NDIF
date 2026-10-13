@@ -1,0 +1,6045 @@
+{
+ "created": "2026-09-21 16:34:21",
+ "seed": 20260921,
+ "reps": 60,
+ "n_starts": 200,
+ "softness": 1.0,
+ "deltas": [
+  0.0,
+  0.5,
+  0.875,
+  1.0,
+  1.5,
+  1.75,
+  2.0,
+  2.25,
+  2.5,
+  2.75,
+  3.0,
+  4.0
+ ],
+ "rungs": [
+  "isotropic_reference",
+  "dimension",
+  "anisotropy",
+  "drift",
+  "sample_size",
+  "segments",
+  "nonstationarity"
+ ],
+ "isotropic_reference": {
+  "lambda_per_s": 0.5,
+  "d": 8,
+  "dt": 1.0
+ },
+ "cohorts": {
+  "hcp_fmri": {
+   "n_records": 198,
+   "n_subjects": 99,
+   "draw_subjects": [
+    "112819",
+    "115320",
+    "114116",
+    "106319",
+    "111312",
+    "116726",
+    "115724",
+    "102614",
+    "105115",
+    "118225",
+    "112920",
+    "117021",
+    "103212",
+    "101107",
+    "101915",
+    "102311",
+    "103818",
+    "108323",
+    "117930",
+    "105216",
+    "113417",
+    "100408",
+    "114217",
+    "106824",
+    "105014",
+    "113821",
+    "113316",
+    "104820",
+    "118730",
+    "118023",
+    "111716",
+    "106016",
+    "116423",
+    "109123",
+    "116524",
+    "108020",
+    "118932",
+    "108525",
+    "119732",
+    "114419",
+    "115017",
+    "102513",
+    "105620",
+    "118831",
+    "107321",
+    "118124",
+    "105923",
+    "107018",
+    "113215",
+    "108222",
+    "108828",
+    "118528",
+    "113619",
+    "104012",
+    "116221",
+    "106521",
+    "103010",
+    "109830",
+    "119126",
+    "102109"
+   ],
+   "draw_records": [
+    "112819_WM_RL",
+    "115320_WM_LR",
+    "114116_WM_RL",
+    "106319_WM_LR",
+    "111312_WM_LR",
+    "116726_WM_LR",
+    "115724_WM_RL",
+    "102614_WM_LR",
+    "105115_WM_LR",
+    "118225_WM_LR",
+    "112920_WM_RL",
+    "117021_WM_RL",
+    "103212_WM_RL",
+    "101107_WM_LR",
+    "101915_WM_LR",
+    "102311_WM_RL",
+    "103818_WM_LR",
+    "108323_WM_LR",
+    "117930_WM_RL",
+    "105216_WM_RL",
+    "113417_WM_RL",
+    "100408_WM_LR",
+    "114217_WM_RL",
+    "106824_WM_RL",
+    "105014_WM_RL",
+    "113821_WM_LR",
+    "113316_WM_RL",
+    "104820_WM_LR",
+    "118730_WM_RL",
+    "118023_WM_RL",
+    "111716_WM_RL",
+    "106016_WM_LR",
+    "116423_WM_RL",
+    "109123_WM_RL",
+    "116524_WM_LR",
+    "108020_WM_RL",
+    "118932_WM_LR",
+    "108525_WM_LR",
+    "119732_WM_RL",
+    "114419_WM_LR",
+    "115017_WM_LR",
+    "102513_WM_RL",
+    "105620_WM_LR",
+    "118831_WM_LR",
+    "107321_WM_LR",
+    "118124_WM_LR",
+    "105923_WM_RL",
+    "107018_WM_LR",
+    "113215_WM_RL",
+    "108222_WM_LR",
+    "108828_WM_RL",
+    "118528_WM_LR",
+    "113619_WM_LR",
+    "104012_WM_RL",
+    "116221_WM_LR",
+    "106521_WM_RL",
+    "103010_WM_LR",
+    "109830_WM_RL",
+    "119126_WM_LR",
+    "102109_WM_RL"
+   ],
+   "d": 7,
+   "dt": 0.72,
+   "n_iso_per_regime": 152,
+   "windows_per_regime": [
+    152.0,
+    152.0
+   ],
+   "increments_per_regime": [
+    148.0,
+    148.0
+   ],
+   "segments_per_regime": [
+    4.0,
+    4.0
+   ],
+   "observed_separation_median": 0.8812309445060202,
+   "observed_separation_range": [
+    0.23157982467638527,
+    2.500346629945554
+   ],
+   "n_failed_replicates": 0,
+   "rungs": {
+    "isotropic_reference": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6518574886501327,
+       "sep_measured_p95": 1.0000311116113316,
+       "sep_measured_iqr": [
+        0.519602750884134,
+        0.7790545993126807
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8032124448295215,
+       "sep_measured_p95": 1.0656238190575702,
+       "sep_measured_iqr": [
+        0.6580081032386096,
+        0.9693336045457602
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.098447788165375,
+       "sep_measured_p95": 1.4554820525076049,
+       "sep_measured_iqr": [
+        0.9965572704152695,
+        1.2433913266210772
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.2502075795528218,
+       "sep_measured_p95": 1.6679218331063985,
+       "sep_measured_iqr": [
+        1.074966472259738,
+        1.379508770138862
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 1.6776582685201806,
+       "sep_measured_p95": 2.063789855946151,
+       "sep_measured_iqr": [
+        1.537229670416289,
+        1.847109332233557
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.08333333333333333,
+       "mean_n_stable": 1.0833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.05,
+       "sep_measured_median": 1.9465090912156664,
+       "sep_measured_p95": 2.339460096651858,
+       "sep_measured_iqr": [
+        1.7640001040137228,
+        2.029032514477007
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.26666666666666666,
+       "mean_n_stable": 1.2666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.3,
+       "sep_measured_median": 2.1579656616191,
+       "sep_measured_p95": 2.5810384732535403,
+       "sep_measured_iqr": [
+        1.9992501816462893,
+        2.354478603669201
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6166666666666667,
+       "mean_n_stable": 1.6166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.65,
+       "sep_measured_median": 2.372829416056166,
+       "sep_measured_p95": 2.85344867692253,
+       "sep_measured_iqr": [
+        2.261845827347689,
+        2.5565787822356185
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9,
+       "mean_n_stable": 1.9,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8666666666666667,
+       "sep_measured_median": 2.697212743754214,
+       "sep_measured_p95": 3.2566256568552494,
+       "sep_measured_iqr": [
+        2.5224102789081484,
+        2.8697465562778692
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9666666666666667,
+       "mean_n_stable": 1.9666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9333333333333333,
+       "sep_measured_median": 2.9414726659898403,
+       "sep_measured_p95": 3.3581215999579075,
+       "sep_measured_iqr": [
+        2.7465397214066294,
+        3.162038201174152
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.230337115231792,
+       "sep_measured_p95": 3.6722061116033693,
+       "sep_measured_iqr": [
+        3.0382905956782658,
+        3.4556859654240584
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.1931151761000685,
+       "sep_measured_p95": 4.779655049495161,
+       "sep_measured_iqr": [
+        3.9294211927608766,
+        4.3418175290476455
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.6518574886501327,
+     "floor_sep_measured_p95_at_zero": 1.0000311116113316,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.1666666666666665,
+     "sep_measured_at_50pct": 2.301208164577144,
+     "delta_at_5pct": 1.5833333333333333,
+     "sep_measured_at_5pct": 1.7672752094186759,
+     "cohort": "hcp_fmri",
+     "rung": "isotropic_reference"
+    },
+    "dimension": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6913595599217874,
+       "sep_measured_p95": 1.07157775327908,
+       "sep_measured_iqr": [
+        0.5605400509462817,
+        0.8301425216238525
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8386332836383985,
+       "sep_measured_p95": 1.2686054702393954,
+       "sep_measured_iqr": [
+        0.7030355516554573,
+        1.037971573249008
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.1228629648543398,
+       "sep_measured_p95": 1.4922102951889629,
+       "sep_measured_iqr": [
+        0.9758252766384816,
+        1.2669616605435845
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.2546440882167165,
+       "sep_measured_p95": 1.718241030554532,
+       "sep_measured_iqr": [
+        1.10972471683524,
+        1.4430005389735434
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 1.713355971928503,
+       "sep_measured_p95": 2.150165877871707,
+       "sep_measured_iqr": [
+        1.614011129401629,
+        1.8909095029021463
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.15,
+       "mean_n_stable": 1.15,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.15,
+       "sep_measured_median": 2.0059458197266307,
+       "sep_measured_p95": 2.5429051862427556,
+       "sep_measured_iqr": [
+        1.767858600168031,
+        2.137373911915816
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.48333333333333334,
+       "mean_n_stable": 1.4833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.4,
+       "sep_measured_median": 2.2641865794126836,
+       "sep_measured_p95": 2.6889809679123546,
+       "sep_measured_iqr": [
+        1.9841626074606027,
+        2.4611360434308516
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6166666666666667,
+       "mean_n_stable": 1.6166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.6333333333333333,
+       "sep_measured_median": 2.3760928079517285,
+       "sep_measured_p95": 3.2076963385130868,
+       "sep_measured_iqr": [
+        2.1743562833543226,
+        2.6513764921299305
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7666666666666667,
+       "mean_n_stable": 1.7666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.75,
+       "sep_measured_median": 2.707467321372487,
+       "sep_measured_p95": 3.349060507438355,
+       "sep_measured_iqr": [
+        2.4089837336927395,
+        3.034942784367812
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.95,
+       "mean_n_stable": 1.95,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.95,
+       "sep_measured_median": 2.928673828542853,
+       "sep_measured_p95": 3.5158697095692,
+       "sep_measured_iqr": [
+        2.7215251520527386,
+        3.2715288840466954
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.135471151086972,
+       "sep_measured_p95": 3.7669668492713075,
+       "sep_measured_iqr": [
+        2.944567079801572,
+        3.4670078241367186
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.139488235651603,
+       "sep_measured_p95": 4.990737827012497,
+       "sep_measured_iqr": [
+        3.9078425515726565,
+        4.503773872241958
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.6913595599217874,
+     "floor_sep_measured_p95_at_zero": 1.07157775327908,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.03125,
+     "sep_measured_at_50pct": 2.2781748579800642,
+     "delta_at_5pct": 1.5357142857142858,
+     "sep_measured_at_5pct": 1.7551545216139497,
+     "cohort": "hcp_fmri",
+     "rung": "dimension"
+    },
+    "anisotropy": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.7617939641123379,
+       "sep_measured_p95": 1.0313063416406707,
+       "sep_measured_iqr": [
+        0.6216259578448808,
+        0.8652407603435432
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8974831709702851,
+       "sep_measured_p95": 1.2427584708317019,
+       "sep_measured_iqr": [
+        0.7678433036957248,
+        1.0772493646201693
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.1097138365377128,
+       "sep_measured_p95": 1.6795345672441206,
+       "sep_measured_iqr": [
+        0.9578978468995616,
+        1.3119475070334263
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.2845004279132501,
+       "sep_measured_p95": 1.7396708162793553,
+       "sep_measured_iqr": [
+        1.1414212319276582,
+        1.4530283118264424
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 1.7113423920989412,
+       "sep_measured_p95": 2.1667958607807942,
+       "sep_measured_iqr": [
+        1.566883808994065,
+        1.9002504115562364
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.18333333333333332,
+       "mean_n_stable": 1.1833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.15,
+       "sep_measured_median": 1.9317345923800544,
+       "sep_measured_p95": 2.4636952847169185,
+       "sep_measured_iqr": [
+        1.747651981296783,
+        2.1996399829244537
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.4666666666666667,
+       "mean_n_stable": 1.4666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.31666666666666665,
+       "sep_measured_median": 2.2362564294264367,
+       "sep_measured_p95": 2.6924319894413906,
+       "sep_measured_iqr": [
+        1.9783172019747188,
+        2.457831506534207
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6833333333333333,
+       "mean_n_stable": 1.6833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.6166666666666667,
+       "sep_measured_median": 2.4696336186658225,
+       "sep_measured_p95": 3.040001974726356,
+       "sep_measured_iqr": [
+        2.156268528590414,
+        2.69289468880398
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.85,
+       "mean_n_stable": 1.85,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8333333333333334,
+       "sep_measured_median": 2.735610619754138,
+       "sep_measured_p95": 3.274311023085318,
+       "sep_measured_iqr": [
+        2.5749786076263157,
+        2.9127068706938086
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9666666666666667,
+       "mean_n_stable": 1.9666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9333333333333333,
+       "sep_measured_median": 2.8784394946274787,
+       "sep_measured_p95": 3.525914428526817,
+       "sep_measured_iqr": [
+        2.7640734496434582,
+        3.1616025822541802
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 3.2434338897761616,
+       "sep_measured_p95": 3.934577686155943,
+       "sep_measured_iqr": [
+        2.9905336353683727,
+        3.455882015529569
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.196991538271364,
+       "sep_measured_p95": 4.769434283739065,
+       "sep_measured_iqr": [
+        3.9633472543753263,
+        4.3865033123915325
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.7617939641123379,
+     "floor_sep_measured_p95_at_zero": 1.0313063416406707,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.0384615384615383,
+     "sep_measured_at_50pct": 2.272160612386342,
+     "delta_at_5pct": 1.5277777777777777,
+     "sep_measured_at_5pct": 1.7358304143523982,
+     "cohort": "hcp_fmri",
+     "rung": "anisotropy"
+    },
+    "drift": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.4182841780755502,
+       "sep_measured_p95": 0.5973590472138443,
+       "sep_measured_iqr": [
+        0.32272389640725396,
+        0.48423819479506236
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6366666336281323,
+       "sep_measured_p95": 1.0888788083015486,
+       "sep_measured_iqr": [
+        0.5662003239663081,
+        0.7983908619888385
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0033724631943954,
+       "sep_measured_p95": 1.2561118115081082,
+       "sep_measured_iqr": [
+        0.9009875049268432,
+        1.070455144991915
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.110901326895867,
+       "sep_measured_p95": 1.4325688445564608,
+       "sep_measured_iqr": [
+        0.9794258032647667,
+        1.222305013007282
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 1.5823774256075895,
+       "sep_measured_p95": 1.9912871868105988,
+       "sep_measured_iqr": [
+        1.4241902213498971,
+        1.7445243668470714
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.05,
+       "mean_n_stable": 1.05,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.8039342054442202,
+       "sep_measured_p95": 2.117233809658568,
+       "sep_measured_iqr": [
+        1.6754914945016948,
+        1.964388735394901
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.15,
+       "mean_n_stable": 1.15,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.15,
+       "sep_measured_median": 2.0277735027741675,
+       "sep_measured_p95": 2.4346628367362544,
+       "sep_measured_iqr": [
+        1.9256891529948674,
+        2.2032152234625024
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.38333333333333336,
+       "mean_n_stable": 1.3833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.48333333333333334,
+       "sep_measured_median": 2.3497746676958498,
+       "sep_measured_p95": 2.650235547887476,
+       "sep_measured_iqr": [
+        2.184993120647319,
+        2.4765415952622716
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7833333333333333,
+       "mean_n_stable": 1.7833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8,
+       "sep_measured_median": 2.5891961497214777,
+       "sep_measured_p95": 3.024804746138583,
+       "sep_measured_iqr": [
+        2.4233146596672683,
+        2.7292782506616717
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8666666666666667,
+       "mean_n_stable": 1.8666666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9166666666666666,
+       "sep_measured_median": 2.835305273188157,
+       "sep_measured_p95": 3.198566569716984,
+       "sep_measured_iqr": [
+        2.6473753122782613,
+        2.9755278075249065
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.100808458837363,
+       "sep_measured_p95": 3.502985018976965,
+       "sep_measured_iqr": [
+        2.979728658311192,
+        3.2044684712384335
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.2052587164721285,
+       "sep_measured_p95": 4.677487306267881,
+       "sep_measured_iqr": [
+        3.9698810496225883,
+        4.416420967142092
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.4182841780755502,
+     "floor_sep_measured_p95_at_zero": 0.5973590472138443,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.3229166666666665,
+     "sep_measured_at_50pct": 2.419605933286658,
+     "delta_at_5pct": 1.75,
+     "sep_measured_at_5pct": 1.8039342054442202,
+     "cohort": "hcp_fmri",
+     "rung": "drift"
+    },
+    "sample_size": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.42018663550218943,
+       "sep_measured_p95": 0.659174628396964,
+       "sep_measured_iqr": [
+        0.32969383249311124,
+        0.4720951983347482
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6426162967318796,
+       "sep_measured_p95": 1.0741701721113441,
+       "sep_measured_iqr": [
+        0.5262202495686102,
+        0.798605561389884
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9514215241499538,
+       "sep_measured_p95": 1.2460732654702467,
+       "sep_measured_iqr": [
+        0.8359556408188733,
+        1.0683767614276678
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0549873567310284,
+       "sep_measured_p95": 1.3314814646551258,
+       "sep_measured_iqr": [
+        0.971002776783678,
+        1.1663289224385613
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.56542703365132,
+       "sep_measured_p95": 2.0250904221573256,
+       "sep_measured_iqr": [
+        1.4722100673801748,
+        1.679245929761261
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.06666666666666667,
+       "mean_n_stable": 1.0666666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.05,
+       "sep_measured_median": 1.8502555345367813,
+       "sep_measured_p95": 2.133867241246725,
+       "sep_measured_iqr": [
+        1.7065706114722112,
+        1.9557930486019504
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.16666666666666666,
+       "mean_n_stable": 1.1666666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.15,
+       "sep_measured_median": 2.03900989084715,
+       "sep_measured_p95": 2.4186461473834124,
+       "sep_measured_iqr": [
+        1.9115750272026215,
+        2.2027157775363517
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.31666666666666665,
+       "mean_n_stable": 1.3166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.35,
+       "sep_measured_median": 2.242116607492613,
+       "sep_measured_p95": 2.630996880578183,
+       "sep_measured_iqr": [
+        2.0993386808923185,
+        2.381875588071142
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6333333333333333,
+       "mean_n_stable": 1.6333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8,
+       "sep_measured_median": 2.5751771178941825,
+       "sep_measured_p95": 3.0359178876242368,
+       "sep_measured_iqr": [
+        2.403956454120898,
+        2.855381923958224
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9,
+       "mean_n_stable": 1.9,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 2.7872054497677685,
+       "sep_measured_p95": 3.5238000108874727,
+       "sep_measured_iqr": [
+        2.6341933579894947,
+        2.992708201222039
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9666666666666667,
+       "mean_n_stable": 1.9666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 3.126247572716852,
+       "sep_measured_p95": 3.621824490266963,
+       "sep_measured_iqr": [
+        2.928745248553981,
+        3.3706589312456807
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.034925841327942,
+       "sep_measured_p95": 4.820131070076508,
+       "sep_measured_iqr": [
+        3.8897740557449954,
+        4.288199054125803
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.42018663550218943,
+     "floor_sep_measured_p95_at_zero": 0.659174628396964,
+     "false_detection_rate_at_zero": 0.016666666666666666,
+     "delta_at_50pct": 2.3947368421052633,
+     "sep_measured_at_50pct": 2.4349411135145744,
+     "delta_at_5pct": 1.6666666666666667,
+     "sep_measured_at_5pct": 1.7553127009082943,
+     "cohort": "hcp_fmri",
+     "rung": "sample_size"
+    },
+    "segments": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.40723630211179235,
+       "sep_measured_p95": 0.7902578492388787,
+       "sep_measured_iqr": [
+        0.31746748223530735,
+        0.5188773863584141
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6237011008526836,
+       "sep_measured_p95": 0.9313558760649732,
+       "sep_measured_iqr": [
+        0.5294918963378308,
+        0.7005657538702077
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.010773089367056,
+       "sep_measured_p95": 1.3468956086562665,
+       "sep_measured_iqr": [
+        0.9130994127936856,
+        1.1257996924679525
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0604154596023072,
+       "sep_measured_p95": 1.4858137688975335,
+       "sep_measured_iqr": [
+        0.9296178867707487,
+        1.214150294535441
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.4764528359327675,
+       "sep_measured_p95": 1.9807467085648927,
+       "sep_measured_iqr": [
+        1.3595480354136438,
+        1.6807405103574906
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.08333333333333333,
+       "mean_n_stable": 1.0833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.8211031388979781,
+       "sep_measured_p95": 2.111504768735503,
+       "sep_measured_iqr": [
+        1.6967009833880133,
+        2.013261133261967
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.21666666666666667,
+       "mean_n_stable": 1.2166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.23333333333333334,
+       "sep_measured_median": 2.071777877513154,
+       "sep_measured_p95": 2.4468679632531813,
+       "sep_measured_iqr": [
+        1.9244260973040674,
+        2.2696764909711256
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.45,
+       "mean_n_stable": 1.45,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.43333333333333335,
+       "sep_measured_median": 2.294403736214835,
+       "sep_measured_p95": 2.827287942984871,
+       "sep_measured_iqr": [
+        2.1613304171351673,
+        2.5534330567238603
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6,
+       "mean_n_stable": 1.6,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.75,
+       "sep_measured_median": 2.5302980876452565,
+       "sep_measured_p95": 2.90753282434343,
+       "sep_measured_iqr": [
+        2.44836827294789,
+        2.6922543180518343
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9333333333333333,
+       "mean_n_stable": 1.9333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9166666666666666,
+       "sep_measured_median": 2.816942137140473,
+       "sep_measured_p95": 3.151952433927141,
+       "sep_measured_iqr": [
+        2.674962180574637,
+        2.953736102026025
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9333333333333333,
+       "mean_n_stable": 1.9333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 3.058876087562339,
+       "sep_measured_p95": 3.471190893840718,
+       "sep_measured_iqr": [
+        2.9272312155619336,
+        3.182135107340067
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.1239986005083615,
+       "sep_measured_p95": 4.797130946093556,
+       "sep_measured_iqr": [
+        3.9828701429557922,
+        4.334475499897123
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.40723630211179235,
+     "floor_sep_measured_p95_at_zero": 0.7902578492388787,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.3333333333333335,
+     "sep_measured_at_50pct": 2.373035186691642,
+     "delta_at_5pct": 1.5833333333333333,
+     "sep_measured_at_5pct": 1.5913362702545044,
+     "cohort": "hcp_fmri",
+     "rung": "segments"
+    },
+    "nonstationarity": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5713704369603139,
+       "sep_measured_p95": 1.1852087223477124,
+       "sep_measured_iqr": [
+        0.4406199054498453,
+        0.7903742711309059
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.786877040657747,
+       "sep_measured_p95": 1.1752355528500176,
+       "sep_measured_iqr": [
+        0.6853681420780136,
+        0.9722117515318432
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 3,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9680966492400751,
+       "sep_measured_p95": 1.453994147835162,
+       "sep_measured_iqr": [
+        0.8732874636008267,
+        1.161215111663839
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 0.9833333333333333,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.1407584179489318,
+       "sep_measured_p95": 1.531925411136449,
+       "sep_measured_iqr": [
+        1.011717933879936,
+        1.287345257804879
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.4902407692615354,
+       "sep_measured_p95": 2.0404512097441816,
+       "sep_measured_iqr": [
+        1.346973659293044,
+        1.70295352194713
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.13333333333333333,
+       "mean_n_stable": 1.1333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.06666666666666667,
+       "sep_measured_median": 1.817852382115945,
+       "sep_measured_p95": 2.3996714818826717,
+       "sep_measured_iqr": [
+        1.6521663002863551,
+        2.016327928771034
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.13333333333333333,
+       "mean_n_stable": 1.1333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.1,
+       "sep_measured_median": 1.9790498134447376,
+       "sep_measured_p95": 2.706682648312816,
+       "sep_measured_iqr": [
+        1.8115693011733445,
+        2.114591206437809
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.4,
+       "mean_n_stable": 1.4,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.38333333333333336,
+       "sep_measured_median": 2.243399516484404,
+       "sep_measured_p95": 2.567406776002325,
+       "sep_measured_iqr": [
+        2.1159943651916917,
+        2.3929210050634127
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6333333333333333,
+       "mean_n_stable": 1.6333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.6833333333333333,
+       "sep_measured_median": 2.4990584038648826,
+       "sep_measured_p95": 3.1340177224704466,
+       "sep_measured_iqr": [
+        2.3728613169545962,
+        2.7943044565640918
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8166666666666667,
+       "mean_n_stable": 1.8166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9166666666666666,
+       "sep_measured_median": 2.754480469864246,
+       "sep_measured_p95": 3.337991897132812,
+       "sep_measured_iqr": [
+        2.6063317871086573,
+        3.0326290567465044
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9333333333333333,
+       "mean_n_stable": 1.9333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 3.064505666807601,
+       "sep_measured_p95": 3.511640994383918,
+       "sep_measured_iqr": [
+        2.8328191150997086,
+        3.2239312084538225
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.121398181290423,
+       "sep_measured_p95": 4.825633766095802,
+       "sep_measured_iqr": [
+        3.8072556270182036,
+        4.402350259959049
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.5713704369603139,
+     "floor_sep_measured_p95_at_zero": 1.1852087223477124,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.357142857142857,
+     "sep_measured_at_50pct": 2.352967611076038,
+     "delta_at_5pct": 1.5714285714285714,
+     "sep_measured_at_5pct": 1.5838440872199382,
+     "cohort": "hcp_fmri",
+     "rung": "nonstationarity"
+    }
+   }
+  },
+  "hcp_meg": {
+   "n_records": 83,
+   "n_subjects": 83,
+   "draw_subjects": [
+    "898176",
+    "783462",
+    "175237",
+    "433839",
+    "185442",
+    "679770",
+    "814649",
+    "200109",
+    "169040",
+    "192641",
+    "707749",
+    "125525",
+    "102816",
+    "177746",
+    "182840",
+    "140117",
+    "825048",
+    "156334",
+    "113922",
+    "100307",
+    "105923",
+    "149741",
+    "146129",
+    "162026",
+    "151526",
+    "917255",
+    "104012",
+    "106521",
+    "109123",
+    "191033",
+    "198653",
+    "191437",
+    "581450",
+    "248339",
+    "175540",
+    "189349",
+    "205119",
+    "191841",
+    "250427",
+    "352738",
+    "912447",
+    "725751",
+    "283543",
+    "257845",
+    "660951",
+    "872764",
+    "162935",
+    "133019",
+    "665254",
+    "164636",
+    "212823",
+    "715950",
+    "512835",
+    "680957",
+    "108323",
+    "255639",
+    "500222",
+    "891667",
+    "112920",
+    "555348"
+   ],
+   "draw_records": [
+    "898176",
+    "783462",
+    "175237",
+    "433839",
+    "185442",
+    "679770",
+    "814649",
+    "200109",
+    "169040",
+    "192641",
+    "707749",
+    "125525",
+    "102816",
+    "177746",
+    "182840",
+    "140117",
+    "825048",
+    "156334",
+    "113922",
+    "100307",
+    "105923",
+    "149741",
+    "146129",
+    "162026",
+    "151526",
+    "917255",
+    "104012",
+    "106521",
+    "109123",
+    "191033",
+    "198653",
+    "191437",
+    "581450",
+    "248339",
+    "175540",
+    "189349",
+    "205119",
+    "191841",
+    "250427",
+    "352738",
+    "912447",
+    "725751",
+    "283543",
+    "257845",
+    "660951",
+    "872764",
+    "162935",
+    "133019",
+    "665254",
+    "164636",
+    "212823",
+    "715950",
+    "512835",
+    "680957",
+    "108323",
+    "255639",
+    "500222",
+    "891667",
+    "112920",
+    "555348"
+   ],
+   "d": 8,
+   "dt": 1.0,
+   "n_iso_per_regime": 296,
+   "windows_per_regime": [
+    300.0,
+    298.0
+   ],
+   "increments_per_regime": [
+    150.0,
+    149.0
+   ],
+   "segments_per_regime": [
+    150.0,
+    149.0
+   ],
+   "observed_separation_median": 0.4763710686976468,
+   "observed_separation_range": [
+    0.18163373903512078,
+    1.0667837227206678
+   ],
+   "n_failed_replicates": 0,
+   "rungs": {
+    "isotropic_reference": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.4818386986500641,
+       "sep_measured_p95": 0.6713291119215208,
+       "sep_measured_iqr": [
+        0.3879022913176441,
+        0.5659167108706679
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6849574174911173,
+       "sep_measured_p95": 0.9016859564427524,
+       "sep_measured_iqr": [
+        0.5788956899132923,
+        0.7455006608165848
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0033698667088107,
+       "sep_measured_p95": 1.2432123885051363,
+       "sep_measured_iqr": [
+        0.9011063514701378,
+        1.1121011378846128
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.124286633917714,
+       "sep_measured_p95": 1.345963131082559,
+       "sep_measured_iqr": [
+        0.9948978729279189,
+        1.2828309694158095
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.607091886937252,
+       "sep_measured_p95": 1.8465684587796771,
+       "sep_measured_iqr": [
+        1.4907866995201693,
+        1.7084728587279967
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 1.7928376028269435,
+       "sep_measured_p95": 2.071927557919876,
+       "sep_measured_iqr": [
+        1.6962853094654913,
+        1.9352477297430357
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.26666666666666666,
+       "mean_n_stable": 1.2666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.23333333333333334,
+       "sep_measured_median": 2.0985167641778295,
+       "sep_measured_p95": 2.4366910828012776,
+       "sep_measured_iqr": [
+        2.017282643354803,
+        2.195612631646198
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6166666666666667,
+       "mean_n_stable": 1.6166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.6333333333333333,
+       "sep_measured_median": 2.3474501322365713,
+       "sep_measured_p95": 2.6709312530332596,
+       "sep_measured_iqr": [
+        2.246051577715105,
+        2.4621427593013645
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.95,
+       "mean_n_stable": 1.95,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 2.5806153404177445,
+       "sep_measured_p95": 2.865010528735264,
+       "sep_measured_iqr": [
+        2.4695596313401325,
+        2.709825883164873
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 2.8101425444386345,
+       "sep_measured_p95": 3.2183526981857264,
+       "sep_measured_iqr": [
+        2.6682285215774435,
+        2.921361213925158
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.1267964642566124,
+       "sep_measured_p95": 3.377786637740765,
+       "sep_measured_iqr": [
+        2.9545417487945014,
+        3.2392347267377097
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.130589797223067,
+       "sep_measured_p95": 4.503104657205385,
+       "sep_measured_iqr": [
+        3.9403975276393446,
+        4.2193326544177845
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.4818386986500641,
+     "floor_sep_measured_p95_at_zero": 0.6713291119215208,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.1666666666666665,
+     "sep_measured_at_50pct": 2.2644723428836575,
+     "delta_at_5pct": 1.7833333333333334,
+     "sep_measured_at_5pct": 1.833594824340395,
+     "cohort": "hcp_meg",
+     "rung": "isotropic_reference"
+    },
+    "dimension": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.44626565207900637,
+       "sep_measured_p95": 0.6235788042058427,
+       "sep_measured_iqr": [
+        0.3725422713849177,
+        0.4956601261417901
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6801961502210535,
+       "sep_measured_p95": 0.9289989334864779,
+       "sep_measured_iqr": [
+        0.5782210665110776,
+        0.7738805929562151
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9201129507458099,
+       "sep_measured_p95": 1.1389492128629806,
+       "sep_measured_iqr": [
+        0.8612779308585417,
+        1.0334063577819335
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.047200424346894,
+       "sep_measured_p95": 1.3633267091584556,
+       "sep_measured_iqr": [
+        0.9392191662851906,
+        1.1916685434766283
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5744022311868147,
+       "sep_measured_p95": 1.802256717329281,
+       "sep_measured_iqr": [
+        1.4603898594256646,
+        1.657920995198574
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.08333333333333333,
+       "mean_n_stable": 1.0833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.08333333333333333,
+       "sep_measured_median": 1.8780117778354315,
+       "sep_measured_p95": 2.2222966780927815,
+       "sep_measured_iqr": [
+        1.7521480990408476,
+        1.9828287565016494
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.2,
+       "mean_n_stable": 1.2,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.16666666666666666,
+       "sep_measured_median": 2.0518594795785643,
+       "sep_measured_p95": 2.3204835608054126,
+       "sep_measured_iqr": [
+        1.9495007751686668,
+        2.1858492829891567
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7,
+       "mean_n_stable": 1.7,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.7666666666666667,
+       "sep_measured_median": 2.3673695140332667,
+       "sep_measured_p95": 2.651388476416416,
+       "sep_measured_iqr": [
+        2.2722994260348544,
+        2.4915318954713306
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.95,
+       "mean_n_stable": 1.95,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 2.5982916207032116,
+       "sep_measured_p95": 2.8987927749883586,
+       "sep_measured_iqr": [
+        2.440758900206416,
+        2.705563520096284
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.8950314084167275,
+       "sep_measured_p95": 3.2561816047968795,
+       "sep_measured_iqr": [
+        2.7329405125480926,
+        3.0335513218790227
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.08803969126281,
+       "sep_measured_p95": 3.407868656354534,
+       "sep_measured_iqr": [
+        2.990877150061351,
+        3.242489706417172
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.132401361304294,
+       "sep_measured_p95": 4.577608463262033,
+       "sep_measured_iqr": [
+        3.9741128184450942,
+        4.352433014505955
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.44626565207900637,
+     "floor_sep_measured_p95_at_zero": 0.6235788042058427,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.15,
+     "sep_measured_at_50pct": 2.2411655002513857,
+     "delta_at_5pct": 1.65,
+     "sep_measured_at_5pct": 1.7565679591759848,
+     "cohort": "hcp_meg",
+     "rung": "dimension"
+    },
+    "anisotropy": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.44514170226872574,
+       "sep_measured_p95": 0.6694625183310321,
+       "sep_measured_iqr": [
+        0.38066553242471374,
+        0.5573889073606448
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.6843745947629001,
+       "sep_measured_p95": 1.0222075575361929,
+       "sep_measured_iqr": [
+        0.6012605339278376,
+        0.7818882790780184
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0135807577668814,
+       "sep_measured_p95": 1.2206428975969998,
+       "sep_measured_iqr": [
+        0.9188382799803072,
+        1.1024763532022113
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.147372477892175,
+       "sep_measured_p95": 1.3970056326826075,
+       "sep_measured_iqr": [
+        0.9959976349747648,
+        1.2299696850906394
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.6137499170009146,
+       "sep_measured_p95": 1.9410955780810901,
+       "sep_measured_iqr": [
+        1.4972268285710308,
+        1.7254924315906064
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.8115028896501282,
+       "sep_measured_p95": 2.0623712740520115,
+       "sep_measured_iqr": [
+        1.6411531864037292,
+        1.9402263399908253
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.25,
+       "mean_n_stable": 1.25,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 2.1645617420094707,
+       "sep_measured_p95": 2.4692116006721325,
+       "sep_measured_iqr": [
+        2.00482962573383,
+        2.2825477706305155
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.4666666666666667,
+       "mean_n_stable": 1.4666666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.23333333333333334,
+       "sep_measured_median": 2.3514571626425984,
+       "sep_measured_p95": 2.838763131476417,
+       "sep_measured_iqr": [
+        2.219393137567232,
+        2.515169481179357
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8,
+       "mean_n_stable": 1.8,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.6166666666666667,
+       "sep_measured_median": 2.6454749131014457,
+       "sep_measured_p95": 2.917226825384824,
+       "sep_measured_iqr": [
+        2.5029741170022035,
+        2.7363038564241577
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9333333333333333,
+       "mean_n_stable": 1.9333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8833333333333333,
+       "sep_measured_median": 2.876247386733968,
+       "sep_measured_p95": 3.16181757602285,
+       "sep_measured_iqr": [
+        2.708424950671595,
+        3.0213628503079564
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 3.12888309745917,
+       "sep_measured_p95": 3.4354547497930827,
+       "sep_measured_iqr": [
+        2.9683151389116844,
+        3.25928915352791
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.140531309231549,
+       "sep_measured_p95": 4.4975981754569005,
+       "sep_measured_iqr": [
+        3.9865676218656247,
+        4.307638505198053
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.44514170226872574,
+     "floor_sep_measured_p95_at_zero": 0.6694625183310321,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.275,
+     "sep_measured_at_50pct": 2.3808589376884832,
+     "delta_at_5pct": 1.8,
+     "sep_measured_at_5pct": 1.8821146601219967,
+     "cohort": "hcp_meg",
+     "rung": "anisotropy"
+    },
+    "drift": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.24465002264485214,
+       "sep_measured_p95": 0.3868572057896937,
+       "sep_measured_iqr": [
+        0.19496176056754,
+        0.2814052784064547
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5364056369251287,
+       "sep_measured_p95": 0.6751382744906669,
+       "sep_measured_iqr": [
+        0.4952028673426263,
+        0.5865996799772892
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8950007311044563,
+       "sep_measured_p95": 1.0939710647552674,
+       "sep_measured_iqr": [
+        0.8340183123378877,
+        0.9637214589552664
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0644275753093586,
+       "sep_measured_p95": 1.18282922168149,
+       "sep_measured_iqr": [
+        1.0098277210256366,
+        1.1141949897189176
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5322234019702767,
+       "sep_measured_p95": 1.6554564939448342,
+       "sep_measured_iqr": [
+        1.433461871762816,
+        1.6060014474343485
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7634370481935453,
+       "sep_measured_p95": 1.9264159074977425,
+       "sep_measured_iqr": [
+        1.7127230611463675,
+        1.841711863191428
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.0316755789339633,
+       "sep_measured_p95": 2.1934260084263473,
+       "sep_measured_iqr": [
+        1.9602252625056444,
+        2.1081978410062288
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.3333333333333333,
+       "mean_n_stable": 1.3333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.06666666666666667,
+       "sep_measured_median": 2.2766643578215784,
+       "sep_measured_p95": 2.472427666106567,
+       "sep_measured_iqr": [
+        2.1932177808710764,
+        2.3893174973092224
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.65,
+       "mean_n_stable": 1.65,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.35,
+       "sep_measured_median": 2.542420036782455,
+       "sep_measured_p95": 2.7228884572482603,
+       "sep_measured_iqr": [
+        2.465835852634979,
+        2.6133416385887056
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.85,
+       "mean_n_stable": 1.85,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8333333333333334,
+       "sep_measured_median": 2.7759912218741785,
+       "sep_measured_p95": 2.973930577942618,
+       "sep_measured_iqr": [
+        2.6983647816810166,
+        2.8488794821396723
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.0361332920712583,
+       "sep_measured_p95": 3.2491821887654972,
+       "sep_measured_iqr": [
+        2.95940206226709,
+        3.1208782475743524
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.02021484026894,
+       "sep_measured_p95": 4.318905618060908,
+       "sep_measured_iqr": [
+        3.9239548052784325,
+        4.189452674778759
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.24465002264485214,
+     "floor_sep_measured_p95_at_zero": 0.3868572057896937,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.3815789473684212,
+     "sep_measured_at_50pct": 2.4165357678009873,
+     "delta_at_5pct": 2.013888888888889,
+     "sep_measured_at_5pct": 2.045286066649942,
+     "cohort": "hcp_meg",
+     "rung": "drift"
+    },
+    "sample_size": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.23138547516986097,
+       "sep_measured_p95": 0.3800272426691631,
+       "sep_measured_iqr": [
+        0.20166080252838625,
+        0.28517898537056774
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5655815633598928,
+       "sep_measured_p95": 0.6693327845640927,
+       "sep_measured_iqr": [
+        0.5066612907267232,
+        0.6189021506169222
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9128099721455323,
+       "sep_measured_p95": 1.0311248673901885,
+       "sep_measured_iqr": [
+        0.8694607637843026,
+        0.9751356436653122
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0404515084612336,
+       "sep_measured_p95": 1.2194313442532512,
+       "sep_measured_iqr": [
+        0.9796919801227861,
+        1.1114675165141028
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5292006015208255,
+       "sep_measured_p95": 1.683623166317873,
+       "sep_measured_iqr": [
+        1.4475058462576114,
+        1.5840839609066628
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7759168925555517,
+       "sep_measured_p95": 2.0054499533732923,
+       "sep_measured_iqr": [
+        1.70371136082706,
+        1.8437078807970118
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 2.029560770478909,
+       "sep_measured_p95": 2.1734704751270035,
+       "sep_measured_iqr": [
+        1.947456317451628,
+        2.102720412843097
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.25,
+       "mean_n_stable": 1.25,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.266538982842566,
+       "sep_measured_p95": 2.4239069485674487,
+       "sep_measured_iqr": [
+        2.2019773576282295,
+        2.3501948575891505
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6166666666666667,
+       "mean_n_stable": 1.6166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.36666666666666664,
+       "sep_measured_median": 2.5286133089025595,
+       "sep_measured_p95": 2.6789456850174855,
+       "sep_measured_iqr": [
+        2.449722001271506,
+        2.58961509831531
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9,
+       "mean_n_stable": 1.9,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8666666666666667,
+       "sep_measured_median": 2.7921320395084974,
+       "sep_measured_p95": 2.9777056344258885,
+       "sep_measured_iqr": [
+        2.70107470410436,
+        2.872015102983797
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.0641171911977683,
+       "sep_measured_p95": 3.197531310748946,
+       "sep_measured_iqr": [
+        2.9418523673819195,
+        3.137993105091173
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.000744500508366,
+       "sep_measured_p95": 4.281726956269619,
+       "sep_measured_iqr": [
+        3.918527545005369,
+        4.129298318212369
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.23138547516986097,
+     "floor_sep_measured_p95_at_zero": 0.3800272426691631,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.4204545454545454,
+     "sep_measured_at_50pct": 2.4452260233380163,
+     "delta_at_5pct": 2.019230769230769,
+     "sep_measured_at_5pct": 2.047789863737652,
+     "cohort": "hcp_meg",
+     "rung": "sample_size"
+    },
+    "segments": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.21511815561256026,
+       "sep_measured_p95": 0.32873144298313073,
+       "sep_measured_iqr": [
+        0.18099342891971906,
+        0.24960124526712135
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5501610143540967,
+       "sep_measured_p95": 0.687506891321147,
+       "sep_measured_iqr": [
+        0.5202669071396449,
+        0.5981305981943009
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 3,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8796564007461172,
+       "sep_measured_p95": 1.0314790262488296,
+       "sep_measured_iqr": [
+        0.8275582393575638,
+        0.9551935329698086
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0039617427114562,
+       "sep_measured_p95": 1.169317019419997,
+       "sep_measured_iqr": [
+        0.9502768159608852,
+        1.0817930556486257
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.524132909915814,
+       "sep_measured_p95": 1.6904503375671258,
+       "sep_measured_iqr": [
+        1.4645747412934387,
+        1.623300893964362
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7951318895145074,
+       "sep_measured_p95": 1.9068930674222246,
+       "sep_measured_iqr": [
+        1.7065598172681866,
+        1.8465110817472767
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.05,
+       "mean_n_stable": 1.05,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 2.004936291218767,
+       "sep_measured_p95": 2.218219380310016,
+       "sep_measured_iqr": [
+        1.9295852856563964,
+        2.109602908273322
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.25,
+       "mean_n_stable": 1.25,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 2.258851301084063,
+       "sep_measured_p95": 2.492989324696339,
+       "sep_measured_iqr": [
+        2.179736326914579,
+        2.3690002949510705
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.65,
+       "mean_n_stable": 1.65,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.35,
+       "sep_measured_median": 2.526372551464944,
+       "sep_measured_p95": 2.70546166908904,
+       "sep_measured_iqr": [
+        2.4408111664212635,
+        2.602753293004544
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8833333333333333,
+       "mean_n_stable": 1.8833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.85,
+       "sep_measured_median": 2.7492025161587277,
+       "sep_measured_p95": 3.0103098083782927,
+       "sep_measured_iqr": [
+        2.6646254629061312,
+        2.830637933255545
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 3.011062003795927,
+       "sep_measured_p95": 3.2338796799736222,
+       "sep_measured_iqr": [
+        2.940921857724754,
+        3.0871864894072187
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.9955575840625377,
+       "sep_measured_p95": 4.193411765992097,
+       "sep_measured_iqr": [
+        3.9228717208378674,
+        4.072955995508693
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.21511815561256026,
+     "floor_sep_measured_p95_at_zero": 0.32873144298313073,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.40625,
+     "sep_measured_at_50pct": 2.426052082572114,
+     "delta_at_5pct": 2.0,
+     "sep_measured_at_5pct": 2.004936291218767,
+     "cohort": "hcp_meg",
+     "rung": "segments"
+    },
+    "nonstationarity": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.22480300254632377,
+       "sep_measured_p95": 0.2981443632176566,
+       "sep_measured_iqr": [
+        0.18835406782034253,
+        0.2671451311577093
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5438034762021068,
+       "sep_measured_p95": 0.6533897427500969,
+       "sep_measured_iqr": [
+        0.4788624964496115,
+        0.5927378576279296
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9147575103505535,
+       "sep_measured_p95": 1.0402342021765134,
+       "sep_measured_iqr": [
+        0.8589214042286414,
+        0.9862369862177305
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.05,
+       "max_n_stable": 3,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0301573644301576,
+       "sep_measured_p95": 1.1190479609490271,
+       "sep_measured_iqr": [
+        0.9718522647973273,
+        1.0842898118157676
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.4981806309901642,
+       "sep_measured_p95": 1.6500737293939352,
+       "sep_measured_iqr": [
+        1.404689271631248,
+        1.5883859319889762
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.751446811186925,
+       "sep_measured_p95": 1.9148265627803147,
+       "sep_measured_iqr": [
+        1.714758704493336,
+        1.817535232944661
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.9847394036882529,
+       "sep_measured_p95": 2.212189251228053,
+       "sep_measured_iqr": [
+        1.9426509169876833,
+        2.059506563936212
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.3,
+       "mean_n_stable": 1.3,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 2.240618233415641,
+       "sep_measured_p95": 2.4389008326732937,
+       "sep_measured_iqr": [
+        2.183258852531318,
+        2.3069735930782063
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.5833333333333334,
+       "mean_n_stable": 1.5833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.3,
+       "sep_measured_median": 2.518960751254234,
+       "sep_measured_p95": 2.7040791955328722,
+       "sep_measured_iqr": [
+        2.4233909461163257,
+        2.588860069133631
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9166666666666666,
+       "mean_n_stable": 1.9166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8333333333333334,
+       "sep_measured_median": 2.753425793053726,
+       "sep_measured_p95": 2.913505267321402,
+       "sep_measured_iqr": [
+        2.708761663911303,
+        2.8170095883185855
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.011686984372933,
+       "sep_measured_p95": 3.183978054893906,
+       "sep_measured_iqr": [
+        2.9045065976877327,
+        3.08077310555438
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.0135513472452935,
+       "sep_measured_p95": 4.182566928720941,
+       "sep_measured_iqr": [
+        3.9375407796610813,
+        4.055471160188538
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.22480300254632377,
+     "floor_sep_measured_p95_at_zero": 0.2981443632176566,
+     "false_detection_rate_at_zero": 0.016666666666666666,
+     "delta_at_50pct": 2.426470588235294,
+     "sep_measured_at_50pct": 2.4370953048311184,
+     "delta_at_5pct": 2.0294117647058822,
+     "sep_measured_at_5pct": 2.0148427954208867,
+     "cohort": "hcp_meg",
+     "rung": "nonstationarity"
+    }
+   }
+  },
+  "ds003838": {
+   "n_records": 64,
+   "n_subjects": 64,
+   "draw_subjects": [
+    "sub-070",
+    "sub-073",
+    "sub-060",
+    "sub-056",
+    "sub-092",
+    "sub-093",
+    "sub-055",
+    "sub-094",
+    "sub-074",
+    "sub-042",
+    "sub-062",
+    "sub-076",
+    "sub-045",
+    "sub-084",
+    "sub-036",
+    "sub-086",
+    "sub-098",
+    "sub-059",
+    "sub-096",
+    "sub-050",
+    "sub-079",
+    "sub-032",
+    "sub-072",
+    "sub-085",
+    "sub-034",
+    "sub-044",
+    "sub-067",
+    "sub-046",
+    "sub-049",
+    "sub-057",
+    "sub-081",
+    "sub-051",
+    "sub-090",
+    "sub-089",
+    "sub-097",
+    "sub-033",
+    "sub-058",
+    "sub-061",
+    "sub-083",
+    "sub-048",
+    "sub-064",
+    "sub-078",
+    "sub-095",
+    "sub-040",
+    "sub-039",
+    "sub-065",
+    "sub-052",
+    "sub-035",
+    "sub-043",
+    "sub-077",
+    "sub-047",
+    "sub-082",
+    "sub-080",
+    "sub-075",
+    "sub-068",
+    "sub-063",
+    "sub-053",
+    "sub-091",
+    "sub-071",
+    "sub-041"
+   ],
+   "draw_records": [
+    "sub-070",
+    "sub-073",
+    "sub-060",
+    "sub-056",
+    "sub-092",
+    "sub-093",
+    "sub-055",
+    "sub-094",
+    "sub-074",
+    "sub-042",
+    "sub-062",
+    "sub-076",
+    "sub-045",
+    "sub-084",
+    "sub-036",
+    "sub-086",
+    "sub-098",
+    "sub-059",
+    "sub-096",
+    "sub-050",
+    "sub-079",
+    "sub-032",
+    "sub-072",
+    "sub-085",
+    "sub-034",
+    "sub-044",
+    "sub-067",
+    "sub-046",
+    "sub-049",
+    "sub-057",
+    "sub-081",
+    "sub-051",
+    "sub-090",
+    "sub-089",
+    "sub-097",
+    "sub-033",
+    "sub-058",
+    "sub-061",
+    "sub-083",
+    "sub-048",
+    "sub-064",
+    "sub-078",
+    "sub-095",
+    "sub-040",
+    "sub-039",
+    "sub-065",
+    "sub-052",
+    "sub-035",
+    "sub-043",
+    "sub-077",
+    "sub-047",
+    "sub-082",
+    "sub-080",
+    "sub-075",
+    "sub-068",
+    "sub-063",
+    "sub-053",
+    "sub-091",
+    "sub-071",
+    "sub-041"
+   ],
+   "d": 8,
+   "dt": 1.0,
+   "n_iso_per_regime": 1458,
+   "windows_per_regime": [
+    972.0,
+    1944.0
+   ],
+   "increments_per_regime": [
+    918.0,
+    1836.0
+   ],
+   "segments_per_regime": [
+    54.0,
+    108.0
+   ],
+   "observed_separation_median": 0.4897186725446726,
+   "observed_separation_range": [
+    0.21348759074142976,
+    1.0142465349335132
+   ],
+   "n_failed_replicates": 0,
+   "rungs": {
+    "isotropic_reference": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.19980172814562064,
+       "sep_measured_p95": 0.2943433339620518,
+       "sep_measured_iqr": [
+        0.16582213712725868,
+        0.24052744502373294
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5537908973944328,
+       "sep_measured_p95": 0.6552917993892704,
+       "sep_measured_iqr": [
+        0.5042050289864497,
+        0.5862137607948157
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9170608090326235,
+       "sep_measured_p95": 1.013498454455531,
+       "sep_measured_iqr": [
+        0.8522963460978505,
+        0.9502409900888459
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0219860979038042,
+       "sep_measured_p95": 1.1208302045252225,
+       "sep_measured_iqr": [
+        0.9706072673875022,
+        1.0640641467385699
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5441066598402613,
+       "sep_measured_p95": 1.7178870275516696,
+       "sep_measured_iqr": [
+        1.482671515369391,
+        1.597905804613966
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7604054817501191,
+       "sep_measured_p95": 1.9260280103378467,
+       "sep_measured_iqr": [
+        1.7321894271701916,
+        1.8332308051290276
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.13333333333333333,
+       "mean_n_stable": 1.1333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.13333333333333333,
+       "sep_measured_median": 2.018136418267998,
+       "sep_measured_p95": 2.13910085336016,
+       "sep_measured_iqr": [
+        1.9743345856218604,
+        2.0800173478090063
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.85,
+       "mean_n_stable": 1.85,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.85,
+       "sep_measured_median": 2.26319959069711,
+       "sep_measured_p95": 2.3734314184805423,
+       "sep_measured_iqr": [
+        2.206352217373691,
+        2.310603287106695
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.5168583852882773,
+       "sep_measured_p95": 2.6589374636470873,
+       "sep_measured_iqr": [
+        2.473850272769531,
+        2.604230755296797
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.745851113551754,
+       "sep_measured_p95": 2.8815612824003662,
+       "sep_measured_iqr": [
+        2.695898984961084,
+        2.7964582477872413
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.042307025977818,
+       "sep_measured_p95": 3.165989241804601,
+       "sep_measured_iqr": [
+        2.945503819265001,
+        3.0931746953100174
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.002395193461934,
+       "sep_measured_p95": 4.176289434912058,
+       "sep_measured_iqr": [
+        3.957682287256019,
+        4.077645945574816
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.19980172814562064,
+     "floor_sep_measured_p95_at_zero": 0.2943433339620518,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.1279069767441863,
+     "sep_measured_at_50pct": 2.1435175762549856,
+     "delta_at_5pct": 1.84375,
+     "sep_measured_at_5pct": 1.8570545829443237,
+     "cohort": "ds003838",
+     "rung": "isotropic_reference"
+    },
+    "dimension": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.21231342180166934,
+       "sep_measured_p95": 0.2888053900296932,
+       "sep_measured_iqr": [
+        0.17187257468310202,
+        0.26078972809893897
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5277313921795144,
+       "sep_measured_p95": 0.6407695728012532,
+       "sep_measured_iqr": [
+        0.490703070866834,
+        0.5776875768093332
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8834410717277925,
+       "sep_measured_p95": 1.0054595577799847,
+       "sep_measured_iqr": [
+        0.8307408854294008,
+        0.9431103741528281
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.019232196626183,
+       "sep_measured_p95": 1.133911165860332,
+       "sep_measured_iqr": [
+        0.9798900274688582,
+        1.0547992828341843
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5255901606171482,
+       "sep_measured_p95": 1.656749052635281,
+       "sep_measured_iqr": [
+        1.475536073000745,
+        1.5686555549493861
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7613821904268696,
+       "sep_measured_p95": 1.86444684257444,
+       "sep_measured_iqr": [
+        1.7095501449747952,
+        1.8046069378676481
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.08333333333333333,
+       "mean_n_stable": 1.0833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.08333333333333333,
+       "sep_measured_median": 2.0068507691364568,
+       "sep_measured_p95": 2.14332661954289,
+       "sep_measured_iqr": [
+        1.9689547576912552,
+        2.0774920088810997
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7833333333333333,
+       "mean_n_stable": 1.7833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.7833333333333333,
+       "sep_measured_median": 2.271001430243857,
+       "sep_measured_p95": 2.3993433122279675,
+       "sep_measured_iqr": [
+        2.2117785569218755,
+        2.3212018663682255
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.5248957167449704,
+       "sep_measured_p95": 2.6810544516116273,
+       "sep_measured_iqr": [
+        2.4793268416431835,
+        2.584596680206125
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.7707515616275087,
+       "sep_measured_p95": 2.9023678629343133,
+       "sep_measured_iqr": [
+        2.726132166109912,
+        2.821934188319002
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.991336218311315,
+       "sep_measured_p95": 3.1471328873964555,
+       "sep_measured_iqr": [
+        2.9177144971178635,
+        3.0703915011267258
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.04795658522686,
+       "sep_measured_p95": 4.1678072874729395,
+       "sep_measured_iqr": [
+        3.955723898665871,
+        4.1335021046367375
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.21231342180166934,
+     "floor_sep_measured_p95_at_zero": 0.2888053900296932,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.1488095238095237,
+     "sep_measured_at_50pct": 2.164083305509909,
+     "delta_at_5pct": 1.9,
+     "sep_measured_at_5pct": 1.9086633376526219,
+     "cohort": "ds003838",
+     "rung": "dimension"
+    },
+    "anisotropy": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.19594548794151234,
+       "sep_measured_p95": 0.2675268891393111,
+       "sep_measured_iqr": [
+        0.1730934305945801,
+        0.2218347971545369
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5443850787321857,
+       "sep_measured_p95": 0.6304571667112225,
+       "sep_measured_iqr": [
+        0.5074134270373007,
+        0.5907878963005803
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8855806566366984,
+       "sep_measured_p95": 1.0293115015749439,
+       "sep_measured_iqr": [
+        0.8423228367564244,
+        0.9400371181223084
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0156293493870199,
+       "sep_measured_p95": 1.1765379651433483,
+       "sep_measured_iqr": [
+        0.9813872858150916,
+        1.070305287387833
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.526988901502397,
+       "sep_measured_p95": 1.6416711024456503,
+       "sep_measured_iqr": [
+        1.472458919489392,
+        1.5792405754309722
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7533040118004242,
+       "sep_measured_p95": 1.8523765042558509,
+       "sep_measured_iqr": [
+        1.723006333598628,
+        1.7984523189588177
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.0038643977409354,
+       "sep_measured_p95": 2.134202526040794,
+       "sep_measured_iqr": [
+        1.944835318097027,
+        2.0539057531007847
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.4,
+       "mean_n_stable": 1.4,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.23333333333333334,
+       "sep_measured_median": 2.259474264371476,
+       "sep_measured_p95": 2.4215440297519786,
+       "sep_measured_iqr": [
+        2.190324835613171,
+        2.311946650115047
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8833333333333333,
+       "mean_n_stable": 1.8833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.7166666666666667,
+       "sep_measured_median": 2.5054902047283587,
+       "sep_measured_p95": 2.67741274923388,
+       "sep_measured_iqr": [
+        2.446597248532085,
+        2.5715098685526265
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 2.751519511361463,
+       "sep_measured_p95": 2.8765051011167286,
+       "sep_measured_iqr": [
+        2.7024740669727323,
+        2.801495858078875
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.026968408824667,
+       "sep_measured_p95": 3.2053813805789666,
+       "sep_measured_iqr": [
+        2.961895707881628,
+        3.0909777719207474
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.037898060298662,
+       "sep_measured_p95": 4.195356590790283,
+       "sep_measured_iqr": [
+        3.951199469098128,
+        4.091815736580223
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.19594548794151234,
+     "floor_sep_measured_p95_at_zero": 0.2675268891393111,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.3017241379310347,
+     "sep_measured_at_50pct": 2.310374114100486,
+     "delta_at_5pct": 2.0217391304347827,
+     "sep_measured_at_5pct": 2.0260913426653304,
+     "cohort": "ds003838",
+     "rung": "anisotropy"
+    },
+    "drift": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.13000945530995311,
+       "sep_measured_p95": 0.22163821936588757,
+       "sep_measured_iqr": [
+        0.10647460194509917,
+        0.1706186906375303
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5349826542708508,
+       "sep_measured_p95": 0.602294195953902,
+       "sep_measured_iqr": [
+        0.49871141636763006,
+        0.5604179177886783
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8979318976074415,
+       "sep_measured_p95": 0.9832816626501039,
+       "sep_measured_iqr": [
+        0.8495132233042022,
+        0.9371813540592004
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0012621846645127,
+       "sep_measured_p95": 1.1096743409150185,
+       "sep_measured_iqr": [
+        0.9495100758428734,
+        1.0387332018204003
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5152344411776109,
+       "sep_measured_p95": 1.6140108302029263,
+       "sep_measured_iqr": [
+        1.4659806132561304,
+        1.540734683111202
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7812900069570201,
+       "sep_measured_p95": 1.8533717628801265,
+       "sep_measured_iqr": [
+        1.7238640613908092,
+        1.81766976546138
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 2.0275095568020256,
+       "sep_measured_p95": 2.08668775771101,
+       "sep_measured_iqr": [
+        1.9734380711661421,
+        2.0657349999607035
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.21666666666666667,
+       "mean_n_stable": 1.2166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.2833333333333333,
+       "sep_measured_median": 2.264070321865777,
+       "sep_measured_p95": 2.3656575587270097,
+       "sep_measured_iqr": [
+        2.226416436736706,
+        2.3045933354671013
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6166666666666667,
+       "mean_n_stable": 1.6166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.7666666666666667,
+       "sep_measured_median": 2.5156894418765363,
+       "sep_measured_p95": 2.610119739688586,
+       "sep_measured_iqr": [
+        2.453275007340716,
+        2.556958767708949
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9166666666666666,
+       "mean_n_stable": 1.9166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.7538813595875276,
+       "sep_measured_p95": 2.8549014655215936,
+       "sep_measured_iqr": [
+        2.714019599761686,
+        2.792732055641356
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.0142162760585003,
+       "sep_measured_p95": 3.1298871904490126,
+       "sep_measured_iqr": [
+        2.9733968056277638,
+        3.0529203686540756
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.013807150925764,
+       "sep_measured_p95": 4.149870641509699,
+       "sep_measured_iqr": [
+        3.964189213882688,
+        4.059994472297646
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.13000945530995311,
+     "floor_sep_measured_p95_at_zero": 0.22163821936588757,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.4270833333333335,
+     "sep_measured_at_50pct": 2.442300531873398,
+     "delta_at_5pct": 2.022727272727273,
+     "sep_measured_at_5pct": 2.04901508089873,
+     "cohort": "ds003838",
+     "rung": "drift"
+    },
+    "sample_size": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.14423698426140102,
+       "sep_measured_p95": 0.2287334127408396,
+       "sep_measured_iqr": [
+        0.11532915652395864,
+        0.17455751075522447
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5249232351378502,
+       "sep_measured_p95": 0.6165788474097527,
+       "sep_measured_iqr": [
+        0.49517167859865446,
+        0.5646886844541225
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.887875135535367,
+       "sep_measured_p95": 0.9655277707673633,
+       "sep_measured_iqr": [
+        0.8468007478518768,
+        0.923013192819253
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0092507656056906,
+       "sep_measured_p95": 1.1046943705402403,
+       "sep_measured_iqr": [
+        0.9706353692844478,
+        1.0625988822443728
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5141901010400978,
+       "sep_measured_p95": 1.6014769766750439,
+       "sep_measured_iqr": [
+        1.4707805613744878,
+        1.550401952108242
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.740403570507728,
+       "sep_measured_p95": 1.8846382026991517,
+       "sep_measured_iqr": [
+        1.7185974778090105,
+        1.8028736783857742
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 2.0215759053395677,
+       "sep_measured_p95": 2.108111449890893,
+       "sep_measured_iqr": [
+        1.9725159023248366,
+        2.0702684269255287
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.21666666666666667,
+       "mean_n_stable": 1.2166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.2410914811382594,
+       "sep_measured_p95": 2.3818135991790346,
+       "sep_measured_iqr": [
+        2.2151596083358576,
+        2.2912764953614646
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6,
+       "mean_n_stable": 1.6,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 2.5248713619389345,
+       "sep_measured_p95": 2.6366266557981644,
+       "sep_measured_iqr": [
+        2.4927358827443493,
+        2.5731599596304893
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8833333333333333,
+       "mean_n_stable": 1.8833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.5,
+       "sep_measured_median": 2.746114569043619,
+       "sep_measured_p95": 2.88138456382337,
+       "sep_measured_iqr": [
+        2.7192507104595944,
+        2.797395987505029
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.95,
+       "sep_measured_median": 3.00629301600626,
+       "sep_measured_p95": 3.1590922827533774,
+       "sep_measured_iqr": [
+        2.9556441466505037,
+        3.0665315011520824
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.02422915199007,
+       "sep_measured_p95": 4.155774964067009,
+       "sep_measured_iqr": [
+        3.956164124780651,
+        4.082827584693037
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.14423698426140102,
+     "floor_sep_measured_p95_at_zero": 0.2287334127408396,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.4347826086956523,
+     "sep_measured_at_50pct": 2.4508418278170194,
+     "delta_at_5pct": 2.0416666666666665,
+     "sep_measured_at_5pct": 2.0581618346393498,
+     "cohort": "ds003838",
+     "rung": "sample_size"
+    },
+    "segments": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.15818612409238003,
+       "sep_measured_p95": 0.23303531586994203,
+       "sep_measured_iqr": [
+        0.1342978447863855,
+        0.20218814773654248
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.519225908153935,
+       "sep_measured_p95": 0.6176118026889036,
+       "sep_measured_iqr": [
+        0.4736910602613116,
+        0.564634251390633
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.892796331949536,
+       "sep_measured_p95": 0.966272957639831,
+       "sep_measured_iqr": [
+        0.8459981805964812,
+        0.9326877919184184
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9926242319682805,
+       "sep_measured_p95": 1.084792937162969,
+       "sep_measured_iqr": [
+        0.9736304766316035,
+        1.0251705300627256
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5185756569807727,
+       "sep_measured_p95": 1.6427927584480964,
+       "sep_measured_iqr": [
+        1.4626234344404632,
+        1.5596268060830178
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.77033572129842,
+       "sep_measured_p95": 1.8512280336708968,
+       "sep_measured_iqr": [
+        1.7114669856612261,
+        1.8105175255847685
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.0090017394918567,
+       "sep_measured_p95": 2.123515548397152,
+       "sep_measured_iqr": [
+        1.9612942236244932,
+        2.0564876758673525
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.25,
+       "mean_n_stable": 1.25,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 2.259242128207229,
+       "sep_measured_p95": 2.3735326493149276,
+       "sep_measured_iqr": [
+        2.222559618750332,
+        2.323169698215365
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6,
+       "mean_n_stable": 1.6,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.03333333333333333,
+       "sep_measured_median": 2.4941849349435437,
+       "sep_measured_p95": 2.627972118813812,
+       "sep_measured_iqr": [
+        2.443219084316276,
+        2.5483121751640962
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.95,
+       "mean_n_stable": 1.95,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.5666666666666667,
+       "sep_measured_median": 2.756487386860449,
+       "sep_measured_p95": 2.884487166167315,
+       "sep_measured_iqr": [
+        2.708769967967807,
+        2.8276923544032493
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 2.9962546466261086,
+       "sep_measured_p95": 3.1679655547655905,
+       "sep_measured_iqr": [
+        2.9253928592611267,
+        3.034617965836741
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.020242453538258,
+       "sep_measured_p95": 4.175553990576336,
+       "sep_measured_iqr": [
+        3.9549476334142466,
+        4.082629221007712
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.15818612409238003,
+     "floor_sep_measured_p95_at_zero": 0.23303531586994203,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.4285714285714284,
+     "sep_measured_at_50pct": 2.427058418733168,
+     "delta_at_5pct": 2.0357142857142856,
+     "sep_measured_at_5pct": 2.0447503664511957,
+     "cohort": "ds003838",
+     "rung": "segments"
+    },
+    "nonstationarity": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.17833133154514486,
+       "sep_measured_p95": 0.28234848953057945,
+       "sep_measured_iqr": [
+        0.15396694417346563,
+        0.21018637427411205
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.4995224176854548,
+       "sep_measured_p95": 0.617265671654497,
+       "sep_measured_iqr": [
+        0.4721391725304649,
+        0.5447200173631418
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8482307799728661,
+       "sep_measured_p95": 0.9515570088881385,
+       "sep_measured_iqr": [
+        0.802853034628122,
+        0.8986920176055515
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.939849445912238,
+       "sep_measured_p95": 1.0813845670026552,
+       "sep_measured_iqr": [
+        0.8995468552208682,
+        0.9986428442382114
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.4353894302691073,
+       "sep_measured_p95": 1.5852524188125174,
+       "sep_measured_iqr": [
+        1.3806764880051678,
+        1.4861279559107379
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.676051232961266,
+       "sep_measured_p95": 1.8322080050935985,
+       "sep_measured_iqr": [
+        1.62890167852028,
+        1.7316836732837013
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.9231724704273006,
+       "sep_measured_p95": 2.0316933729680127,
+       "sep_measured_iqr": [
+        1.8558394639769835,
+        1.9709088158142036
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.06666666666666667,
+       "mean_n_stable": 1.0666666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 2.147465289361138,
+       "sep_measured_p95": 2.27003409200787,
+       "sep_measured_iqr": [
+        2.0832533638480655,
+        2.1959694597380173
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.43333333333333335,
+       "mean_n_stable": 1.4333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.373582613163529,
+       "sep_measured_p95": 2.5251953769251365,
+       "sep_measured_iqr": [
+        2.3194137119503218,
+        2.4481484058634986
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.75,
+       "mean_n_stable": 1.75,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.15,
+       "sep_measured_median": 2.6313157095660706,
+       "sep_measured_p95": 2.789559853498319,
+       "sep_measured_iqr": [
+        2.565963414866828,
+        2.699262080093944
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9166666666666666,
+       "mean_n_stable": 1.9166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.6833333333333333,
+       "sep_measured_median": 2.8486292532613313,
+       "sep_measured_p95": 3.009624192210237,
+       "sep_measured_iqr": [
+        2.7962678813412443,
+        2.9077405490290786
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.809952700464848,
+       "sep_measured_p95": 3.9869272376250913,
+       "sep_measured_iqr": [
+        3.700961810466347,
+        3.8975041626611064
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.17833133154514486,
+     "floor_sep_measured_p95_at_zero": 0.28234848953057945,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.5526315789473686,
+     "sep_measured_at_50pct": 2.4278422124061696,
+     "delta_at_5pct": 2.1875,
+     "sep_measured_at_5pct": 2.0913920846276786,
+     "cohort": "ds003838",
+     "rung": "nonstationarity"
+    }
+   }
+  },
+  "eegmmidb": {
+   "n_records": 106,
+   "n_subjects": 106,
+   "draw_subjects": [
+    "S013",
+    "S008",
+    "S049",
+    "S005",
+    "S071",
+    "S080",
+    "S019",
+    "S082",
+    "S081",
+    "S027",
+    "S009",
+    "S028",
+    "S026",
+    "S105",
+    "S038",
+    "S021",
+    "S059",
+    "S022",
+    "S023",
+    "S044",
+    "S040",
+    "S043",
+    "S017",
+    "S064",
+    "S025",
+    "S037",
+    "S098",
+    "S058",
+    "S108",
+    "S069",
+    "S060",
+    "S097",
+    "S063",
+    "S031",
+    "S083",
+    "S004",
+    "S002",
+    "S055",
+    "S109",
+    "S086",
+    "S068",
+    "S072",
+    "S029",
+    "S067",
+    "S045",
+    "S035",
+    "S099",
+    "S046",
+    "S036",
+    "S093",
+    "S052",
+    "S076",
+    "S015",
+    "S066",
+    "S014",
+    "S073",
+    "S085",
+    "S061",
+    "S032",
+    "S089"
+   ],
+   "draw_records": [
+    "S013",
+    "S008",
+    "S049",
+    "S005",
+    "S071",
+    "S080",
+    "S019",
+    "S082",
+    "S081",
+    "S027",
+    "S009",
+    "S028",
+    "S026",
+    "S105",
+    "S038",
+    "S021",
+    "S059",
+    "S022",
+    "S023",
+    "S044",
+    "S040",
+    "S043",
+    "S017",
+    "S064",
+    "S025",
+    "S037",
+    "S098",
+    "S058",
+    "S108",
+    "S069",
+    "S060",
+    "S097",
+    "S063",
+    "S031",
+    "S083",
+    "S004",
+    "S002",
+    "S055",
+    "S109",
+    "S086",
+    "S068",
+    "S072",
+    "S029",
+    "S067",
+    "S045",
+    "S035",
+    "S099",
+    "S046",
+    "S036",
+    "S093",
+    "S052",
+    "S076",
+    "S015",
+    "S066",
+    "S014",
+    "S073",
+    "S085",
+    "S061",
+    "S032",
+    "S089"
+   ],
+   "d": 8,
+   "dt": 1.0,
+   "n_iso_per_regime": 1260,
+   "windows_per_regime": [
+    720.0,
+    720.0
+   ],
+   "increments_per_regime": [
+    540.0,
+    540.0
+   ],
+   "segments_per_regime": [
+    180.0,
+    180.0
+   ],
+   "observed_separation_median": 0.46060991074935625,
+   "observed_separation_range": [
+    0.1414521313283254,
+    1.1314236441869476
+   ],
+   "n_failed_replicates": 0,
+   "rungs": {
+    "isotropic_reference": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.20988641807880287,
+       "sep_measured_p95": 0.3114537848478726,
+       "sep_measured_iqr": [
+        0.18561144271311691,
+        0.2468248225949789
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5358207197802757,
+       "sep_measured_p95": 0.6627883571848089,
+       "sep_measured_iqr": [
+        0.4775992819621043,
+        0.589595179584925
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8899160731377417,
+       "sep_measured_p95": 1.0183434404972784,
+       "sep_measured_iqr": [
+        0.859475296527559,
+        0.9752902606056431
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0236586291417005,
+       "sep_measured_p95": 1.1755596110047533,
+       "sep_measured_iqr": [
+        0.9476400543707342,
+        1.0653521713109249
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5336445432150612,
+       "sep_measured_p95": 1.6714627639194555,
+       "sep_measured_iqr": [
+        1.485561676446283,
+        1.5782290483425976
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7742097961635377,
+       "sep_measured_p95": 1.9206707718102787,
+       "sep_measured_iqr": [
+        1.7311932648653916,
+        1.838449533222277
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.15,
+       "mean_n_stable": 1.15,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.11666666666666667,
+       "sep_measured_median": 2.0501278349258563,
+       "sep_measured_p95": 2.1511557797300958,
+       "sep_measured_iqr": [
+        1.9692409708492629,
+        2.0838707073663687
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7333333333333333,
+       "mean_n_stable": 1.7333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8,
+       "sep_measured_median": 2.273030651895726,
+       "sep_measured_p95": 2.4298612394607804,
+       "sep_measured_iqr": [
+        2.1813619529267068,
+        2.3516416904120327
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 2.514694993917864,
+       "sep_measured_p95": 2.676146503376474,
+       "sep_measured_iqr": [
+        2.449611869697522,
+        2.612399484649097
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.7874619221769805,
+       "sep_measured_p95": 2.907886990787431,
+       "sep_measured_iqr": [
+        2.7544859541306064,
+        2.8277596315318396
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.002619276149279,
+       "sep_measured_p95": 3.265373081287065,
+       "sep_measured_iqr": [
+        2.9270123815934674,
+        3.0833507855822404
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.037405146231911,
+       "sep_measured_p95": 4.237238047559865,
+       "sep_measured_iqr": [
+        3.952439629945499,
+        4.124390658782956
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.20988641807880287,
+     "floor_sep_measured_p95_at_zero": 0.3114537848478726,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.15,
+     "sep_measured_at_50pct": 2.183869525107778,
+     "delta_at_5pct": 1.8333333333333333,
+     "sep_measured_at_5pct": 1.8661824757509773,
+     "cohort": "eegmmidb",
+     "rung": "isotropic_reference"
+    },
+    "dimension": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.2215439830729234,
+       "sep_measured_p95": 0.31604008631721087,
+       "sep_measured_iqr": [
+        0.18672224417652283,
+        0.2642978486116264
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5548475045931891,
+       "sep_measured_p95": 0.6567670512094547,
+       "sep_measured_iqr": [
+        0.4877348645848424,
+        0.5952930958227421
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9023554115898841,
+       "sep_measured_p95": 1.0288482696757324,
+       "sep_measured_iqr": [
+        0.8347234824795058,
+        0.9653101399880553
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0313661967328762,
+       "sep_measured_p95": 1.1455026134589181,
+       "sep_measured_iqr": [
+        0.981120226906818,
+        1.0791028466152313
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5117401373302146,
+       "sep_measured_p95": 1.6541989683932559,
+       "sep_measured_iqr": [
+        1.4567239778268948,
+        1.5830231460286341
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7641691381977704,
+       "sep_measured_p95": 1.9478574838835376,
+       "sep_measured_iqr": [
+        1.7152336528931449,
+        1.8240444678725463
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.13333333333333333,
+       "mean_n_stable": 1.1333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.08333333333333333,
+       "sep_measured_median": 2.032475862276271,
+       "sep_measured_p95": 2.169686153305425,
+       "sep_measured_iqr": [
+        1.9788539711823598,
+        2.109169747231054
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7166666666666667,
+       "mean_n_stable": 1.7166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8166666666666667,
+       "sep_measured_median": 2.2728540033975335,
+       "sep_measured_p95": 2.4287128712496666,
+       "sep_measured_iqr": [
+        2.1962158801505853,
+        2.3259525757460517
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 2.5178944731602515,
+       "sep_measured_p95": 2.676218356716769,
+       "sep_measured_iqr": [
+        2.474509058994273,
+        2.5870088697699933
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.8160738882174767,
+       "sep_measured_p95": 2.9557414595069793,
+       "sep_measured_iqr": [
+        2.702115423890747,
+        2.8637553272864436
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.0044675461166666,
+       "sep_measured_p95": 3.2029662541775727,
+       "sep_measured_iqr": [
+        2.9396228839786236,
+        3.086680815776303
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.0071386661379425,
+       "sep_measured_p95": 4.21801571472819,
+       "sep_measured_iqr": [
+        3.930447622141113,
+        4.091235376653604
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.2215439830729234,
+     "floor_sep_measured_p95_at_zero": 0.31604008631721087,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.157142857142857,
+     "sep_measured_at_50pct": 2.1835706938382073,
+     "delta_at_5pct": 1.84375,
+     "sep_measured_at_5pct": 1.8647841597272081,
+     "cohort": "eegmmidb",
+     "rung": "dimension"
+    },
+    "anisotropy": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.2112789979650281,
+       "sep_measured_p95": 0.2842875552067198,
+       "sep_measured_iqr": [
+        0.17826136470348525,
+        0.25085698112625016
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5517731727627992,
+       "sep_measured_p95": 0.6834023188630276,
+       "sep_measured_iqr": [
+        0.48155827465711903,
+        0.604660782585799
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9060885016087823,
+       "sep_measured_p95": 1.0423510702009116,
+       "sep_measured_iqr": [
+        0.843464805034789,
+        0.9574422928301789
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.038131222207616,
+       "sep_measured_p95": 1.1577531985022642,
+       "sep_measured_iqr": [
+        0.9995768337936468,
+        1.0993080505764152
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5042819016947164,
+       "sep_measured_p95": 1.6302821134000829,
+       "sep_measured_iqr": [
+        1.4544065064591734,
+        1.5568167535648083
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7894611182794162,
+       "sep_measured_p95": 1.916051158609945,
+       "sep_measured_iqr": [
+        1.7246771649853148,
+        1.8332621501745159
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.08333333333333333,
+       "mean_n_stable": 1.0833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.05,
+       "sep_measured_median": 2.0047038245580677,
+       "sep_measured_p95": 2.1839457183614956,
+       "sep_measured_iqr": [
+        1.940828006220218,
+        2.0645288696800375
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.5333333333333333,
+       "mean_n_stable": 1.5333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.36666666666666664,
+       "sep_measured_median": 2.272618689807002,
+       "sep_measured_p95": 2.4229979465723948,
+       "sep_measured_iqr": [
+        2.2163857016240813,
+        2.3368175115197767
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9166666666666666,
+       "mean_n_stable": 1.9166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8,
+       "sep_measured_median": 2.5187751273880217,
+       "sep_measured_p95": 2.64679560491017,
+       "sep_measured_iqr": [
+        2.4608578303055726,
+        2.567185264473947
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.777439906347597,
+       "sep_measured_p95": 2.919028811943985,
+       "sep_measured_iqr": [
+        2.71278902185432,
+        2.832830994160565
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.0323392374499587,
+       "sep_measured_p95": 3.183278447438629,
+       "sep_measured_iqr": [
+        2.9701878928526497,
+        3.0782131596070035
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.021659347404132,
+       "sep_measured_p95": 4.2200101462916315,
+       "sep_measured_iqr": [
+        3.9555483743322415,
+        4.096776199294757
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.2112789979650281,
+     "floor_sep_measured_p95_at_zero": 0.2842875552067198,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.2314814814814814,
+     "sep_measured_at_50pct": 2.2527731442330072,
+     "delta_at_5pct": 1.8333333333333333,
+     "sep_measured_at_5pct": 1.8612086870389668,
+     "cohort": "eegmmidb",
+     "rung": "anisotropy"
+    },
+    "drift": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 3,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.17555781234723256,
+       "sep_measured_p95": 0.32208853628230927,
+       "sep_measured_iqr": [
+        0.1379010437972311,
+        0.23162840164363563
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 3,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5436584392700323,
+       "sep_measured_p95": 0.5963960962415235,
+       "sep_measured_iqr": [
+        0.4804658338717196,
+        0.5674201030406846
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.89279517525706,
+       "sep_measured_p95": 0.9868749430513505,
+       "sep_measured_iqr": [
+        0.8448450020485179,
+        0.9385379245868484
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0134668406099094,
+       "sep_measured_p95": 1.0800395699649323,
+       "sep_measured_iqr": [
+        0.9774506425176661,
+        1.0471230547370802
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5124683467867075,
+       "sep_measured_p95": 1.6214844680706038,
+       "sep_measured_iqr": [
+        1.4783048460212358,
+        1.5640866904477924
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7631087447907858,
+       "sep_measured_p95": 1.8376352246309635,
+       "sep_measured_iqr": [
+        1.7248236759746658,
+        1.8020278595208907
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.06666666666666667,
+       "mean_n_stable": 1.0666666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.0088508215586653,
+       "sep_measured_p95": 2.085271584469625,
+       "sep_measured_iqr": [
+        1.98647457856452,
+        2.0442876778703285
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.3,
+       "mean_n_stable": 1.3,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.36666666666666664,
+       "sep_measured_median": 2.2583421390119884,
+       "sep_measured_p95": 2.361502045732848,
+       "sep_measured_iqr": [
+        2.213999119262342,
+        2.317252951012582
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7,
+       "mean_n_stable": 1.7,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8666666666666667,
+       "sep_measured_median": 2.5143328433556276,
+       "sep_measured_p95": 2.6434662291918736,
+       "sep_measured_iqr": [
+        2.482520695335317,
+        2.549399463907103
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8333333333333334,
+       "mean_n_stable": 1.8333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9833333333333333,
+       "sep_measured_median": 2.761975466184066,
+       "sep_measured_p95": 2.8645805153877633,
+       "sep_measured_iqr": [
+        2.712996952834185,
+        2.8104948517272206
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.004675119820348,
+       "sep_measured_p95": 3.1203956770766537,
+       "sep_measured_iqr": [
+        2.9524411227140006,
+        3.066845794675677
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.000596013045395,
+       "sep_measured_p95": 4.1240891065827086,
+       "sep_measured_iqr": [
+        3.9481940329167737,
+        4.044458531929493
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.17555781234723256,
+     "floor_sep_measured_p95_at_zero": 0.32208853628230927,
+     "false_detection_rate_at_zero": 0.016666666666666666,
+     "delta_at_50pct": 2.375,
+     "sep_measured_at_50pct": 2.386337491183808,
+     "delta_at_5pct": 1.9375,
+     "sep_measured_at_5pct": 1.9474153023666956,
+     "cohort": "eegmmidb",
+     "rung": "drift"
+    },
+    "sample_size": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.22793925701325424,
+       "sep_measured_p95": 0.4562401099250666,
+       "sep_measured_iqr": [
+        0.165456219137102,
+        0.2869063782473214
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5376899302881142,
+       "sep_measured_p95": 0.7507255445352734,
+       "sep_measured_iqr": [
+        0.5000540290814235,
+        0.5832933120134471
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9060974513905845,
+       "sep_measured_p95": 1.0925785085538315,
+       "sep_measured_iqr": [
+        0.8567194424355316,
+        0.965082067844047
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 0.9833333333333333,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.028550096094462,
+       "sep_measured_p95": 1.131281709267401,
+       "sep_measured_iqr": [
+        0.9913310049473112,
+        1.07257033479608
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5414461338354966,
+       "sep_measured_p95": 1.679496512798939,
+       "sep_measured_iqr": [
+        1.4746582485903668,
+        1.58238135869854
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.775961137080051,
+       "sep_measured_p95": 1.8852214856004692,
+       "sep_measured_iqr": [
+        1.7255479142376464,
+        1.8317761865080846
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.05,
+       "mean_n_stable": 1.05,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.0098767223857346,
+       "sep_measured_p95": 2.1189230588028303,
+       "sep_measured_iqr": [
+        1.9647809110992376,
+        2.0603386778452153
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.4,
+       "mean_n_stable": 1.4,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.45,
+       "sep_measured_median": 2.291767341596392,
+       "sep_measured_p95": 2.436045759431659,
+       "sep_measured_iqr": [
+        2.220717152949941,
+        2.3388854448677283
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7333333333333333,
+       "mean_n_stable": 1.7333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8166666666666667,
+       "sep_measured_median": 2.5128887829780426,
+       "sep_measured_p95": 2.6991285968633814,
+       "sep_measured_iqr": [
+        2.4768823741459562,
+        2.5638116416857115
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8666666666666667,
+       "mean_n_stable": 1.8666666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.9666666666666667,
+       "sep_measured_median": 2.771603344411325,
+       "sep_measured_p95": 2.9425168989271526,
+       "sep_measured_iqr": [
+        2.7176871869818227,
+        2.834540402143441
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.95,
+       "mean_n_stable": 1.95,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.011207037020068,
+       "sep_measured_p95": 3.172635533675504,
+       "sep_measured_iqr": [
+        2.9316673760764873,
+        3.0930839428932346
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.009057944137006,
+       "sep_measured_p95": 4.139904356267664,
+       "sep_measured_iqr": [
+        3.963320011203104,
+        4.0839755694668405
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.22793925701325424,
+     "floor_sep_measured_p95_at_zero": 0.4562401099250666,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.325,
+     "sep_measured_at_50pct": 2.358103774010887,
+     "delta_at_5pct": 2.0,
+     "sep_measured_at_5pct": 2.0098767223857346,
+     "cohort": "eegmmidb",
+     "rung": "sample_size"
+    },
+    "segments": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.16272624922840234,
+       "sep_measured_p95": 0.24404803337969713,
+       "sep_measured_iqr": [
+        0.12781594045776357,
+        0.19857975802755334
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5326601162002939,
+       "sep_measured_p95": 0.6424460565496134,
+       "sep_measured_iqr": [
+        0.4967703250563305,
+        0.5703329435018814
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 3,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.900241537307097,
+       "sep_measured_p95": 1.019386344266533,
+       "sep_measured_iqr": [
+        0.8473211607199936,
+        0.9491341156061534
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.0130994220135916,
+       "sep_measured_p95": 1.1095277126482335,
+       "sep_measured_iqr": [
+        0.982784020535741,
+        1.0625445921176988
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.5021418478480197,
+       "sep_measured_p95": 1.5916871987733705,
+       "sep_measured_iqr": [
+        1.4702175190376392,
+        1.5482936656045838
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.7649284225044388,
+       "sep_measured_p95": 1.8768704108983294,
+       "sep_measured_iqr": [
+        1.7195866995453835,
+        1.7915335698815702
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.08333333333333333,
+       "mean_n_stable": 1.0833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.016666666666666666,
+       "sep_measured_median": 2.0159404157309053,
+       "sep_measured_p95": 2.140204182315421,
+       "sep_measured_iqr": [
+        1.9712695099911683,
+        2.069910952647466
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.2833333333333333,
+       "mean_n_stable": 1.2833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.3,
+       "sep_measured_median": 2.2571790143827037,
+       "sep_measured_p95": 2.368435915065393,
+       "sep_measured_iqr": [
+        2.212216161882641,
+        2.311599454993491
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7833333333333333,
+       "mean_n_stable": 1.7833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8333333333333334,
+       "sep_measured_median": 2.520980706043713,
+       "sep_measured_p95": 2.632699015785116,
+       "sep_measured_iqr": [
+        2.4770356774950395,
+        2.556508561383794
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.8833333333333333,
+       "mean_n_stable": 1.8833333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.7520243181203803,
+       "sep_measured_p95": 2.87722030512542,
+       "sep_measured_iqr": [
+        2.6971123479100374,
+        2.812693689687241
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.0025114598634333,
+       "sep_measured_p95": 3.128288858367318,
+       "sep_measured_iqr": [
+        2.9613687304797334,
+        3.056978246994961
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 4.011519093596252,
+       "sep_measured_p95": 4.146661097587296,
+       "sep_measured_iqr": [
+        3.944245854712981,
+        4.064962335264271
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.16272624922840234,
+     "floor_sep_measured_p95_at_zero": 0.24404803337969713,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.3583333333333334,
+     "sep_measured_at_50pct": 2.3714930807691412,
+     "delta_at_5pct": 1.9,
+     "sep_measured_at_5pct": 1.9155356184403187,
+     "cohort": "eegmmidb",
+     "rung": "segments"
+    },
+    "nonstationarity": {
+     "cells": {
+      "0.0": {
+       "delta": 0.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.17335641056247145,
+       "sep_measured_p95": 0.26652750924138097,
+       "sep_measured_iqr": [
+        0.14347703653339833,
+        0.20734470860290619
+       ]
+      },
+      "0.5": {
+       "delta": 0.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.5284436442675047,
+       "sep_measured_p95": 0.6250621028400075,
+       "sep_measured_iqr": [
+        0.4941649424990357,
+        0.5702134721886527
+       ]
+      },
+      "0.875": {
+       "delta": 0.875,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.8771243580549626,
+       "sep_measured_p95": 0.9650981750564664,
+       "sep_measured_iqr": [
+        0.831340985871792,
+        0.912203626602814
+       ]
+      },
+      "1.0": {
+       "delta": 1.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.0,
+       "mean_n_stable": 1.0,
+       "max_n_stable": 1,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 0.9905761789010212,
+       "sep_measured_p95": 1.1299062140708,
+       "sep_measured_iqr": [
+        0.9596321295340364,
+        1.0618237525214147
+       ]
+      },
+      "1.5": {
+       "delta": 1.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.482307005544567,
+       "sep_measured_p95": 1.5961761266520018,
+       "sep_measured_iqr": [
+        1.4246031259339853,
+        1.5342901785839511
+       ]
+      },
+      "1.75": {
+       "delta": 1.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.016666666666666666,
+       "mean_n_stable": 1.0166666666666666,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.723010904959391,
+       "sep_measured_p95": 1.8365986511768848,
+       "sep_measured_iqr": [
+        1.6809463260339714,
+        1.7630989214042005
+       ]
+      },
+      "2.0": {
+       "delta": 2.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.03333333333333333,
+       "mean_n_stable": 1.0333333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.0,
+       "sep_measured_median": 1.9810122450673444,
+       "sep_measured_p95": 2.111092050597092,
+       "sep_measured_iqr": [
+        1.9226796376515183,
+        2.0314539741615274
+       ]
+      },
+      "2.25": {
+       "delta": 2.25,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.31666666666666665,
+       "mean_n_stable": 1.3166666666666667,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.3333333333333333,
+       "sep_measured_median": 2.2322937571514485,
+       "sep_measured_p95": 2.3762528205688445,
+       "sep_measured_iqr": [
+        2.196431274247052,
+        2.296802112366316
+       ]
+      },
+      "2.5": {
+       "delta": 2.5,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.6333333333333333,
+       "mean_n_stable": 1.6333333333333333,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.8,
+       "sep_measured_median": 2.4803887365365873,
+       "sep_measured_p95": 2.5748576890062758,
+       "sep_measured_iqr": [
+        2.4449262389451976,
+        2.515069395422106
+       ]
+      },
+      "2.75": {
+       "delta": 2.75,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.7833333333333333,
+       "mean_n_stable": 1.7833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 0.95,
+       "sep_measured_median": 2.7246628346598554,
+       "sep_measured_p95": 2.8507083485572813,
+       "sep_measured_iqr": [
+        2.67952948586834,
+        2.792930477664323
+       ]
+      },
+      "3.0": {
+       "delta": 3.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 0.9833333333333333,
+       "mean_n_stable": 1.9833333333333334,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 2.9698102188180204,
+       "sep_measured_p95": 3.108567050337371,
+       "sep_measured_iqr": [
+        2.9055025688203506,
+        3.0358542388839287
+       ]
+      },
+      "4.0": {
+       "delta": 4.0,
+       "reps": 60,
+       "n_subjects": 60,
+       "frac_field_ge2": 1.0,
+       "mean_n_stable": 2.0,
+       "max_n_stable": 2,
+       "frac_density_bimodal": 1.0,
+       "sep_measured_median": 3.9584542008202597,
+       "sep_measured_p95": 4.159262038773916,
+       "sep_measured_iqr": [
+        3.8815269551085647,
+        4.025863704465695
+       ]
+      }
+     },
+     "floor_sep_measured_median_at_zero": 0.17335641056247145,
+     "floor_sep_measured_p95_at_zero": 0.26652750924138097,
+     "false_detection_rate_at_zero": 0.0,
+     "delta_at_50pct": 2.3947368421052633,
+     "sep_measured_at_50pct": 2.3759276925849497,
+     "delta_at_5pct": 2.014705882352941,
+     "sep_measured_at_5pct": 1.9957935104840565,
+     "cohort": "eegmmidb",
+     "rung": "nonstationarity"
+    }
+   }
+  }
+ }
+}

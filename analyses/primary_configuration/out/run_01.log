@@ -1,0 +1,100 @@
+160 cells on 3 workers (true lambda = 0.1625, a = 0.85)
+  10/160  71s
+  20/160  135s
+  30/160  274s
+  40/160  431s
+  50/160  465s
+  60/160  498s
+  70/160  563s
+  80/160  634s
+  90/160  670s
+  100/160  704s
+  110/160  770s
+  120/160  843s
+  130/160  881s
+  140/160  918s
+  150/160  989s
+  160/160  1068s
+
+TABLE 1  estimator comparison against known truth (lambda = 0.1625, 20 reps/cell)
+method                  nu     geom  bias(log)  lam/true   cover    width     sec self-aware
+------------------------------------------------------------------------------------------------
+abc_single            0.00    small      0.058      1.03    0.85    0.095    0.45      False
+abc_single            0.20    small      0.500      1.67    0.05    0.139    0.46      False
+abc_single            0.40    small      0.952      2.58    0.00    0.250    0.46      False
+abc_single            0.60    small      1.682      5.26    0.00    0.556    0.44      False
+abc_single            0.00  typical     -0.011      1.00    0.95    0.041    1.00      False
+abc_single            0.20  typical      0.370      1.44    0.00    0.061    0.96      False
+abc_single            0.40  typical      0.798      2.20    0.00    0.118    0.99      False
+abc_single            0.60  typical      1.424      4.21    0.00    0.317    0.97      False
+abc_with_white        0.00    small     -0.050      0.95    0.95    0.140    0.47      False
+abc_with_white        0.20    small      0.034      1.04    1.00    0.176    0.47      False
+abc_with_white        0.40    small      0.012      1.05    1.00    0.233    0.48      False
+abc_with_white        0.60    small      0.157      1.20    1.00    0.325    0.46      False
+abc_with_white        0.00  typical     -0.116      0.88    1.00    0.095    1.07      False
+abc_with_white        0.20  typical     -0.002      1.02    1.00    0.118    1.04      False
+abc_with_white        0.40  typical      0.080      1.09    1.00    0.138    1.07      False
+abc_with_white        0.60  typical      0.083      1.09    1.00    0.172    1.06      False
+aic_bic_adequacy      0.00    small      0.271      1.30     nan      nan    0.00      False
+aic_bic_adequacy      0.20    small      1.087      2.95     nan      nan    0.00      False
+aic_bic_adequacy      0.40    small      1.603      4.85     nan      nan    0.00      False
+aic_bic_adequacy      0.60    small      2.081      7.80     nan      nan    0.00      False
+aic_bic_adequacy      0.00  typical      0.086      1.09     nan      nan    0.01      False
+aic_bic_adequacy      0.20  typical      0.961      2.61     nan      nan    0.01      False
+aic_bic_adequacy      0.40  typical      1.510      4.54     nan      nan    0.01      False
+aic_bic_adequacy      0.60  typical      1.971      7.18     nan      nan    0.01      False
+ols_ar1               0.00    small      0.271      1.30    0.30    0.088    0.02      False
+ols_ar1               0.20    small      1.087      2.95    0.00    0.193    0.02      False
+ols_ar1               0.40    small      1.603      4.85    0.00    0.307    0.02      False
+ols_ar1               0.60    small      2.081      7.80    0.00    0.503    0.02      False
+ols_ar1               0.00  typical      0.086      1.09    0.50    0.033    0.04      False
+ols_ar1               0.20  typical      0.961      2.61    0.00    0.077    0.04      False
+ols_ar1               0.40  typical      1.510      4.54    0.00    0.135    0.04      False
+ols_ar1               0.60  typical      1.971      7.18    0.00    0.199    0.04      False
+profile_likelihood    0.00    small      0.252      1.26    0.45    0.085    4.10       True
+profile_likelihood    0.20    small      0.316      1.38    0.45    0.130    1.93       True
+profile_likelihood    0.40    small      0.362      1.45    0.40    0.172    2.02       True
+profile_likelihood    0.60    small      0.514      1.65    0.35    0.288    2.29       True
+profile_likelihood    0.00  typical      0.076      1.09    0.75    0.035    9.77       True
+profile_likelihood    0.20  typical      0.123      1.14    0.55    0.048    4.25       True
+profile_likelihood    0.40  typical      0.152      1.15    0.65    0.059    4.37       True
+profile_likelihood    0.60  typical      0.187      1.21    0.60    0.077    4.65       True
+sloppiness            0.00    small      0.252      1.26     nan      nan    0.23       True
+sloppiness            0.20    small      0.316      1.38     nan      nan    0.10       True
+sloppiness            0.40    small      0.362      1.45     nan      nan    0.10       True
+sloppiness            0.60    small      0.514      1.65     nan      nan    0.11       True
+sloppiness            0.00  typical      0.076      1.09     nan      nan    0.52       True
+sloppiness            0.20  typical      0.123      1.14     nan      nan    0.23       True
+sloppiness            0.40  typical      0.152      1.15     nan      nan    0.24       True
+sloppiness            0.60  typical      0.187      1.21     nan      nan    0.25       True
+
+TABLE 2  the certificate's decision, scored against ground truth
+  For each (recording, estimator): NDIF says admitted/refused knowing
+  nothing of the truth.  'recovers' means |lam_hat - lam| / lam < 0.25.
+
+   nu     geom  estimator        verdict  binding  recovers  rel.err    sec
+--------------------------------------------------------------------------------
+ 0.00    small        ols           40%A       G0      0.35    0.305    0.3
+ 0.00    small     kalman           50%A       G0      0.50    0.258   10.8
+ 0.00  typical        ols          100%A       G0      1.00    0.090    0.7
+ 0.00  typical     kalman          100%A       G0      1.00    0.088   25.0
+ 0.20    small        ols            0%A       G1      0.00    1.947    0.2
+ 0.20    small     kalman            0%A       G3      0.15    0.377    4.7
+ 0.20  typical        ols            0%A       G1      0.00    1.606    0.4
+ 0.20  typical     kalman          100%A       G0      0.95    0.139   10.7
+ 0.40    small        ols            0%A       G1      0.00    3.847    0.2
+ 0.40    small     kalman            5%A       G3      0.20    0.454    5.0
+ 0.40  typical        ols            0%A       G1      0.00    3.538    0.4
+ 0.40  typical     kalman          100%A       G0      0.80    0.152   10.9
+ 0.60    small        ols            0%A       G1      0.00    6.796    0.2
+ 0.60    small     kalman            0%A       G2      0.10    0.652    5.5
+ 0.60  typical        ols            0%A       G1      0.00    6.183    0.4
+ 0.60  typical     kalman           75%A       G0      0.70    0.208   12.0
+--------------------------------------------------------------------------------
+  certificate agrees with ground truth in 273/320 (85.3%)
+    admitted and recovers      (correct admit)  : 91
+    refused and does not       (correct refuse) : 182
+    admitted but does not      (FALSE ADMIT)    : 23
+    refused but would have     (missed)         : 24
+
+written: analyses/primary_configuration/out/benchmark_01.json   (1069s wall)

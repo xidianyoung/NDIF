@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.idea/
+.vscode/
+.venv/
+.DS_Store
+Thumbs.db
+figure_reproduction/figures/
+/figures_out/
+/redrawn/
+analyses/g8_configuration/noise_aware_bootstrap/bootstrap_rates.npz
+analyses/g8_configuration/noise_aware_bootstrap/fitted_scores.json
+analyses/g8_configuration/noise_aware_bootstrap/pilot_cache.json
+analyses/g8_configuration/noise_aware_bootstrap/pilot_rates.npy
+analyses/g8_configuration/noise_aware_bootstrap/risk_coverage*
+analyses/g8_configuration/noise_aware_bootstrap/timing.json
+analyses/workload_certificates/features/cog_feature_cache/
+analyses/workload_certificates/features/out/
+analyses/primary_configuration/meg_feature_cache/
+# intermediate caches and source data of the analyses (analyses/common/paths.py)
+analyses/_work/
+/data/

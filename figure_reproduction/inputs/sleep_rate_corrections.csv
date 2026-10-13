@@ -1,0 +1,9 @@
+contrast,method_index,method,window_s,fold,ci95_lo,ci95_hi,n_participants,bootstrap_draws,participant_summary
+N1/Wake,0,Multivariate two-lag IV (2 s),2,0.93750618756908399,0.6978236948314821,1.0889844882006861,28,4000,median participant log contrast after mean night log rates
+N1/Wake,1,Surrogate + bootstrap (2 s),2,1.1819032890281826,1.0765233084385444,1.2634688526287401,53,4000,median participant log contrast after mean night log rates
+N1/Wake,2,Random-direction two-lag (1 s),1,1.4464492417298576,1.3329340536607157,1.6629785793793657,57,4000,median participant contrast from median directional log differences
+N1/Wake,3,Six-lag grid fit (1 s),1,1.4738803377412695,1.3204286034283477,1.642877810751223,64,10000,mean participant log contrast after mean night cell rates
+N2/N1,0,Multivariate two-lag IV (2 s),2,1.2620367530415726,0.56149378511697978,1.5656250213871326,19,4000,median participant log contrast after mean night log rates
+N2/N1,1,Surrogate + bootstrap (2 s),2,1.6113705846627364,1.473515851847887,1.6829523347963438,71,4000,median participant log contrast after mean night log rates
+N2/N1,2,Random-direction two-lag (1 s),1,1.4449353787803563,1.3005390136733339,1.653882293544382,76,4000,median participant contrast from median directional log differences
+N2/N1,3,Six-lag grid fit (1 s),1,1.3645693256274021,1.2463846466717889,1.496470251884753,76,10000,mean participant log contrast after mean night cell rates

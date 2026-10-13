@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4292",
+ "contrast": "N3 vs N4",
+ "lo": "N3",
+ "hi": "N4",
+ "n_segments_lo": 8,
+ "n_segments_hi": 9,
+ "status": "cleared",
+ "passed": true,
+ "separation": 0.643349258341427,
+ "floor": 0.1985370426078423,
+ "margin": 0.44481221573358465,
+ "detail": {
+  "floor": 0.1985370426078423,
+  "null_median": 0.06687173158277834,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.6090223789215088
+}

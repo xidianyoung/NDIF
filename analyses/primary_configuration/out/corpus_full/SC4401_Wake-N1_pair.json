@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4401",
+ "contrast": "Wake vs N1",
+ "lo": "Wake",
+ "hi": "N1",
+ "n_segments_lo": 16,
+ "n_segments_hi": 20,
+ "status": "cleared",
+ "passed": true,
+ "separation": 1.2523675167428647,
+ "floor": 0.17244642927468584,
+ "margin": 1.0799210874681788,
+ "detail": {
+  "floor": 0.17244642927468584,
+  "null_median": 0.07093866195020303,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.9849944114685059
+}

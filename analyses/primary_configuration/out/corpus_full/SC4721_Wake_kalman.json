@@ -1,0 +1,236 @@
+{
+ "kind": "cell",
+ "recording": "SC4721",
+ "stage": "Wake",
+ "estimator": "kalman",
+ "n_segments": 15,
+ "n_windows": 900,
+ "dim": 8,
+ "win_s": 1.0,
+ "gates_consulted": [
+  "G0",
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G7"
+ ],
+ "replicates": "package defaults",
+ "levels": {
+  "L1": {
+   "status": "indeterminate",
+   "binding_gate": null,
+   "margin": null,
+   "detection_margin": null,
+   "grounds": "no gate governing this level could be evaluated"
+  },
+  "L2": {
+   "status": "admitted",
+   "binding_gate": "G0",
+   "margin": 0.0,
+   "detection_margin": "a change in state variance of at least x1.18 would have been detected at 80% power",
+   "grounds": "all governing gates cleared; tightest is G0 at margin 0"
+  },
+  "L3": {
+   "status": "refused",
+   "binding_gate": "G3",
+   "margin": -0.07947565782936178,
+   "detection_margin": "a change in relaxation rate of at least x1.82 would have been detected at 80% power",
+   "grounds": "G3 binds: recovered fraction (rate channel) = 0.9113, criterion |slope - 1| <= 0.2 AND |bias| <= 0.2 log units"
+  }
+ },
+ "gates": [
+  {
+   "gate": "G0",
+   "passed": true,
+   "value": 1.0,
+   "margin": 0.0,
+   "criterion": "ratio >= 1 (no shared samples)",
+   "statistic": "step/window",
+   "cost_s": 7.000024197623134e-06,
+   "note": "",
+   "detail": {
+    "window_s": 1.0,
+    "step_s": 1.0,
+    "overlap_fraction": 0.0
+   }
+  },
+  {
+   "gate": "G1",
+   "passed": true,
+   "value": 0.42493687874549524,
+   "margin": null,
+   "criterion": "nu <= 0.2 for an observation-naive estimator; not binding for an observation-aware one",
+   "statistic": "nu (white variance share)",
+   "cost_s": 0.003177099977619946,
+   "note": "nu = 0.425 is carried by the estimator's own observation model, so it does not bind here; it would inflate an OLS lag-1 rate by 0.553 per dt",
+   "detail": {
+    "two_lag": {
+     "r1": 0.4136983886178772,
+     "r2": 0.29761316700620805,
+     "nu": 0.42493687874549524,
+     "a": 0.7193964859290419,
+     "ok": true
+    },
+    "nu_random_directions": 0.5453255775029338,
+    "estimator": "kalman",
+    "observation_aware": true,
+    "rate_inflation_per_dt": 0.5532754681149503
+   }
+  },
+  {
+   "gate": "G2",
+   "passed": true,
+   "value": -0.3696009030143912,
+   "margin": 0.1303990969856088,
+   "criterion": "|theta| <= 0.5 and CI excludes 1",
+   "statistic": "theta in lambda ~ dt^(-theta)",
+   "cost_s": 0.44980249999207444,
+   "note": "",
+   "detail": {
+    "ci": [
+     -0.5813598563411978,
+     -0.12218257427491622
+    ],
+    "per_factor": {
+     "1": 0.3134177068716166,
+     "2": 0.411364547701328,
+     "3": 0.5911751736592666,
+     "4": 0.4664624989633516
+    },
+    "excludes_one": true,
+    "estimator": "kalman",
+    "factors": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "gate": "G3",
+   "passed": false,
+   "value": 0.9113428344894741,
+   "margin": -0.07947565782936178,
+   "criterion": "|slope - 1| <= 0.2 AND |bias| <= 0.2 log units",
+   "statistic": "recovered fraction (rate channel)",
+   "cost_s": 14.282429999992019,
+   "note": "slope is acceptable (0.911) but the chain returns a biased rate at this geometry (+0.279 log units): the estimate is precise about the wrong value",
+   "detail": {
+    "rate_recovery": 0.9113428344894741,
+    "variance_recovery": 0.9928883360179843,
+    "bias_log": 0.2794756578293618,
+    "slope_ok": true,
+    "bias_ok": false,
+    "bias_tol": 0.2,
+    "variance_ok": true,
+    "detection_margin_fold": 1.8150236589397761,
+    "detection_margin_fold_variance": 1.1845698976612626,
+    "nu_injected": 0.19543085856835238,
+    "estimator": "kalman",
+    "ladder": [
+     0.6,
+     0.8,
+     1.0,
+     1.25,
+     1.7
+    ],
+    "n_rep": 24,
+    "n_segments": 15,
+    "n_block": 60
+   }
+  },
+  {
+   "gate": "G4",
+   "passed": true,
+   "value": 0.299375,
+   "margin": 0.650625,
+   "criterion": "agreement <= 0.95",
+   "statistic": "agreement with dynamics-deleted surrogate",
+   "cost_s": 0.21943470000405796,
+   "note": "",
+   "detail": {
+    "agreement_isotropic": 0.0,
+    "agreement_random_hurwitz": 0.299375,
+    "readout_mean_fitted": 0.498667642881223,
+    "readout_mean_isotropic": 0.06797477312948216,
+    "readout_sd_fitted": 0.04866951088563979,
+    "random_surrogate_available": true
+   }
+  },
+  {
+   "gate": "G7",
+   "passed": true,
+   "value": 0.9954597895032533,
+   "margin": 0.4954597895032533,
+   "criterion": "share >= 0.5",
+   "statistic": "share of rate summary from identified modes",
+   "cost_s": 0.2214007999864407,
+   "note": "",
+   "detail": {
+    "n_modes": 8,
+    "n_identified": 7,
+    "rates": [
+     0.3855955619447496,
+     1.0278935241334617,
+     1.3271527677157222,
+     1.373385039753357,
+     1.994995631372646,
+     2.623317132953698,
+     3.4158966097695185,
+     4.929443309123541
+    ],
+    "null_lo": [
+     0.7809774623705352,
+     0.851620895047386,
+     0.9023080639477338,
+     0.9330343226828864,
+     0.9978413756902954,
+     1.0360391792817134,
+     1.1090184707719986,
+     1.1604107467727498
+    ],
+    "null_hi": [
+     0.96704633766912,
+     1.0281214193921204,
+     1.0744468514741454,
+     1.1531197018993697,
+     1.1950376396414093,
+     1.2359477843704458,
+     1.3547509185739237,
+     1.5564471388909173
+    ]
+   }
+  }
+ ],
+ "design": {
+  "dt": 1.0,
+  "window_s": 1.0,
+  "step_s": 1.0,
+  "name": "SC4721/Wake",
+  "modality": "polysomnography",
+  "has_labels": false,
+  "has_axis": false
+ },
+ "provenance": {
+  "ndif_version": "1.0.0",
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.4.4",
+  "n_samples": 900,
+  "d": 8,
+  "n_segments": 15,
+  "total_cost_s": 15.17625209997641,
+  "gates_run": [
+   "G0",
+   "G1",
+   "G2",
+   "G3",
+   "G4",
+   "G7"
+  ],
+  "estimator": "kalman"
+ },
+ "wall_s": 15.177793025970459
+}

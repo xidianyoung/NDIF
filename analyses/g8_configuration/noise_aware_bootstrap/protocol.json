@@ -1,0 +1,20 @@
+{
+  "status": "post hoc analysis; settings fixed before the full run",
+  "scope": "The 394 equal-segment paired records, including 10 Student-t records; the unequal-length records have no comparator.",
+  "bootstrap_replicates": 200,
+  "seed": 20261009,
+  "random_stream": "Independent deterministic per-record SeedSequence [20261009, first 32 SHA256 bits of record_id]",
+  "observed_generator": "The stored G3 a_fit and nu_fit: the Kalman maximum-likelihood fit of a latent stationary Gaussian AR(1) plus additive white observation noise to the observed recording, before the G3 indirect-inference correction. The true parameters and the corrected generator are not used. Stationary latent variance 1 is scale-normalized; OLS persistence is scale invariant.",
+  "primary_score": "abs(mean(log(lambda_OLS_boot)) - log(-log(a_fit)/dt)), dt=1. This estimates OLS log-rate bias relative to the fitted latent rate, including observation-noise attenuation. It is not a posterior error probability.",
+  "secondary_scores": [
+    "abs(log(lambda_OLS_raw) - mean(log(lambda_OLS_boot))): plug-in self-consistency, no latent-target protection",
+    "abs((tau_OLS_raw - mean(tau_OLS_boot))/mean(tau_OLS_boot)): original-style timescale self-consistency with noise-aware generator",
+    "97.5th minus 2.5th percentile of bootstrap log-rate: uncertainty width"
+  ],
+  "validity_rule": "All 394 records stay in the denominator. An invalid observed OLS rate, a missing or invalid generator (0<a_fit<1 and 0<=nu_fit<1), an invalid geometry, any nonpositive or nonfinite bootstrap rate, or a simulation exception gives every new score +infinity (ineligible). Each record is simulated once.",
+  "ranking": "Ascending score; exact ties ordered by record_id; only finite scores are eligible. The comparator admits as many records as NDIF admitted (72; the NDIF admission mask is fixed). With fewer than 72 eligible records, matched coverage is reported as insufficient.",
+  "truth_evaluation": "After all scores and masks are fixed, a record is inaccurate when its stored relative lambda error is >=0.25. The log-rate ranking score and the relative-lambda-error evaluation are distinct quantities.",
+  "curves": "Every eligible rank k=1..eligible_count, coverage k/394; record_id breaks score ties. NDIF appears as its one fixed observed operating point.",
+  "uncertainty": "5000 paired condition-stratified cluster resamples of recording IDs within the original cell. Both methods use identical draws, and the comparator coverage is re-matched to the number of NDIF admissions in each draw. Curve intervals are nominal pointwise percentile intervals at each k, not simultaneous bands. The saved per-record scores are reused; intervals are conditional on the fitted generators and the Monte Carlo draws, do not propagate parameter-fit or Monte Carlo uncertainty, and cover the simulated families only.",
+  "interpretation": "Noise-aware plug-in parametric comparator: no Bayesian noise/scale marginalization, no joint nuisance-parameter bootstrap, no separate confirmation dataset; 200 replicates per record limit Monte Carlo precision."
+}

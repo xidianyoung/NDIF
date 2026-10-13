@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4242",
+ "contrast": "Wake vs N1",
+ "lo": "Wake",
+ "hi": "N1",
+ "n_segments_lo": 11,
+ "n_segments_hi": 12,
+ "status": "cleared",
+ "passed": true,
+ "separation": 1.6967748854455962,
+ "floor": 0.26539286244472465,
+ "margin": 1.4313820230008716,
+ "detail": {
+  "floor": 0.26539286244472465,
+  "null_median": 0.11533410850289084,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.8980727195739746
+}

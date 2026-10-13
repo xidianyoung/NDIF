@@ -1,0 +1,8 @@
+==============================================================================
+NDIF certificates, HCP MEG working memory (83 participants, trial clock), lag-1 least-squares rate, package defaults
+83 recordings
+==============================================================================
+  L1: admitted 72, refused 11  | binds: G5 x11
+  L2: admitted 83
+  L3: refused 83  | binds: G3 x82, G2 x1
+  median G1 white share None, G1 indeterminate in 83 of 83; median G3 recovery 0.08511993914224356; median detection margin x3.834140552619148

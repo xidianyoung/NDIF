@@ -1,0 +1,2500 @@
+{
+ "n": {
+  "single": 384,
+  "variants": 20,
+  "missp": 100,
+  "neg": 40,
+  "twins": 320,
+  "stab": 180,
+  "abc": 164,
+  "mdc": 96
+ },
+ "model_holds": {
+  "pooled": {
+   "counts": {
+    "n": 808,
+    "admitted": 261,
+    "indeterminate": 35,
+    "accurate": 339,
+    "false_pass": 28,
+    "true_pass": 233,
+    "false_rejection": 106,
+    "true_rejection": 441
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.10727969348659004,
+    "lo": 0.06854838709677419,
+    "hi": 0.15057915057915058,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.31268436578171094,
+    "lo": 0.2578792056369501,
+    "hi": 0.36827195467422097,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8341584158415841,
+   "agreement_admit_none": 0.5804455445544554
+  },
+  "ols": {
+   "counts": {
+    "n": 404,
+    "admitted": 72,
+    "indeterminate": 16,
+    "accurate": 92,
+    "false_pass": 5,
+    "true_pass": 67,
+    "false_rejection": 25,
+    "true_rejection": 307
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.06944444444444445,
+    "lo": 0.014925373134328358,
+    "hi": 0.13333333333333333,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.2717391304347826,
+    "lo": 0.18292682926829268,
+    "hi": 0.36585365853658536,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.9257425742574258,
+   "agreement_admit_none": 0.7722772277227723
+  },
+  "kalman": {
+   "counts": {
+    "n": 404,
+    "admitted": 189,
+    "indeterminate": 19,
+    "accurate": 247,
+    "false_pass": 23,
+    "true_pass": 166,
+    "false_rejection": 81,
+    "true_rejection": 134
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.12169312169312169,
+    "lo": 0.07650273224043716,
+    "hi": 0.1702127659574468,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.32793522267206476,
+    "lo": 0.2692307692307692,
+    "hi": 0.38671875,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.7425742574257426,
+   "agreement_admit_none": 0.3886138613861386
+  }
+ },
+ "single_by_condition": {
+  "a=0.5|nu=0.0|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 2,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 8,
+    "false_rejection": 8,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.5,
+    "lo": 0.25,
+    "hi": 0.75,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.5,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.5|nu=0.0|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 6,
+    "indeterminate": 2,
+    "accurate": 14,
+    "false_pass": 1,
+    "true_pass": 5,
+    "false_rejection": 9,
+    "true_rejection": 1
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.16666666666666666,
+    "lo": 0.0,
+    "hi": 0.6,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.6428571428571429,
+    "lo": 0.35714285714285715,
+    "hi": 0.9,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.375,
+   "agreement_admit_none": 0.125
+  },
+  "a=0.5|nu=0.0|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 10,
+    "indeterminate": 1,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 10,
+    "false_rejection": 6,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.3084971078187608,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.375,
+    "lo": 0.125,
+    "hi": 0.625,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.625,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.5|nu=0.0|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 13,
+    "indeterminate": 1,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 13,
+    "false_rejection": 3,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.24705263800047092,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.1875,
+    "lo": 0.0625,
+    "hi": 0.375,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8125,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.5|nu=0.25|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 5,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 5,
+    "false_rejection": 3,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.5218237501049814,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.375,
+    "lo": 0.125,
+    "hi": 0.75,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8125,
+   "agreement_admit_none": 0.5
+  },
+  "a=0.5|nu=0.25|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 5,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 5,
+    "true_rejection": 11
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.6875,
+   "agreement_admit_none": 0.6875
+  },
+  "a=0.5|nu=0.25|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 4,
+    "indeterminate": 1,
+    "accurate": 6,
+    "false_pass": 2,
+    "true_pass": 2,
+    "false_rejection": 4,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.5,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.6666666666666666,
+    "lo": 0.25,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.625,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.5|nu=0.25|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 6,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 6,
+    "false_rejection": 2,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.45925812643990044,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.25,
+    "lo": 0.0,
+    "hi": 0.625,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.875,
+   "agreement_admit_none": 0.5
+  },
+  "a=0.5|nu=0.5|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 6,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 6,
+    "true_rejection": 10
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.625,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.5|nu=0.5|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 3,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 3,
+    "true_rejection": 13
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8125,
+   "agreement_admit_none": 0.8125
+  },
+  "a=0.5|nu=0.5|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 1,
+    "indeterminate": 0,
+    "accurate": 6,
+    "false_pass": 0,
+    "true_pass": 1,
+    "false_rejection": 5,
+    "true_rejection": 10
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.975,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.8333333333333334,
+    "lo": 0.5,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.6875,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.5|nu=0.5|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 1,
+    "indeterminate": 0,
+    "accurate": 6,
+    "false_pass": 0,
+    "true_pass": 1,
+    "false_rejection": 5,
+    "true_rejection": 10
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.975,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.8333333333333334,
+    "lo": 0.5,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.6875,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.75|nu=0.0|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 13,
+    "indeterminate": 0,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 13,
+    "false_rejection": 3,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.24705263800047092,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.1875,
+    "lo": 0.0,
+    "hi": 0.4375,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8125,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.75|nu=0.0|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 7,
+    "indeterminate": 6,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 7,
+    "false_rejection": 9,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.40961639722500337,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.5625,
+    "lo": 0.25,
+    "hi": 0.875,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.4375,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.75|nu=0.0|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 16,
+    "indeterminate": 0,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 16,
+    "false_rejection": 0,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.75|nu=0.0|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 16,
+    "indeterminate": 0,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 16,
+    "false_rejection": 0,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.75|nu=0.25|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 8,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.5
+  },
+  "a=0.75|nu=0.25|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 1,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 1,
+    "true_rejection": 15
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.9375
+  },
+  "a=0.75|nu=0.25|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 7,
+    "false_pass": 1,
+    "true_pass": 7,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.125,
+    "lo": 0.0,
+    "hi": 0.375,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.40961639722500337,
+    "interval": "exact"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.5625
+  },
+  "a=0.75|nu=0.25|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 8,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.5
+  },
+  "a=0.75|nu=0.5|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 7,
+    "false_pass": 1,
+    "true_pass": 7,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.125,
+    "lo": 0.0,
+    "hi": 0.375,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.40961639722500337,
+    "interval": "exact"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.5625
+  },
+  "a=0.75|nu=0.5|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 1,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 1,
+    "true_rejection": 15
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.9375
+  },
+  "a=0.75|nu=0.5|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 1,
+    "indeterminate": 5,
+    "accurate": 5,
+    "false_pass": 0,
+    "true_pass": 1,
+    "false_rejection": 4,
+    "true_rejection": 11
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.975,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.8,
+    "lo": 0.3993750000000006,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.75,
+   "agreement_admit_none": 0.6875
+  },
+  "a=0.75|nu=0.5|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 8,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.5
+  },
+  "a=0.96|nu=0.0|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 2,
+    "indeterminate": 4,
+    "accurate": 6,
+    "false_pass": 2,
+    "true_pass": 0,
+    "false_rejection": 6,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.5,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.96|nu=0.0|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.96|nu=0.0|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.96|nu=0.0|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 16,
+    "indeterminate": 0,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 16,
+    "false_rejection": 0,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.96|nu=0.25|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 1,
+    "accurate": 2,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 2,
+    "true_rejection": 14
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.875,
+   "agreement_admit_none": 0.875
+  },
+  "a=0.96|nu=0.25|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.96|nu=0.25|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.96|nu=0.25|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 6,
+    "indeterminate": 0,
+    "accurate": 6,
+    "false_pass": 2,
+    "true_pass": 4,
+    "false_rejection": 2,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.3333333333333333,
+    "lo": 0.0,
+    "hi": 0.75,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.3333333333333333,
+    "lo": 0.0,
+    "hi": 0.75,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.75,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.96|nu=0.5|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 3,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 3,
+    "true_rejection": 13
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8125,
+   "agreement_admit_none": 0.8125
+  },
+  "a=0.96|nu=0.5|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.96|nu=0.5|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.96|nu=0.5|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 6,
+    "indeterminate": 1,
+    "accurate": 6,
+    "false_pass": 2,
+    "true_pass": 4,
+    "false_rejection": 2,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.3333333333333333,
+    "lo": 0.0,
+    "hi": 0.75,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.3333333333333333,
+    "lo": 0.0,
+    "hi": 0.75,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.75,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.9|nu=0.0|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 14,
+    "indeterminate": 1,
+    "accurate": 15,
+    "false_pass": 1,
+    "true_pass": 13,
+    "false_rejection": 2,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.07142857142857142,
+    "lo": 0.0,
+    "hi": 0.21428571428571427,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.13333333333333333,
+    "lo": 0.0,
+    "hi": 0.4,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8125,
+   "agreement_admit_none": 0.0625
+  },
+  "a=0.9|nu=0.0|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.9|nu=0.0|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 7,
+    "indeterminate": 6,
+    "accurate": 6,
+    "false_pass": 5,
+    "true_pass": 2,
+    "false_rejection": 4,
+    "true_rejection": 5
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.7142857142857143,
+    "lo": 0.16666666666666666,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.6666666666666666,
+    "lo": 0.5,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.4375,
+   "agreement_admit_none": 0.625
+  },
+  "a=0.9|nu=0.0|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 14,
+    "indeterminate": 2,
+    "accurate": 16,
+    "false_pass": 0,
+    "true_pass": 14,
+    "false_rejection": 2,
+    "true_rejection": 0
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.23163576165011646,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.125,
+    "lo": 0.0,
+    "hi": 0.375,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.875,
+   "agreement_admit_none": 0.0
+  },
+  "a=0.9|nu=0.25|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 7,
+    "false_pass": 1,
+    "true_pass": 7,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.125,
+    "lo": 0.0,
+    "hi": 0.375,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.40961639722500337,
+    "interval": "exact"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.5625
+  },
+  "a=0.9|nu=0.25|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.9|nu=0.25|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 2,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 2,
+    "true_rejection": 14
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.875,
+   "agreement_admit_none": 0.875
+  },
+  "a=0.9|nu=0.25|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 7,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 7,
+    "false_rejection": 1,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.40961639722500337,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.125,
+    "lo": 0.0,
+    "hi": 0.375,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.5
+  },
+  "a=0.9|nu=0.5|g15x200": {
+   "counts": {
+    "n": 16,
+    "admitted": 7,
+    "indeterminate": 1,
+    "accurate": 3,
+    "false_pass": 5,
+    "true_pass": 2,
+    "false_rejection": 1,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.7142857142857143,
+    "lo": 0.3333333333333333,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.3333333333333333,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.625,
+   "agreement_admit_none": 0.8125
+  },
+  "a=0.9|nu=0.5|g25x50": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 1,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 1,
+    "true_rejection": 15
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.9375,
+   "agreement_admit_none": 0.9375
+  },
+  "a=0.9|nu=0.5|g50x100": {
+   "counts": {
+    "n": 16,
+    "admitted": 0,
+    "indeterminate": 0,
+    "accurate": 0,
+    "false_pass": 0,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": null,
+   "accurate_not_admitted": null,
+   "agreement": 1.0,
+   "agreement_admit_none": 1.0
+  },
+  "a=0.9|nu=0.5|g8x500": {
+   "counts": {
+    "n": 16,
+    "admitted": 8,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 0,
+    "true_pass": 8,
+    "false_rejection": 0,
+    "true_rejection": 8
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "agreement": 1.0,
+   "agreement_admit_none": 0.5
+  }
+ },
+ "single_by_persistence": {
+  "a=0.5": {
+   "counts": {
+    "n": 192,
+    "admitted": 54,
+    "indeterminate": 7,
+    "accurate": 110,
+    "false_pass": 3,
+    "true_pass": 51,
+    "false_rejection": 59,
+    "true_rejection": 79
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.05555555555555555,
+    "lo": 0.0,
+    "hi": 0.12962962962962962,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.5363636363636364,
+    "lo": 0.44144144144144143,
+    "hi": 0.6354166666666666,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.6770833333333334,
+   "agreement_admit_none": 0.4270833333333333
+  },
+  "a=0.75": {
+   "counts": {
+    "n": 192,
+    "admitted": 93,
+    "indeterminate": 11,
+    "accurate": 109,
+    "false_pass": 2,
+    "true_pass": 91,
+    "false_rejection": 18,
+    "true_rejection": 81
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.021505376344086023,
+    "lo": 0.0,
+    "hi": 0.056818181818181816,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.1651376146788991,
+    "lo": 0.08401610644257705,
+    "hi": 0.25663716814159293,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8958333333333334,
+   "agreement_admit_none": 0.4322916666666667
+  },
+  "a=0.9": {
+   "counts": {
+    "n": 192,
+    "admitted": 65,
+    "indeterminate": 10,
+    "accurate": 66,
+    "false_pass": 12,
+    "true_pass": 53,
+    "false_rejection": 13,
+    "true_rejection": 114
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.18461538461538463,
+    "lo": 0.08218616662923872,
+    "hi": 0.30158730158730157,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.19696969696969696,
+    "lo": 0.08928571428571429,
+    "hi": 0.3194444444444444,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8697916666666666,
+   "agreement_admit_none": 0.65625
+  },
+  "a=0.96": {
+   "counts": {
+    "n": 192,
+    "admitted": 30,
+    "indeterminate": 6,
+    "accurate": 39,
+    "false_pass": 6,
+    "true_pass": 24,
+    "false_rejection": 15,
+    "true_rejection": 147
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.2,
+    "lo": 0.06451612903225806,
+    "hi": 0.3793103448275862,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.38461538461538464,
+    "lo": 0.21212121212121213,
+    "hi": 0.5778070175438592,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.890625,
+   "agreement_admit_none": 0.796875
+  }
+ },
+ "single_by_size": {
+  "g15x200": {
+   "counts": {
+    "n": 192,
+    "admitted": 73,
+    "indeterminate": 9,
+    "accurate": 97,
+    "false_pass": 10,
+    "true_pass": 63,
+    "false_rejection": 34,
+    "true_rejection": 85
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.136986301369863,
+    "lo": 0.06329113924050633,
+    "hi": 0.2236842105263158,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.35051546391752575,
+    "lo": 0.24509303721488596,
+    "hi": 0.4583455882352939,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.7708333333333334,
+   "agreement_admit_none": 0.4947916666666667
+  },
+  "g25x50": {
+   "counts": {
+    "n": 192,
+    "admitted": 13,
+    "indeterminate": 8,
+    "accurate": 41,
+    "false_pass": 1,
+    "true_pass": 12,
+    "false_rejection": 29,
+    "true_rejection": 150
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.07692307692307693,
+    "lo": 0.0,
+    "hi": 0.2857142857142857,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.7073170731707317,
+    "lo": 0.5333333333333333,
+    "hi": 0.8695652173913043,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.84375,
+   "agreement_admit_none": 0.7864583333333334
+  },
+  "g50x100": {
+   "counts": {
+    "n": 192,
+    "admitted": 47,
+    "indeterminate": 13,
+    "accurate": 64,
+    "false_pass": 8,
+    "true_pass": 39,
+    "false_rejection": 25,
+    "true_rejection": 120
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.1702127659574468,
+    "lo": 0.05127118644067798,
+    "hi": 0.3170731707317073,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.390625,
+    "lo": 0.2678508551307847,
+    "hi": 0.5263157894736842,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.828125,
+   "agreement_admit_none": 0.6666666666666666
+  },
+  "g8x500": {
+   "counts": {
+    "n": 192,
+    "admitted": 109,
+    "indeterminate": 4,
+    "accurate": 122,
+    "false_pass": 4,
+    "true_pass": 105,
+    "false_rejection": 17,
+    "true_rejection": 66
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.03669724770642202,
+    "lo": 0.008403361344537815,
+    "hi": 0.07627118644067797,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.13934426229508196,
+    "lo": 0.078125,
+    "hi": 0.21052631578947367,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.890625,
+   "agreement_admit_none": 0.3645833333333333
+  }
+ },
+ "single_by_noise": {
+  "nu=0.0": {
+   "counts": {
+    "n": 256,
+    "admitted": 142,
+    "indeterminate": 25,
+    "accurate": 185,
+    "false_pass": 9,
+    "true_pass": 133,
+    "false_rejection": 52,
+    "true_rejection": 62
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.06338028169014084,
+    "lo": 0.02040816326530612,
+    "hi": 0.11940298507462686,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.2810810810810811,
+    "lo": 0.2055518018018018,
+    "hi": 0.36363636363636365,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.76171875,
+   "agreement_admit_none": 0.27734375
+  },
+  "nu=0.25": {
+   "counts": {
+    "n": 256,
+    "admitted": 60,
+    "indeterminate": 2,
+    "accurate": 76,
+    "false_pass": 6,
+    "true_pass": 54,
+    "false_rejection": 22,
+    "true_rejection": 174
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.1,
+    "lo": 0.031733630952380965,
+    "hi": 0.18181818181818182,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.2894736842105263,
+    "lo": 0.19099785981808454,
+    "hi": 0.3939500640204864,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.890625,
+   "agreement_admit_none": 0.703125
+  },
+  "nu=0.5": {
+   "counts": {
+    "n": 256,
+    "admitted": 40,
+    "indeterminate": 7,
+    "accurate": 63,
+    "false_pass": 8,
+    "true_pass": 32,
+    "false_rejection": 31,
+    "true_rejection": 185
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.2,
+    "lo": 0.08108108108108109,
+    "hi": 0.32742424242424023,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.49206349206349204,
+    "lo": 0.3709677419354839,
+    "hi": 0.6181818181818182,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.84765625,
+   "agreement_admit_none": 0.75390625
+  }
+ },
+ "variants_by_family": {
+  "student_t": {
+   "counts": {
+    "n": 20,
+    "admitted": 9,
+    "indeterminate": 1,
+    "accurate": 7,
+    "false_pass": 3,
+    "true_pass": 6,
+    "false_rejection": 1,
+    "true_rejection": 10
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.3333333333333333,
+    "lo": 0.0,
+    "hi": 0.6666666666666666,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.14285714285714285,
+    "lo": 0.0,
+    "hi": 0.4444444444444444,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8,
+   "agreement_admit_none": 0.65
+  },
+  "unequal": {
+   "counts": {
+    "n": 20,
+    "admitted": 10,
+    "indeterminate": 0,
+    "accurate": 8,
+    "false_pass": 2,
+    "true_pass": 8,
+    "false_rejection": 0,
+    "true_rejection": 10
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.2,
+    "lo": 0.0,
+    "hi": 0.5,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.36941664755281917,
+    "interval": "exact"
+   },
+   "agreement": 0.9,
+   "agreement_admit_none": 0.6
+  }
+ },
+ "misspecified": {
+  "pooled": {
+   "counts": {
+    "n": 200,
+    "admitted": 10,
+    "indeterminate": 3,
+    "accurate": 8,
+    "false_pass": 10,
+    "true_pass": 0,
+    "false_rejection": 8,
+    "true_rejection": 182
+   },
+   "inaccurate_among_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.91,
+   "agreement_admit_none": 0.96
+  },
+  "ols": {
+   "counts": {
+    "n": 100,
+    "admitted": 3,
+    "indeterminate": 1,
+    "accurate": 0,
+    "false_pass": 3,
+    "true_pass": 0,
+    "false_rejection": 0,
+    "true_rejection": 97
+   },
+   "inaccurate_among_admitted": {
+    "value": 1.0,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": null,
+   "agreement": 0.97,
+   "agreement_admit_none": 1.0
+  },
+  "kalman": {
+   "counts": {
+    "n": 100,
+    "admitted": 7,
+    "indeterminate": 2,
+    "accurate": 8,
+    "false_pass": 7,
+    "true_pass": 0,
+    "false_rejection": 8,
+    "true_rejection": 85
+   },
+   "inaccurate_among_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.85,
+   "agreement_admit_none": 0.92
+  },
+  "by_family": {
+   "ar_noise|g25x50": {
+    "counts": {
+     "n": 20,
+     "admitted": 5,
+     "indeterminate": 3,
+     "accurate": 0,
+     "false_pass": 5,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 15
+    },
+    "inaccurate_among_admitted": {
+     "value": 1.0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "accurate_not_admitted": null,
+    "agreement": 0.75,
+    "agreement_admit_none": 1.0
+   },
+   "ar_noise|g50x100": {
+    "counts": {
+     "n": 20,
+     "admitted": 2,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 2,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 18
+    },
+    "inaccurate_among_admitted": {
+     "value": 1.0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "accurate_not_admitted": null,
+    "agreement": 0.9,
+    "agreement_admit_none": 1.0
+   },
+   "long_memory|g25x50": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 7,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 7,
+     "true_rejection": 13
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": {
+     "value": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.65,
+    "agreement_admit_none": 0.65
+   },
+   "long_memory|g50x100": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 1,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 1,
+     "true_rejection": 19
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": {
+     "value": 1.0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.95,
+    "agreement_admit_none": 0.95
+   },
+   "oscillation|g25x50": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 20
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": null,
+    "agreement": 1.0,
+    "agreement_admit_none": 1.0
+   },
+   "oscillation|g50x100": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 20
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": null,
+    "agreement": 1.0,
+    "agreement_admit_none": 1.0
+   },
+   "three_rates|g25x50": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 20
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": null,
+    "agreement": 1.0,
+    "agreement_admit_none": 1.0
+   },
+   "three_rates|g50x100": {
+    "counts": {
+     "n": 20,
+     "admitted": 3,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 3,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 17
+    },
+    "inaccurate_among_admitted": {
+     "value": 1.0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "accurate_not_admitted": null,
+    "agreement": 0.85,
+    "agreement_admit_none": 1.0
+   },
+   "two_timescales|g25x50": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 20
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": null,
+    "agreement": 1.0,
+    "agreement_admit_none": 1.0
+   },
+   "two_timescales|g50x100": {
+    "counts": {
+     "n": 20,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 20
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": null,
+    "agreement": 1.0,
+    "agreement_admit_none": 1.0
+   }
+  },
+  "lag1": {
+   "oscillation": {
+    "counts": {
+     "n": 40,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 0,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 0,
+     "true_rejection": 40
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": null,
+    "agreement": 1.0,
+    "agreement_admit_none": 1.0
+   },
+   "three_rates": {
+    "counts": {
+     "n": 40,
+     "admitted": 3,
+     "indeterminate": 0,
+     "accurate": 11,
+     "false_pass": 1,
+     "true_pass": 2,
+     "false_rejection": 9,
+     "true_rejection": 28
+    },
+    "inaccurate_among_admitted": {
+     "value": 0.3333333333333333,
+     "lo": 0.0,
+     "hi": 0.5,
+     "interval": "bootstrap"
+    },
+    "accurate_not_admitted": {
+     "value": 0.8181818181818182,
+     "lo": 0.5555555555555556,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.75,
+    "agreement_admit_none": 0.725
+   },
+   "two_timescales": {
+    "counts": {
+     "n": 40,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 10,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 10,
+     "true_rejection": 30
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": {
+     "value": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.75,
+    "agreement_admit_none": 0.75
+   }
+  }
+ },
+ "negative": {
+  "admitted": 0,
+  "estimates": 80,
+  "by_family": {
+   "white_noise": 0,
+   "random_walk": 0
+  },
+  "ci95": [
+   0.0,
+   0.045064035067692285
+  ]
+ },
+ "twins": {
+  "pooled": {
+   "counts": {
+    "n": 633,
+    "admitted": 16,
+    "indeterminate": 11,
+    "accurate": 210,
+    "false_pass": 0,
+    "true_pass": 16,
+    "false_rejection": 194,
+    "true_rejection": 423
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.20590721420782268,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.9238095238095239,
+    "lo": 0.8757047510318785,
+    "hi": 0.9663495111731844,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.693522906793049,
+   "agreement_admit_none": 0.6682464454976303
+  },
+  "ols": {
+   "counts": {
+    "n": 313,
+    "admitted": 11,
+    "indeterminate": 6,
+    "accurate": 47,
+    "false_pass": 0,
+    "true_pass": 11,
+    "false_rejection": 36,
+    "true_rejection": 266
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.28491415291815436,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.7659574468085106,
+    "lo": 0.6378918495297806,
+    "hi": 0.8837209302325582,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.8849840255591054,
+   "agreement_admit_none": 0.8498402555910544
+  },
+  "kalman": {
+   "counts": {
+    "n": 320,
+    "admitted": 5,
+    "indeterminate": 5,
+    "accurate": 163,
+    "false_pass": 0,
+    "true_pass": 5,
+    "false_rejection": 158,
+    "true_rejection": 157
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.0,
+    "lo": 0.0,
+    "hi": 0.5218237501049814,
+    "interval": "exact"
+   },
+   "accurate_not_admitted": {
+    "value": 0.9693251533742331,
+    "lo": 0.9401197604790419,
+    "hi": 0.9937888198757764,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.50625,
+   "agreement_admit_none": 0.490625
+  },
+  "by_stage": {
+   "N1": {
+    "counts": {
+     "n": 136,
+     "admitted": 1,
+     "indeterminate": 2,
+     "accurate": 40,
+     "false_pass": 0,
+     "true_pass": 1,
+     "false_rejection": 39,
+     "true_rejection": 96
+    },
+    "inaccurate_among_admitted": {
+     "value": 0.0,
+     "lo": 0.0,
+     "hi": 0.975,
+     "interval": "exact"
+    },
+    "accurate_not_admitted": {
+     "value": 0.975,
+     "lo": 0.918918918918919,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.7132352941176471,
+    "agreement_admit_none": 0.7058823529411765
+   },
+   "N2": {
+    "counts": {
+     "n": 159,
+     "admitted": 13,
+     "indeterminate": 6,
+     "accurate": 86,
+     "false_pass": 0,
+     "true_pass": 13,
+     "false_rejection": 73,
+     "true_rejection": 73
+    },
+    "inaccurate_among_admitted": {
+     "value": 0.0,
+     "lo": 0.0,
+     "hi": 0.24705263800047092,
+     "interval": "exact"
+    },
+    "accurate_not_admitted": {
+     "value": 0.8488372093023255,
+     "lo": 0.7525773195876289,
+     "hi": 0.9342105263157895,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.5408805031446541,
+    "agreement_admit_none": 0.4591194968553459
+   },
+   "N3": {
+    "counts": {
+     "n": 64,
+     "admitted": 2,
+     "indeterminate": 1,
+     "accurate": 25,
+     "false_pass": 0,
+     "true_pass": 2,
+     "false_rejection": 23,
+     "true_rejection": 39
+    },
+    "inaccurate_among_admitted": {
+     "value": 0.0,
+     "lo": 0.0,
+     "hi": 0.841886116991581,
+     "interval": "exact"
+    },
+    "accurate_not_admitted": {
+     "value": 0.92,
+     "lo": 0.75,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.640625,
+    "agreement_admit_none": 0.609375
+   },
+   "N4": {
+    "counts": {
+     "n": 23,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 7,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 7,
+     "true_rejection": 16
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": {
+     "value": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.6956521739130435,
+    "agreement_admit_none": 0.6956521739130435
+   },
+   "REM": {
+    "counts": {
+     "n": 127,
+     "admitted": 0,
+     "indeterminate": 0,
+     "accurate": 32,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 32,
+     "true_rejection": 95
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": {
+     "value": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.7480314960629921,
+    "agreement_admit_none": 0.7480314960629921
+   },
+   "Wake": {
+    "counts": {
+     "n": 124,
+     "admitted": 0,
+     "indeterminate": 2,
+     "accurate": 20,
+     "false_pass": 0,
+     "true_pass": 0,
+     "false_rejection": 20,
+     "true_rejection": 104
+    },
+    "inaccurate_among_admitted": null,
+    "accurate_not_admitted": {
+     "value": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "interval": "bootstrap"
+    },
+    "agreement": 0.8387096774193549,
+    "agreement_admit_none": 0.8387096774193549
+   }
+  }
+ },
+ "binding": {
+  "holds": {
+   "kalman|admitted|G0": 189,
+   "kalman|indeterminate|G3": 16,
+   "kalman|indeterminate|G8": 3,
+   "kalman|refused|G1": 29,
+   "kalman|refused|G2": 61,
+   "kalman|refused|G3": 95,
+   "kalman|refused|G8": 11,
+   "ols|admitted|G0": 72,
+   "ols|indeterminate|G2": 2,
+   "ols|indeterminate|G3": 9,
+   "ols|indeterminate|G8": 5,
+   "ols|refused|G1": 18,
+   "ols|refused|G2": 133,
+   "ols|refused|G3": 40,
+   "ols|refused|G8": 125
+  },
+  "missp": {
+   "kalman|admitted|G0": 7,
+   "kalman|indeterminate|G3": 2,
+   "kalman|refused|G1": 15,
+   "kalman|refused|G2": 6,
+   "kalman|refused|G3": 14,
+   "kalman|refused|G8": 56,
+   "ols|admitted|G0": 3,
+   "ols|indeterminate|G3": 1,
+   "ols|refused|G1": 2,
+   "ols|refused|G2": 11,
+   "ols|refused|G3": 8,
+   "ols|refused|G8": 75
+  },
+  "twins": {
+   "kalman|admitted|G0": 5,
+   "kalman|indeterminate|G3": 5,
+   "kalman|refused|G1": 79,
+   "kalman|refused|G2": 197,
+   "kalman|refused|G3": 28,
+   "kalman|refused|G8": 6,
+   "ols|admitted|G0": 11,
+   "ols|indeterminate|G2": 11,
+   "ols|refused|G1": 154,
+   "ols|refused|G2": 45,
+   "ols|refused|G3": 8,
+   "ols|refused|G8": 91
+  },
+  "neg": {
+   "kalman|refused|G1": 2,
+   "kalman|refused|G2": 18,
+   "kalman|refused|G3": 20,
+   "ols|refused|G1": 4,
+   "ols|refused|G3": 36
+  }
+ },
+ "remove_one_check": {
+  "holds": {
+   "G0": {
+    "inaccurate_admissions_removed": 0,
+    "accurate_estimates_refused": 0
+   },
+   "G2": {
+    "inaccurate_admissions_removed": 3,
+    "accurate_estimates_refused": 21
+   },
+   "G8": {
+    "inaccurate_admissions_removed": 2,
+    "accurate_estimates_refused": 16
+   },
+   "G1": {
+    "inaccurate_admissions_removed": 3,
+    "accurate_estimates_refused": 11
+   },
+   "G3": {
+    "inaccurate_admissions_removed": 85,
+    "accurate_estimates_refused": 27
+   }
+  },
+  "missp": {
+   "G0": {
+    "inaccurate_admissions_removed": 0,
+    "accurate_estimates_refused": 0
+   },
+   "G2": {
+    "inaccurate_admissions_removed": 0,
+    "accurate_estimates_refused": 0
+   },
+   "G8": {
+    "inaccurate_admissions_removed": 32,
+    "accurate_estimates_refused": 1
+   },
+   "G1": {
+    "inaccurate_admissions_removed": 2,
+    "accurate_estimates_refused": 0
+   },
+   "G3": {
+    "inaccurate_admissions_removed": 19,
+    "accurate_estimates_refused": 0
+   }
+  },
+  "twins": {
+   "G0": {
+    "inaccurate_admissions_removed": 0,
+    "accurate_estimates_refused": 0
+   },
+   "G2": {
+    "inaccurate_admissions_removed": 2,
+    "accurate_estimates_refused": 18
+   },
+   "G8": {
+    "inaccurate_admissions_removed": 0,
+    "accurate_estimates_refused": 0
+   },
+   "G1": {
+    "inaccurate_admissions_removed": 11,
+    "accurate_estimates_refused": 11
+   },
+   "G3": {
+    "inaccurate_admissions_removed": 21,
+    "accurate_estimates_refused": 15
+   }
+  }
+ },
+ "recommendation": {
+  "holds": {
+   "recordings": 404,
+   "recommended": 201,
+   "inaccurate": 26
+  },
+  "missp": {
+   "recordings": 100,
+   "recommended": 7,
+   "inaccurate": 7
+  }
+ },
+ "stability": {
+  "n": 360,
+  "identical": 344,
+  "identical_share": 0.9555555555555556,
+  "ci95": [
+   0.925,
+   0.9833333333333333
+  ],
+  "by_estimator": {
+   "ols": "176/180",
+   "kalman": "168/180"
+  },
+  "admissions": "95/102",
+  "changes": {
+   "kalman|admitted->indeterminate": 3,
+   "kalman|indeterminate->admitted": 3,
+   "kalman|indeterminate->refused": 1,
+   "kalman|refused->admitted": 2,
+   "kalman|refused->indeterminate": 3,
+   "ols|admitted->indeterminate": 4
+  }
+ },
+ "mdc": {
+  "n": 756,
+  "median_power": 0.7746877171476608,
+  "admitted_n": 242,
+  "admitted_median_power": 0.7825501588522389,
+  "share_below_0_70": 0.32936507936507936,
+  "by_condition": {
+   "0.5|0.0|g15x200|kalman": 0.8986978110934175,
+   "0.5|0.0|g15x200|ols": 0.9060458834007443,
+   "0.5|0.0|g25x50|kalman": 0.8379413595088836,
+   "0.5|0.0|g25x50|ols": 0.872522993398329,
+   "0.5|0.0|g50x100|kalman": 0.8397481481423139,
+   "0.5|0.0|g50x100|ols": 0.8477441220072883,
+   "0.5|0.0|g8x500|kalman": 0.7227464552993134,
+   "0.5|0.0|g8x500|ols": 0.7460087949005758,
+   "0.5|0.25|g15x200|kalman": 0.625671502986707,
+   "0.5|0.25|g15x200|ols": 0.7829841722665396,
+   "0.5|0.25|g25x50|kalman": 0.7587850298688852,
+   "0.5|0.25|g25x50|ols": 0.7809485665748024,
+   "0.5|0.25|g50x100|kalman": 0.8483339806405544,
+   "0.5|0.25|g50x100|ols": 0.7632185597155314,
+   "0.5|0.25|g8x500|kalman": 0.8616303619780152,
+   "0.5|0.25|g8x500|ols": 0.6567750624531452,
+   "0.5|0.5|g15x200|kalman": 0.7651522267699273,
+   "0.5|0.5|g15x200|ols": 0.8699146753236342,
+   "0.5|0.5|g25x50|kalman": 0.743356816327185,
+   "0.5|0.5|g25x50|ols": 0.7822902469949344,
+   "0.5|0.5|g50x100|kalman": 0.7461824303065664,
+   "0.5|0.5|g50x100|ols": 0.8293881741802487,
+   "0.5|0.5|g8x500|kalman": 0.6712775292433831,
+   "0.5|0.5|g8x500|ols": 0.7693987664752427,
+   "0.75|0.0|g15x200|kalman": 0.8734417444038383,
+   "0.75|0.0|g15x200|ols": 0.8842757555921766,
+   "0.75|0.0|g25x50|kalman": 0.8390841209229044,
+   "0.75|0.0|g25x50|ols": 0.8637973860898636,
+   "0.75|0.0|g50x100|kalman": 0.8237957392547339,
+   "0.75|0.0|g50x100|ols": 0.7981733983344679,
+   "0.75|0.0|g8x500|kalman": 0.7756152115827293,
+   "0.75|0.0|g8x500|ols": 0.7475439003359248,
+   "0.75|0.25|g15x200|kalman": 0.769643524225096,
+   "0.75|0.25|g15x200|ols": 0.8434492473869922,
+   "0.75|0.25|g25x50|kalman": 0.6894802115359022,
+   "0.75|0.25|g25x50|ols": 0.5251934008836505,
+   "0.75|0.25|g50x100|kalman": 0.7809127799319896,
+   "0.75|0.25|g50x100|ols": 0.7521113007892777,
+   "0.75|0.25|g8x500|kalman": 0.8212611825861849,
+   "0.75|0.25|g8x500|ols": 0.8980766988545739,
+   "0.75|0.5|g15x200|kalman": 0.7682191639410172,
+   "0.75|0.5|g15x200|ols": 0.6904566407073576,
+   "0.75|0.5|g25x50|kalman": 0.9092674507732653,
+   "0.75|0.5|g25x50|ols": 0.98403993339842,
+   "0.75|0.5|g50x100|kalman": 0.7838051602795667,
+   "0.75|0.5|g50x100|ols": 0.7079706879469821,
+   "0.75|0.5|g8x500|kalman": 0.894012127757318,
+   "0.75|0.5|g8x500|ols": 0.8741674831817378,
+   "0.9|0.0|g15x200|kalman": 0.7778680931936498,
+   "0.9|0.0|g15x200|ols": 0.7973441857593417,
+   "0.9|0.0|g25x50|kalman": 0.7618598086772017,
+   "0.9|0.0|g25x50|ols": 0.7460505142798988,
+   "0.9|0.0|g50x100|kalman": 0.728312284766514,
+   "0.9|0.0|g50x100|ols": 0.7774965373354242,
+   "0.9|0.0|g8x500|kalman": 0.7415278866199969,
+   "0.9|0.0|g8x500|ols": 0.8257480879180921,
+   "0.9|0.25|g15x200|kalman": 0.7034507051886913,
+   "0.9|0.25|g15x200|ols": 0.7611053263940009,
+   "0.9|0.25|g25x50|kalman": 0.8887138578426251,
+   "0.9|0.25|g25x50|ols": 0.08319445613160517,
+   "0.9|0.25|g50x100|kalman": 0.7688971353015748,
+   "0.9|0.25|g50x100|ols": 0.7230220607835631,
+   "0.9|0.25|g8x500|kalman": 0.8761619272027458,
+   "0.9|0.25|g8x500|ols": 0.9028726658831807,
+   "0.9|0.5|g15x200|kalman": 0.6786129038637203,
+   "0.9|0.5|g15x200|ols": 0.6179783295215294,
+   "0.9|0.5|g25x50|kalman": 0.8364961936425518,
+   "0.9|0.5|g25x50|ols": 0.9236514147231933,
+   "0.9|0.5|g50x100|kalman": 0.7795457135168657,
+   "0.9|0.5|g50x100|ols": 0.05018824348898186,
+   "0.9|0.5|g8x500|kalman": 0.7309047477864827,
+   "0.9|0.5|g8x500|ols": 0.7267513481865129,
+   "0.96|0.0|g15x200|kalman": 0.7754261383888712,
+   "0.96|0.0|g15x200|ols": 0.7645986209097889,
+   "0.96|0.0|g25x50|kalman": 0.8332588577023716,
+   "0.96|0.0|g25x50|ols": 0.797914298495579,
+   "0.96|0.0|g50x100|kalman": 0.655934171954268,
+   "0.96|0.0|g50x100|ols": 0.7389561945634604,
+   "0.96|0.0|g8x500|kalman": 0.755902260367594,
+   "0.96|0.0|g8x500|ols": 0.7148101888102996,
+   "0.96|0.25|g15x200|kalman": 0.628218399401101,
+   "0.96|0.25|g15x200|ols": 0.8680507671630159,
+   "0.96|0.25|g25x50|kalman": 0.4240527480143437,
+   "0.96|0.25|g25x50|ols": 0.9959282272548118,
+   "0.96|0.25|g50x100|kalman": 0.8708501679119601,
+   "0.96|0.25|g50x100|ols": 0.6051351029295697,
+   "0.96|0.25|g8x500|kalman": 0.7142044319624428,
+   "0.96|0.25|g8x500|ols": 0.42074006890988697,
+   "0.96|0.5|g15x200|kalman": 0.7962440868551467,
+   "0.96|0.5|g15x200|ols": 0.7968570298911118,
+   "0.96|0.5|g25x50|kalman": 0.20064569859735484,
+   "0.96|0.5|g25x50|ols": 0.8932721754581995,
+   "0.96|0.5|g50x100|kalman": 0.6497153967704836,
+   "0.96|0.5|g50x100|ols": 0.8966259717777154,
+   "0.96|0.5|g8x500|kalman": 0.7613080229628164,
+   "0.96|0.5|g8x500|ols": 0.1775013096488879
+  }
+ },
+ "abc": {
+  "holds": {
+   "counts": {
+    "n": 144,
+    "admitted": 72,
+    "indeterminate": 10,
+    "accurate": 109,
+    "false_pass": 8,
+    "true_pass": 64,
+    "false_rejection": 45,
+    "true_rejection": 27
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.1111111111111111,
+    "lo": 0.04225352112676056,
+    "hi": 0.18869199388067295,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.41284403669724773,
+    "lo": 0.3211009174311927,
+    "hi": 0.5047619047619047,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.6319444444444444,
+   "agreement_admit_none": 0.24305555555555555
+  },
+  "missp": {
+   "counts": {
+    "n": 20,
+    "admitted": 2,
+    "indeterminate": 0,
+    "accurate": 3,
+    "false_pass": 1,
+    "true_pass": 1,
+    "false_rejection": 2,
+    "true_rejection": 16
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.5,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.6666666666666666,
+    "lo": 0.0,
+    "hi": 1.0,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.85,
+   "agreement_admit_none": 0.85
+  },
+  "holds_ml_same_recordings": {
+   "counts": {
+    "n": 144,
+    "admitted": 66,
+    "indeterminate": 7,
+    "accurate": 87,
+    "false_pass": 7,
+    "true_pass": 59,
+    "false_rejection": 28,
+    "true_rejection": 50
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.10606060606060606,
+    "lo": 0.03508771929824561,
+    "hi": 0.1842206477732792,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.3218390804597701,
+    "lo": 0.2261904761904762,
+    "hi": 0.422680412371134,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.7569444444444444,
+   "agreement_admit_none": 0.3958333333333333
+  },
+  "holds_ls_same_recordings": {
+   "counts": {
+    "n": 144,
+    "admitted": 26,
+    "indeterminate": 4,
+    "accurate": 34,
+    "false_pass": 2,
+    "true_pass": 24,
+    "false_rejection": 10,
+    "true_rejection": 108
+   },
+   "inaccurate_among_admitted": {
+    "value": 0.07692307692307693,
+    "lo": 0.0,
+    "hi": 0.2,
+    "interval": "bootstrap"
+   },
+   "accurate_not_admitted": {
+    "value": 0.29411764705882354,
+    "lo": 0.14634146341463414,
+    "hi": 0.45454545454545453,
+    "interval": "bootstrap"
+   },
+   "agreement": 0.9166666666666666,
+   "agreement_admit_none": 0.7638888888888888
+  },
+  "binding": {
+   "abc|admitted|G0": 74,
+   "abc|indeterminate|G3": 7,
+   "abc|indeterminate|G8": 3,
+   "abc|refused|G1": 22,
+   "abc|refused|G2": 13,
+   "abc|refused|G3": 34,
+   "abc|refused|G8": 11
+  },
+  "median_abs_log_error": {
+   "abc": 0.14103798192206302,
+   "kalman": 0.17899606769604598
+  },
+  "wall_s_median": 102.47918034999748
+ },
+ "wall_s_median": {
+  "ols": 10.224453350005206,
+  "kalman": 22.080777849994774
+ }
+}

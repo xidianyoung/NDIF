@@ -1,0 +1,109 @@
+{
+  "status": "completed; post hoc descriptive comparison",
+  "completed_at_utc": "2026-10-09T15:22:18.873177+00:00",
+  "n": 394,
+  "expected_single_model": 404,
+  "absent_comparator": "10 unequal-segment records; no new denominator exclusions",
+  "original_ndif": {
+    "n": 394,
+    "admitted": 72,
+    "inaccurate_admitted": 5,
+    "coverage": 0.18274111675126903,
+    "risk": 0.06944444444444445
+  },
+  "methods": {
+    "score_latent_bias": {
+      "eligible": 394,
+      "failed": 0,
+      "sufficient_for_matched_coverage": true,
+      "matched": {
+        "n": 394,
+        "admitted": 72,
+        "inaccurate_admitted": 4,
+        "coverage": 0.18274111675126903,
+        "risk": 0.05555555555555555
+      },
+      "excess_risk_vs_ndif": -0.013888888888888895,
+      "paired_stratified_ci95": [
+        -0.07142857142857142,
+        0.028169014084507043
+      ],
+      "ci_valid_draws": 5000,
+      "ci_insufficient_draws": 0,
+      "cutoff": 0.12298361462772611
+    },
+    "score_log_self_consistency": {
+      "eligible": 394,
+      "failed": 0,
+      "sufficient_for_matched_coverage": true,
+      "matched": {
+        "n": 394,
+        "admitted": 72,
+        "inaccurate_admitted": 51,
+        "coverage": 0.18274111675126903,
+        "risk": 0.7083333333333334
+      },
+      "excess_risk_vs_ndif": 0.638888888888889,
+      "paired_stratified_ci95": [
+        0.575747198007472,
+        0.7
+      ],
+      "ci_valid_draws": 5000,
+      "ci_insufficient_draws": 0,
+      "cutoff": 0.025421052322258664
+    },
+    "score_tau_self_consistency": {
+      "eligible": 394,
+      "failed": 0,
+      "sufficient_for_matched_coverage": true,
+      "matched": {
+        "n": 394,
+        "admitted": 72,
+        "inaccurate_admitted": 52,
+        "coverage": 0.18274111675126903,
+        "risk": 0.7222222222222222
+      },
+      "excess_risk_vs_ndif": 0.6527777777777778,
+      "paired_stratified_ci95": [
+        0.5797101449275363,
+        0.704225352112676
+      ],
+      "ci_valid_draws": 5000,
+      "ci_insufficient_draws": 0,
+      "cutoff": 0.024586298833175226
+    },
+    "score_log_width": {
+      "eligible": 394,
+      "failed": 0,
+      "sufficient_for_matched_coverage": true,
+      "matched": {
+        "n": 394,
+        "admitted": 72,
+        "inaccurate_admitted": 41,
+        "coverage": 0.18274111675126903,
+        "risk": 0.5694444444444444
+      },
+      "excess_risk_vs_ndif": 0.5,
+      "paired_stratified_ci95": [
+        0.43239085239085245,
+        0.5797101449275363
+      ],
+      "ci_valid_draws": 5000,
+      "ci_insufficient_draws": 0,
+      "cutoff": 0.17677108009501596
+    }
+  },
+  "failed_records": [],
+  "failure_counts": {},
+  "bootstrap_replicates": 200,
+  "seed": 20261009,
+  "paired_ci_draws": 5000,
+  "simulation_wall_sum_s": 10.63897229754366,
+  "environment": {
+    "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel"
+  },
+  "interpretation": "Score uses log-rate bias relative to fitted latent generator; accuracy is evaluated against stored truth using relative lambda error >=25%. CI is conditional on this fixed condition design, fitted generator, and saved Monte Carlo scores; neither fit uncertainty nor Monte Carlo uncertainty is propagated. Secondary self-consistency and width scores are descriptive."
+}

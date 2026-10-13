@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4141",
+ "contrast": "N3 vs N4",
+ "lo": "N3",
+ "hi": "N4",
+ "n_segments_lo": 8,
+ "n_segments_hi": 7,
+ "status": "cleared",
+ "passed": true,
+ "separation": 0.8702211566767247,
+ "floor": 0.22337500349778464,
+ "margin": 0.6468461531789401,
+ "detail": {
+  "floor": 0.22337500349778464,
+  "null_median": 0.05662380212340766,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.5665757656097412
+}

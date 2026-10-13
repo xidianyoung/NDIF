@@ -1,0 +1,35 @@
+{
+ "dataset": "ds003838 EEG digit span, n = 64 participants",
+ "seed": 20260921,
+ "n_subjects": 64,
+ "numbers": {
+  "did_u1_mean": 0.016835210630638406,
+  "did_u1_ci95": [
+   0.011232454061726377,
+   0.02263119101697969
+  ],
+  "did_u2_mean": 0.022670719622128646,
+  "did_u2_ci95": [
+   0.015468732400323183,
+   0.030143194569907123
+  ],
+  "did_u3_one_slot_shift_mean": 0.03540023249942145,
+  "did_u3_one_slot_shift_ci95": [
+   0.022095936258675595,
+   0.04902064228372734
+  ],
+  "did_u3_slot_map_permutation_p": 0.000999000999000999,
+  "did_u3_slot_map_permutation_draws": 1000
+ },
+ "source": {
+  "did_u1_mean": "summary/position/u1/did/mean",
+  "did_u1_ci95": "summary/position/u1/did/ci95",
+  "did_u2_mean": "summary/position/u2/did/mean",
+  "did_u2_ci95": "summary/position/u2/did/ci95",
+  "did_u3_one_slot_shift_mean": "summary/position/u3/shift_null/mean",
+  "did_u3_one_slot_shift_ci95": "summary/position/u3/shift_null/ci95",
+  "did_u3_slot_map_permutation_p": "summary/position/u3/permutation/p_one_sided",
+  "did_u3_slot_map_permutation_draws": "summary/position/u3/permutation/n_draws"
+ },
+ "note": "Differences in differences (memory minus listen-only within-set-size slopes) on the alternative inputs u1 = serial position and u2 = min(k, 9); the one-slot circular shift of u3 is a control; the slot-map permutation P is one-sided, (1 + #null >= observed) / (1 + draws), and the permutation null range is not an effect-size interval."
+}

@@ -1,0 +1,28 @@
+{
+ "description": "Arrhenius regressions of log mean first-passage time on two barrier estimates across the gain levels of trained bistable recurrent networks (128 chains per level). Slope and 95% interval over networks whose escape times are resolved at both ends of the gain range.",
+ "response": "log mean first-passage time to the separatrix saddle",
+ "minimum_action": {
+  "slope": 0.8323,
+  "ci95": [
+   0.7958,
+   0.8797
+  ],
+  "n_networks": 5,
+  "p_vs_slope_1": 0.002489,
+  "p_vs_slope_0": 4.687e-06,
+  "mean_within_network_r2": 0.9708
+ },
+ "density_barrier": {
+  "slope": 0.1699,
+  "ci95": [
+   0.1035,
+   0.2343
+  ],
+  "n_networks": 5,
+  "p_vs_slope_1": 2.652e-05,
+  "p_vs_slope_0": 0.01127,
+  "mean_within_network_r2": 0.9423
+ },
+ "n_networks_resolved": 5,
+ "n_networks": 7
+}

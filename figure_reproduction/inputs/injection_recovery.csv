@@ -1,0 +1,115 @@
+cohort,quantity,mean,lo,hi,n,n_positive,p,note
+COG-BCI,INJ-S dist k2_vs_3: dlog lambda recovered (truth +0.4055),0.07929967215059082,0.041528598699707195,0.11731861682077394,28,,,fraction 0.196; common factor fraction 0.194; dlog D +0.0440; landing slope +0.56
+COG-BCI,INJ-S dist k3_vs_4: dlog lambda recovered (truth +0.2877),0.012845159070437265,-0.023132434167086213,0.04801884550623665,28,,,fraction 0.045; common factor fraction 0.070; dlog D -0.0709; landing slope -5.52
+COG-BCI,INJ-S dist k4_vs_5: dlog lambda recovered (truth +0.2231),-0.019107039406181858,-0.051017678966778196,0.011184145183178023,28,,,fraction -0.086; common factor fraction -0.034; dlog D +0.0850; landing slope -4.45
+COG-BCI,INJ-S dist k6_vs_7: dlog lambda recovered (truth +0.1542),0.018556243458479182,-0.013491614323829873,0.05002322396745578,28,,,fraction 0.120; common factor fraction 0.180; dlog D +0.0398; landing slope +2.15
+COG-BCI,INJ-S dist k8_vs_9: dlog lambda recovered (truth +0.1178),-0.018551618339878204,-0.058642883517672655,0.02110755453426442,28,,,fraction -0.158; common factor fraction -0.163; dlog D +0.0863; landing slope -4.65
+COG-BCI,INJ-S dist k10_vs_11: dlog lambda recovered (truth +0.0953),0.015081377808399299,-0.024992048607231813,0.057102396023377876,28,,,fraction 0.158; common factor fraction 0.187; dlog D +0.0317; landing slope +2.10
+COG-BCI,INJ-S dist k14_vs_15: dlog lambda recovered (truth +0.0690),0.04576235042832444,-0.00027577288994624574,0.09299942422912191,28,,,fraction 0.663; common factor fraction 0.589; dlog D +0.0075; landing slope +0.16
+COG-BCI,INJ-S dist k20_vs_21: dlog lambda recovered (truth +0.0488),0.010551671927330437,-0.03319484813500215,0.05173434706602135,28,,,fraction 0.216; common factor fraction 0.168; dlog D +0.0196; landing slope +1.86
+COG-BCI,INJ-S dyn k1_vs_2: dlog lambda recovered (truth +0.6931),0.06603464811240241,0.026039656910860968,0.107701451210263,28,,,fraction 0.095; common factor fraction 0.132; dlog D -0.0290; landing slope -0.44
+COG-BCI,INJ-S on a VAR(1) surrogate k2_vs_3: dlog lambda recovered (truth +0.4055),0.11263388252695523,0.07761653404804623,0.14950579137125009,28,,,fraction 0.278; common factor fraction 0.393; dlog D +nan; landing slope +nan
+COG-BCI,INJ-S on a VAR(1) surrogate k4_vs_5: dlog lambda recovered (truth +0.2231),0.0182455573893211,-0.021798658483509994,0.058862327142547036,28,,,fraction 0.082; common factor fraction 0.135; dlog D +nan; landing slope +nan
+COG-BCI,INJ-S on a VAR(1) surrogate k10_vs_11: dlog lambda recovered (truth +0.0953),-0.008321080991957695,-0.03733867876494826,0.02216672459977432,28,,,fraction -0.087; common factor fraction -0.053; dlog D +nan; landing slope +nan
+COG-BCI,INJ-T c1.05: dlog lambda recovered (truth +0.0488),0.052171036090070476,0.043518098757020285,0.06222661658546239,28,,,fraction 1.069; common factor fraction 1.106; dlog D +0.0158; landing slope +0.30
+COG-BCI,INJ-T c1.1: dlog lambda recovered (truth +0.0953),0.09412984622328562,0.08584603197626924,0.10292778777179983,28,,,fraction 0.988; common factor fraction 1.079; dlog D +0.0217; landing slope +0.23
+COG-BCI,INJ-T c1.2: dlog lambda recovered (truth +0.1823),0.18738433746528757,0.1660906250450336,0.20834742406327517,28,,,fraction 1.028; common factor fraction 1.090; dlog D +0.0315; landing slope +0.17
+COG-BCI,INJ-T c1.5: dlog lambda recovered (truth +0.4055),0.3678442792102731,0.34730519479159067,0.3874132744572313,28,,,fraction 0.907; common factor fraction 1.015; dlog D +0.0498; landing slope +0.14
+COG-BCI,INJ-T c2: dlog lambda recovered (truth +0.6931),0.5669163041558116,0.5380939709123398,0.5979880662933524,28,,,fraction 0.818; common factor fraction 0.935; dlog D +0.0657; landing slope +0.12
+COG-BCI,INJ-D g1.05: dlog lambda recovered (truth +0.0000),0.010427538788561026,-0.0010901470083356437,0.027812832381739535,28,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+COG-BCI,INJ-D g1.05: P1 ratio at a true shift of 0.0139,1.0521552129813048,1.0428464028696744,1.0626223162720159,28,,,rate leak +0.0104
+COG-BCI,INJ-D g1.1: dlog lambda recovered (truth +0.0000),0.005465404085931278,-0.0030523336980099705,0.014381212413880072,28,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+COG-BCI,INJ-D g1.1: P1 ratio at a true shift of 0.0280,1.1965586925832379,1.164257191173684,1.2304159343248835,28,,,rate leak +0.0055
+COG-BCI,INJ-D g1.2: dlog lambda recovered (truth +0.0000),9.977377559709085e-05,-0.011214305287299352,0.009600954970608347,28,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+COG-BCI,INJ-D g1.2: P1 ratio at a true shift of 0.0615,1.7651293857276684,1.605062062941145,1.9741317496279698,28,,,rate leak +0.0001
+COG-BCI,INJ-D g1.4: dlog lambda recovered (truth +0.0000),0.0034621459129031205,-0.0009455195843269547,0.00782121912861905,28,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+COG-BCI,INJ-D g1.4: P1 ratio at a true shift of 0.1151,2.8822959830213377,2.6235306463769246,3.1336515759051435,28,,,rate leak +0.0035
+COG-BCI,INJ-D g1.7: dlog lambda recovered (truth +0.0000),-0.0009284724753287024,-0.009079052185555754,0.007033767402713353,28,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+COG-BCI,INJ-D g1.7: P1 ratio at a true shift of 0.1903,4.771822514671473,4.249625386598382,5.315524788270423,28,,,rate leak -0.0009
+COG-BCI,INJ-D g2: dlog lambda recovered (truth +0.0000),-0.007073581570366148,-0.019688551068800415,0.005852219369743503,28,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+COG-BCI,INJ-D g2: P1 ratio at a true shift of 0.2447,6.042898872977181,5.375578537516904,6.724164003664986,28,,,rate leak -0.0071
+COG-BCI,INJ-R s0: reshaping recovered (truth 0.0000),0.031448292371998234,0.024530579216404363,0.03884237243713649,28,,,common-factor leak -0.0001
+COG-BCI,INJ-R s0.02: reshaping recovered (truth 0.0200),0.03916586448292062,0.03256523751971733,0.046970020371265776,28,,,common-factor leak +0.0041
+COG-BCI,INJ-R s0.05: reshaping recovered (truth 0.0499),0.06624854381690294,0.05682172455972166,0.08070095850814324,28,,,common-factor leak +0.0037
+COG-BCI,INJ-R s0.1: reshaping recovered (truth 0.0997),0.12080546249456788,0.11277733751382905,0.1303402831912401,28,,,common-factor leak +0.0139
+COG-BCI,INJ-R s0.2: reshaping recovered (truth 0.1981),0.22898151454354074,0.22016685637008684,0.23981766491232318,28,,,common-factor leak +0.0216
+COG-BCI,INJ-R s0.4: reshaping recovered (truth 0.3675),0.4000148231073161,0.3840522128145363,0.4152489450117733,28,,,common-factor leak +0.0439
+HCP fMRI,INJ-S k1_vs_2: dlog lambda recovered (truth +0.6931),0.02851215364892003,-0.005314736266275189,0.06273488939695174,99,,,fraction 0.041; common factor fraction nan; dlog D +0.0664; landing slope +2.33
+HCP fMRI,INJ-S k2_vs_3: dlog lambda recovered (truth +0.4055),0.0056476464301823265,-0.017881515715565028,0.029254721907351604,99,,,fraction 0.014; common factor fraction nan; dlog D +0.0517; landing slope +9.15
+HCP fMRI,INJ-S k3_vs_4: dlog lambda recovered (truth +0.2877),-0.004225191400747455,-0.03653033299339712,0.02704854921770742,99,,,fraction -0.015; common factor fraction nan; dlog D +0.0584; landing slope -13.82
+HCP fMRI,INJ-S on a VAR(1) surrogate k1_vs_2: dlog lambda recovered (truth +0.6931),0.21881664170613427,0.1838710497921919,0.252829609755059,99,,,fraction 0.316; common factor fraction 0.430; dlog D +nan; landing slope +nan
+HCP fMRI,INJ-S on a VAR(1) surrogate k2_vs_3: dlog lambda recovered (truth +0.4055),0.04303129509269413,0.015984865346107165,0.07023222932570015,99,,,fraction 0.106; common factor fraction 0.150; dlog D +nan; landing slope +nan
+HCP fMRI,INJ-S on a VAR(1) surrogate k3_vs_4: dlog lambda recovered (truth +0.2877),0.03469373348259329,0.007016980407378577,0.06193627248689745,99,,,fraction 0.121; common factor fraction 0.135; dlog D +nan; landing slope +nan
+HCP fMRI,INJ-T c1.05: dlog lambda recovered (truth +0.0488),0.04582944874616934,0.030797676612988364,0.061181793737219214,99,,,fraction 0.939; common factor fraction nan; dlog D -0.0130; landing slope -0.28
+HCP fMRI,INJ-T c1.1: dlog lambda recovered (truth +0.0953),0.07999441506516487,0.06482650163197892,0.09482476731835793,99,,,fraction 0.839; common factor fraction nan; dlog D -0.0037; landing slope -0.05
+HCP fMRI,INJ-T c1.2: dlog lambda recovered (truth +0.1823),0.16666747923234748,0.15268558517678563,0.18127803597522754,99,,,fraction 0.914; common factor fraction nan; dlog D +0.0129; landing slope +0.08
+HCP fMRI,INJ-T c1.35: dlog lambda recovered (truth +0.3001),0.25525207433252506,0.23818188895918016,0.2716175701408196,99,,,fraction 0.851; common factor fraction nan; dlog D +0.0291; landing slope +0.11
+HCP fMRI,INJ-T c1.5: dlog lambda recovered (truth +0.4055),0.3101091591058334,0.2897143614821505,0.3294991952933505,99,,,fraction 0.765; common factor fraction nan; dlog D +0.0444; landing slope +0.14
+HCP fMRI,INJ-T c1.75: dlog lambda recovered (truth +0.5596),0.40074625665946495,0.3788745921138817,0.4220163682280383,99,,,fraction 0.716; common factor fraction nan; dlog D +0.0592; landing slope +0.15
+HCP fMRI,INJ-T c2: dlog lambda recovered (truth +0.6931),0.4739023307091568,0.4512392533191145,0.4969108178346218,99,,,fraction 0.684; common factor fraction nan; dlog D +0.0701; landing slope +0.15
+HCP fMRI,INJ-T at the decimation's n c1.1_n19: dlog lambda recovered (truth +0.0953),0.0805224534862864,0.06202343995414405,0.09903389167398478,97,,,fraction 0.845; common factor fraction nan; dlog D -0.0210; landing slope -0.26
+HCP fMRI,INJ-T at the decimation's n c1.35_n19: dlog lambda recovered (truth +0.3001),0.24299246123529258,0.2220935073008061,0.2641730797602259,98,,,fraction 0.810; common factor fraction nan; dlog D +0.0150; landing slope +0.06
+HCP fMRI,INJ-T at the decimation's n c2_n19: dlog lambda recovered (truth +0.6931),0.4123871637439081,0.38637121003158686,0.4385095894076484,97,,,fraction 0.595; common factor fraction nan; dlog D +0.0479; landing slope +0.12
+HCP fMRI,INJ-D g1.05: dlog lambda recovered (truth +0.0000),-0.004442836573891013,-0.01854080549563754,0.010574624058020028,99,,,fraction nan; common factor fraction nan; dlog D +0.0134; landing slope +nan
+HCP fMRI,INJ-D g1.05: P1 ratio at a true shift of 0.0127,1.0045480273262746,1.0040943942330327,1.005025065084707,99,,,rate leak -0.0044
+HCP fMRI,INJ-D g1.1: dlog lambda recovered (truth +0.0000),-0.005564363125442287,-0.016797257724964775,0.005991628416550273,99,,,fraction nan; common factor fraction nan; dlog D +0.0285; landing slope +nan
+HCP fMRI,INJ-D g1.1: P1 ratio at a true shift of 0.0245,1.0167068847688916,1.0149347628671748,1.0185311612217889,99,,,rate leak -0.0056
+HCP fMRI,INJ-D g1.2: dlog lambda recovered (truth +0.0000),0.0010679546372022286,-0.010320336118780873,0.01195226091329175,99,,,fraction nan; common factor fraction nan; dlog D +0.0607; landing slope +nan
+HCP fMRI,INJ-D g1.2: P1 ratio at a true shift of 0.0508,1.074031450520832,1.0657650758003925,1.082475203062666,99,,,rate leak +0.0011
+HCP fMRI,INJ-D g1.4: dlog lambda recovered (truth +0.0000),-0.006120309770592007,-0.017096130022996182,0.0046717939077457376,99,,,fraction nan; common factor fraction nan; dlog D +0.1259; landing slope +nan
+HCP fMRI,INJ-D g1.4: P1 ratio at a true shift of 0.0965,1.2446216044509617,1.2183778981047995,1.271142118736029,99,,,rate leak -0.0061
+HCP fMRI,INJ-D g1.7: dlog lambda recovered (truth +0.0000),-0.0005684855556041765,-0.011783820661326463,0.010448493854085432,99,,,fraction nan; common factor fraction nan; dlog D +0.2353; landing slope +nan
+HCP fMRI,INJ-D g1.7: P1 ratio at a true shift of 0.1619,1.5931845530039972,1.532424795512933,1.6578887141990961,99,,,rate leak -0.0006
+HCP fMRI,INJ-D g2: dlog lambda recovered (truth +0.0000),0.004465989429596105,-0.00918241146232052,0.018779167996507914,99,,,fraction nan; common factor fraction nan; dlog D +0.3551; landing slope +nan
+HCP fMRI,INJ-D g2: P1 ratio at a true shift of 0.2204,1.9602383419444673,1.8786133427037908,2.0406597924061716,99,,,rate leak +0.0045
+HCP fMRI,INJ-R s0: reshaping recovered (truth 0.0000),0.0719394250971728,0.06163679157649746,0.08418593451677471,99,,,common-factor leak +0.0009
+HCP fMRI,INJ-R s0.02: reshaping recovered (truth 0.0200),0.0765501448881157,0.06768497338138253,0.08613878010168897,99,,,common-factor leak +0.0064
+HCP fMRI,INJ-R s0.05: reshaping recovered (truth 0.0496),0.08948304696004723,0.08164862924421294,0.09801675951727723,99,,,common-factor leak +0.0128
+HCP fMRI,INJ-R s0.1: reshaping recovered (truth 0.0987),0.1440437375854017,0.1337444558758943,0.15543708627432856,99,,,common-factor leak +0.0188
+HCP fMRI,INJ-R s0.2: reshaping recovered (truth 0.1925),0.2237569073240661,0.21410770132407736,0.23339470464769838,99,,,common-factor leak +0.0280
+HCP fMRI,INJ-R s0.4: reshaping recovered (truth 0.3358),0.3776957224140312,0.3600102741006378,0.39531723881156744,95,,,common-factor leak +0.0585
+ds003838,INJ-T c1.05: dlog lambda recovered (truth +0.0488),0.027495142142284736,0.012663676025637834,0.044532850337459594,64,,,fraction 0.564; common factor fraction 0.557; dlog D +0.0026; landing slope +0.10
+ds003838,INJ-T c1.1: dlog lambda recovered (truth +0.0953),0.05551418538061061,0.037360478774949066,0.07243492679597108,64,,,fraction 0.582; common factor fraction 0.624; dlog D +0.0093; landing slope +0.17
+ds003838,INJ-T c1.2: dlog lambda recovered (truth +0.1823),0.08846103215473898,0.06379083436644539,0.11313663501461815,64,,,fraction 0.485; common factor fraction 0.512; dlog D +0.0155; landing slope +0.18
+ds003838,INJ-T c1.5: dlog lambda recovered (truth +0.4055),0.11913515091974025,0.0924033499132434,0.146470356650471,64,,,fraction 0.294; common factor fraction 0.309; dlog D +0.0290; landing slope +0.24
+ds003838,INJ-T c2: dlog lambda recovered (truth +0.6931),-0.005114342744016578,-0.033758822682606736,0.02350841728647519,64,,,fraction -0.007; common factor fraction 0.051; dlog D +0.0346; landing slope -6.77
+ds003838,INJ-D g1.05: dlog lambda recovered (truth +0.0000),0.005828481000859228,-0.007457194676700896,0.0194381535896736,64,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+ds003838,INJ-D g1.05: P1 ratio at a true shift of 0.0138,1.0101959419770146,1.0090261640633233,1.011511706398077,64,,,rate leak +0.0058
+ds003838,INJ-D g1.1: dlog lambda recovered (truth +0.0000),0.002572315376944659,-0.010967482825897653,0.01730706731712559,64,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+ds003838,INJ-D g1.1: P1 ratio at a true shift of 0.0269,1.0380231017735537,1.0340435051917014,1.042457910071928,64,,,rate leak +0.0026
+ds003838,INJ-D g1.2: dlog lambda recovered (truth +0.0000),-0.0010245445024366362,-0.016426178316416722,0.013488558822313935,64,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+ds003838,INJ-D g1.2: P1 ratio at a true shift of 0.0554,1.146948806041229,1.131592233586092,1.1631703316633113,64,,,rate leak -0.0010
+ds003838,INJ-D g1.4: dlog lambda recovered (truth +0.0000),-0.007017606532708942,-0.019143624226299057,0.005632923763785021,64,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+ds003838,INJ-D g1.4: P1 ratio at a true shift of 0.1075,1.5070401063842875,1.4555617948520005,1.560651423760696,64,,,rate leak -0.0070
+ds003838,INJ-D g1.7: dlog lambda recovered (truth +0.0000),0.00236979445751522,-0.01688336533824971,0.021680971433046835,64,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+ds003838,INJ-D g1.7: P1 ratio at a true shift of 0.1787,2.127433522280201,2.02619551027312,2.2302618617633363,64,,,rate leak +0.0024
+ds003838,INJ-D g2: dlog lambda recovered (truth +0.0000),0.00657300139404845,-0.004247004118869486,0.01750900249049371,64,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+ds003838,INJ-D g2: P1 ratio at a true shift of 0.2422,2.743238973422585,2.5779488937623323,2.9165713134520135,64,,,rate leak +0.0066
+ds003838,INJ-R s0: reshaping recovered (truth 0.0000),0.07371768678255919,0.06293637848712416,0.08566272690174483,64,,,common-factor leak -0.0011
+ds003838,INJ-R s0.05: reshaping recovered (truth 0.0494),0.09822218966731822,0.08486918400964809,0.11316129649174911,64,,,common-factor leak +0.0155
+ds003838,INJ-R s0.1: reshaping recovered (truth 0.0972),0.11385703042026993,0.10204256741626067,0.1270618571176504,64,,,common-factor leak +0.0541
+ds003838,INJ-R s0.2: reshaping recovered (truth 0.1664),0.16882736989574515,0.15629701902907392,0.18247980753649426,64,,,common-factor leak +0.0983
+ds003838,INJ-R s0.4: reshaping recovered (truth 0.1818),0.2035342484344908,0.18729722156888695,0.22022547965244027,63,,,common-factor leak +0.0780
+HCP MEG,INJ-T c1.05: dlog lambda recovered (truth +0.0488),0.05419338797119181,0.03600053499422245,0.07277714250777666,76,,,fraction 1.111; common factor fraction 1.018; dlog D -0.4528; landing slope -8.35
+HCP MEG,INJ-T c1.1: dlog lambda recovered (truth +0.0953),0.10253201715973279,0.08479183464066149,0.12051609697858628,76,,,fraction 1.076; common factor fraction 1.037; dlog D -0.4396; landing slope -4.29
+HCP MEG,INJ-T c1.2: dlog lambda recovered (truth +0.1823),0.1760348320871587,0.15785037747977965,0.19437301279678998,78,,,fraction 0.966; common factor fraction 0.989; dlog D -0.4257; landing slope -2.42
+HCP MEG,INJ-T c1.5: dlog lambda recovered (truth +0.4055),0.3698816417596139,0.35079411928054266,0.38799542684673305,80,,,fraction 0.912; common factor fraction 0.946; dlog D -0.3852; landing slope -1.04
+HCP MEG,INJ-T c2: dlog lambda recovered (truth +0.6931),0.5766921273708508,0.5556263106642034,0.5974586871768442,81,,,fraction 0.832; common factor fraction 0.886; dlog D -0.3546; landing slope -0.61
+HCP MEG,INJ-D g1.05: dlog lambda recovered (truth +0.0000),0.004434825635064787,-0.012387109150214322,0.022409458004450183,83,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+HCP MEG,INJ-D g1.05: P1 ratio at a true shift of 0.0122,1.0028293525050695,1.0024895400946852,1.0032103987978795,83,,,rate leak +0.0044
+HCP MEG,INJ-D g1.1: dlog lambda recovered (truth +0.0000),-0.007894958148737656,-0.0229730070615029,0.0072540599353613615,83,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+HCP MEG,INJ-D g1.1: P1 ratio at a true shift of 0.0249,1.0121137044226585,1.0106155350473005,1.0138467008912806,83,,,rate leak -0.0079
+HCP MEG,INJ-D g1.2: dlog lambda recovered (truth +0.0000),0.003232595084409733,-0.01462722615195507,0.02148487913660982,83,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+HCP MEG,INJ-D g1.2: P1 ratio at a true shift of 0.0483,1.0438985691916718,1.0394321461839615,1.048719156715911,83,,,rate leak +0.0032
+HCP MEG,INJ-D g1.4: dlog lambda recovered (truth +0.0000),-0.004271772163296009,-0.016540252222075714,0.007761607572943824,83,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+HCP MEG,INJ-D g1.4: P1 ratio at a true shift of 0.0963,1.1663066561147322,1.1484797914809965,1.1852807521948636,83,,,rate leak -0.0043
+HCP MEG,INJ-D g1.7: dlog lambda recovered (truth +0.0000),0.003574650110424253,-0.010661671863793493,0.017920126249435626,83,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+HCP MEG,INJ-D g1.7: P1 ratio at a true shift of 0.1634,1.422901988762201,1.3868764592125469,1.4610470115198326,83,,,rate leak +0.0036
+HCP MEG,INJ-D g2: dlog lambda recovered (truth +0.0000),0.006393646323395946,-0.007579822680787167,0.019956273345782052,83,,,fraction nan; common factor fraction nan; dlog D +nan; landing slope +nan
+HCP MEG,INJ-D g2: P1 ratio at a true shift of 0.2177,1.6979942159780081,1.6349751241737394,1.765697340269323,83,,,rate leak +0.0064
+HCP MEG,INJ-R s0: reshaping recovered (truth 0.0000),0.10784696311024713,0.09470210898894038,0.12177041738184977,74,,,common-factor leak -0.0046
+HCP MEG,INJ-R s0.02: reshaping recovered (truth 0.0199),0.09881792344879307,0.08568547453341405,0.11267970324714141,75,,,common-factor leak +0.0040
+HCP MEG,INJ-R s0.05: reshaping recovered (truth 0.0497),0.10979318431706095,0.0947807535355911,0.12618326405823388,75,,,common-factor leak +0.0087
+HCP MEG,INJ-R s0.1: reshaping recovered (truth 0.0989),0.13176486283889846,0.11838580581551233,0.14646134056011834,76,,,common-factor leak +0.0064
+HCP MEG,INJ-R s0.2: reshaping recovered (truth 0.1908),0.2005059262763668,0.18952215746755066,0.2118313193610996,79,,,common-factor leak +0.0052
+HCP MEG,INJ-R s0.4: reshaping recovered (truth 0.3160),0.3106586769350858,0.2934052782863469,0.32725651677758727,70,,,common-factor leak +0.0056

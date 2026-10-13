@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4271",
+ "contrast": "N1 vs N2",
+ "lo": "N1",
+ "hi": "N2",
+ "n_segments_lo": 9,
+ "n_segments_hi": 31,
+ "status": "cleared",
+ "passed": true,
+ "separation": 1.0886215675454267,
+ "floor": 0.17472130329779045,
+ "margin": 0.9139002642476363,
+ "detail": {
+  "floor": 0.17472130329779045,
+  "null_median": 0.055624101677899614,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 1.1840488910675049
+}

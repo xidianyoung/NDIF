@@ -1,0 +1,104 @@
+{
+ "gaps": "interpolate",
+ "n_used": 2284,
+ "reference_tau_weeks": 37.07357649486634,
+ "settings": "G8-augmented configuration; least squares; the five checks of level 3 (G0, G2, G8, G1, G3); default numbers of repetitions; time unit year; rng=1",
+ "rows": [
+  {
+   "block": 100,
+   "n_segments": 22,
+   "tau_fit_weeks": 7.3031284583327265,
+   "block_over_tau_fit": 13.692762022541444,
+   "block_over_tau_reference": 2.697338898874438,
+   "G3_recovery": 0.11435047737895288,
+   "G3_passed": false,
+   "G2_theta": 0.5002677825800945,
+   "G2_ci": [
+    0.3173420892002711,
+    0.6885842284972906
+   ],
+   "G2_passed": false,
+   "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": false,
+    "G3": false,
+    "G8": false
+   },
+   "L3": "refused",
+   "first_failed": "G2"
+  },
+  {
+   "block": 200,
+   "n_segments": 11,
+   "tau_fit_weeks": 11.839521180701942,
+   "block_over_tau_fit": 16.892575041463154,
+   "block_over_tau_reference": 5.394677797748876,
+   "G3_recovery": 0.13858945850348145,
+   "G3_passed": false,
+   "G2_theta": 0.5277742585028916,
+   "G2_ci": [
+    0.4034058859428328,
+    0.6627976644147157
+   ],
+   "G2_passed": false,
+   "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": false,
+    "G3": false,
+    "G8": false
+   },
+   "L3": "refused",
+   "first_failed": "G2"
+  },
+  {
+   "block": 550,
+   "n_segments": 4,
+   "tau_fit_weeks": 26.116037532867498,
+   "block_over_tau_fit": 21.059856393138325,
+   "block_over_tau_reference": 14.835363943809407,
+   "G3_recovery": 0.059427710503580415,
+   "G3_passed": false,
+   "G2_theta": 0.6036900704624449,
+   "G2_ci": [
+    0.4809603514053742,
+    0.7131681631904504
+   ],
+   "G2_passed": false,
+   "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": false,
+    "G3": false,
+    "G8": false
+   },
+   "L3": "refused",
+   "first_failed": "G2"
+  },
+  {
+   "block": 1100,
+   "n_segments": 2,
+   "tau_fit_weeks": 31.49610460410509,
+   "block_over_tau_fit": 34.92495385783771,
+   "block_over_tau_reference": 29.670727887618813,
+   "G3_recovery": 0.13589520321764167,
+   "G3_passed": false,
+   "G2_theta": 0.6009218034081822,
+   "G2_ci": [
+    0.4866691894812946,
+    0.7028906237730531
+   ],
+   "G2_passed": false,
+   "gates": {
+    "G0": true,
+    "G1": false,
+    "G2": false,
+    "G3": false,
+    "G8": false
+   },
+   "L3": "refused",
+   "first_failed": "G2"
+  }
+ ]
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "name": "SC4001_N1-N2_pair.json",
+    "sha256": "f578687197e0b4cab93d03d214a88e2a69ee0348f3077f906f4f1069b0062ec6"
+  },
+  {
+    "name": "SC4001_N2-N3_pair.json",
+    "sha256": "ae350db66bc8ecc8bfd7919a118abc5720d1707943702bc3b91ac65b2adee2bf"
+  },
+  {
+    "name": "SC4001_N3-N4_pair.json",
+    "sha256": "6fee915d7ff87a103fef24b04165d072c856d6a37874b0520fe61c49b7631f46"
+  },
+  {
+    "name": "SC4002_N1-N2_pair.json",
+    "sha256": "7247b5ebd945b7f3be83b37fe7666655127bfa96c238592d7145094b0124dbc4"
+  },
+  {
+    "name": "SC4002_N2-N3_pair.json",
+    "sha256": "bca6456adeb8d5ce73f66c8dd9cc417b246166a3e6ae7bfae8ecb59b3365b2d3"
+  },
+  {
+    "name": "SC4002_N3-N4_pair.json",
+    "sha256": "218e3a7960742aec7c4ee508ec46d1eb58d3a9e6c088baa6ebd00745b10eb110"
+  },
+  {
+    "name": "SC4011_N1-N2_pair.json",
+    "sha256": "d3fb030b9a936b346fe67e139cbe4043816a68d6c9d8d0ebb13fda1af277ee1d"
+  },
+  {
+    "name": "SC4011_N2-N3_pair.json",
+    "sha256": "b415743e02dfa5bb6250f47eeedc8e47df9bf20acc688a8d9c9082d17f561cba"
+  },
+  {
+    "name": "SC4011_Wake-N1_pair.json",
+    "sha256": "dc1f744a261710ac00070e809ea8dbbc9261115b2a9b2279b73afe6e3568073b"
+  },
+  {
+    "name": "SC4012_N1-N2_pair.json",
+    "sha256": "f6a23e2fdf688e5de0986e55c9ee460b630b15ca6de28a822677cdde98ea11c2"
+  },
+  {
+    "name": "SC4012_N2-N3_pair.json",
+    "sha256": "ba4b60b2edaee104ad326a7f36c4352cc6b7d961cdcc232eda33f91409828c4b"
+  },
+  {
+    "name": "SC4021_N1-N2_pair.json",
+    "sha256": "d80549c2be893573a12e98304413a376831fbd8a31462d1bc679127238197d7f"
+  },
+  {
+    "name": "SC4022_N1-N2_pair.json",
+    "sha256": "47ccef22bc133fb1523ae86050ba005b2e2c8a4ac6edc78ebe85c17312bde6d4"
+  },
+  {
+    "name": "SC4022_N2-N3_pair.json",
+    "sha256": "c8c191397896e4af274596217a7f5031edad9f9b01dc189fdf669610c0ce2798"
+  },
+  {
+    "name": "SC4031_N1-N2_pair.json",
+    "sha256": "4a0f4be0af0d0dffd51ea38cada156e5f2953fc7e2b43ab2597033d6cbd8d86d"
+  },
+  {
+    "name": "SC4031_N2-N3_pair.json",
+    "sha256": "1bb92976e39c9abb1e22d7dfd7a58d27d126b980dab870340f4d7412bb1ce173"
+  },
+  {
+    "name": "SC4032_N2-N3_pair.json",
+    "sha256": "54436f775a6727298badf354b23b0738be49e6d081808c607db27185cc2f7049"
+  },
+  {
+    "name": "SC4032_N3-N4_pair.json",
+    "sha256": "53e213471d2f7ebc9e36310179c10857693a06b60cb6d4c770de3d0e7b297474"
+  },
+  {
+    "name": "SC4041_N1-N2_pair.json",
+    "sha256": "7eab6c233bc80f925ca3519b88f612d00d9bc617307bc0f58148e687e8076459"
+  },
+  {
+    "name": "SC4041_Wake-N1_pair.json",
+    "sha256": "770d215df234b9a20f4e84a17953375b7685da33b730ffe2587f304978ebf7bf"
+  },
+  {
+    "name": "SC4042_N1-N2_pair.json",
+    "sha256": "711378d195a16357437583fa5dd35a09ec41d4af20a2e1ddda1759040fe93681"
+  },
+  {
+    "name": "SC4042_N2-N3_pair.json",
+    "sha256": "2991876515b40b241f7914176e10546a6fbacabbc4b3171dc3167bdf0198607f"
+  },
+  {
+    "name": "SC4042_Wake-N1_pair.json",
+    "sha256": "b5cadd13e05b47f546508d4ce2bfd79e93040c1f7817e66eefcf2f217113ee28"
+  },
+  {
+    "name": "SC4051_N2-N3_pair.json",
+    "sha256": "18cec61e70ac897d81ef316f5d360b412e45a2c5a39c568729d9c8f65ab678d1"
+  },
+  {
+    "name": "SC4052_N1-N2_pair.json",
+    "sha256": "f38d96bf57c0a52167a043d5857def8d50b0717ab610ec7304077511d9f9e9d2"
+  },
+  {
+    "name": "SC4052_N2-N3_pair.json",
+    "sha256": "d84a4dc3fd26fb7ddcfdfd7b328226f464e1a15c9e8be74dedde90f9617fd336"
+  },
+  {
+    "name": "SC4052_Wake-N1_pair.json",
+    "sha256": "d0d13cf25c25c3f3853f99128d512b4bb182e9c24e0a169990d5a626394828de"
+  },
+  {
+    "name": "SC4061_N1-N2_pair.json",
+    "sha256": "f5c180deeedfcf62fc2ba959b49e9b687f70555a19654bd3980c000f05d65113"
+  },
+  {
+    "name": "SC4062_N1-N2_pair.json",
+    "sha256": "2f2a43c128f4ca702054e8816446a4764e6f05e62154218abecabf2727c43986"
+  },
+  {
+    "name": "SC4062_Wake-N1_pair.json",
+    "sha256": "a1cfcd95f7136361fb00fc76df2698cae75f99ee6b8ccf54784afbb882601034"
+  },
+  {
+    "name": "SC4071_N1-N2_pair.json",
+    "sha256": "8742549a2f1aad563cb3a5dd3efb2e945fc1768b499cf44ba4b388062b926952"
+  },
+  {
+    "name": "SC4071_N2-N3_pair.json",
+    "sha256": "3209641cfb66afd4963885806c221b23191357687f5b8a846497dfebd8ec9ea7"
+  },
+  {
+    "name": "SC4071_N3-N4_pair.json",
+    "sha256": "872f34957cfcef3eb52838dbe7329a6a8f8e90a71ee085b5a7556db6d53056f9"
+  },
+  {
+    "name": "SC4072_N1-N2_pair.json",
+    "sha256": "ddfcb07e592e8491a105d1ea936bff0db4f00f1dc23ca5845ccb34f765854042"
+  },
+  {
+    "name": "SC4072_N2-N3_pair.json",
+    "sha256": "ca318472f358441c326ce6f9b2b5db1972063448fb9763f679e553dfdc5f2639"
+  },
+  {
+    "name": "SC4072_N3-N4_pair.json",
+    "sha256": "aaa7de523a10eb7d24c40ad3c4d36fc80779e0aeb32b5a14efdecf92d2bc2f97"
+  },
+  {
+    "name": "SC4081_N1-N2_pair.json",
+    "sha256": "340c3f9861e62f8af640ec3b0e5ffdf13d10ce5b4eae005ef8ee655a397d1d9a"
+  },
+  {
+    "name": "SC4081_N2-N3_pair.json",
+    "sha256": "94bbb905acdb296904bdb83cf1352e4c15a01d845f6db43641b666465a5cff9f"
+  },
+  {
+    "name": "SC4081_N3-N4_pair.json",
+    "sha256": "2f74b5a7b4eaed6476734df36343436dfc55b7fcb6cdee69b5268a5cfcc1c8af"
+  },
+  {
+    "name": "SC4082_N1-N2_pair.json",
+    "sha256": "5770cf65745cbe1fbc20cd1d059fb056eee4fdd97175846d5d399970e3eaf854"
+  },
+  {
+    "name": "SC4082_N2-N3_pair.json",
+    "sha256": "1dbb06ff5a3988230856121c46b69f5aa83030b072b60b283b392c674c5ba765"
+  },
+  {
+    "name": "SC4091_N2-N3_pair.json",
+    "sha256": "07b0a9d4d2515ff0e23b5920e8756fa1e62bd846774395bb680f2eb34d36e7b1"
+  },
+  {
+    "name": "SC4091_N3-N4_pair.json",
+    "sha256": "42415671318e4454c1398fb2826cedbf1a300e9664a7cfb0e0dfb51d47992cda"
+  },
+  {
+    "name": "SC4092_N1-N2_pair.json",
+    "sha256": "133e26cf165eb9dbf6bc5627f30447c79d347e6000ee15f06fd92165dde334eb"
+  },
+  {
+    "name": "SC4092_N2-N3_pair.json",
+    "sha256": "945b2591afa23b5f039e43c4f58552dfd5c8b3be186fda421a0ac1f961c4aa4d"
+  },
+  {
+    "name": "SC4101_N1-N2_pair.json",
+    "sha256": "bfdb20195531984988371714237f0a0f29e540b8f09d706d653663dffe5b6602"
+  },
+  {
+    "name": "SC4102_N1-N2_pair.json",
+    "sha256": "4c4c1d072e4b9501e2186239c2dda5bed852a426d9991169332884fefcbbec1b"
+  },
+  {
+    "name": "SC4111_N2-N3_pair.json",
+    "sha256": "d7df81ce4f094de9e75c6c8b0f3835499ea019fa7991cd5f49a41357d0ffeb4d"
+  },
+  {
+    "name": "SC4112_N2-N3_pair.json",
+    "sha256": "b764c5375cb8e7d1e47f0e28603a8d41bfc62843889d3b8af863979d6c771e59"
+  },
+  {
+    "name": "SC4121_N2-N3_pair.json",
+    "sha256": "266e42ece41ca6d651f225d1d419e3bbd8ea2c9a271f255b57cb9bc268b52b28"
+  },
+  {
+    "name": "SC4121_N3-N4_pair.json",
+    "sha256": "8869f001d4b4162d365ce6de9b11a8d5bb6569afc28067a8e1ab5f7e51a7fae7"
+  },
+  {
+    "name": "SC4122_N1-N2_pair.json",
+    "sha256": "e320106146860e272359b70b8429979ae6018b8c948133c06cad15d1fbd0efbb"
+  },
+  {
+    "name": "SC4122_N2-N3_pair.json",
+    "sha256": "b4e7e21ab18d71e28b46513b4ae4811df9ee3b41335fca962799b692615f6313"
+  },
+  {
+    "name": "SC4131_N1-N2_pair.json",
+    "sha256": "0df00c5620ba971a3c7dcb4a86fbac669ae029d23876daee3cc9062919bddc76"
+  },
+  {
+    "name": "SC4131_N2-N3_pair.json",
+    "sha256": "0b3676a21f006a29b85d6c70d20a55de3fa49a2fdf32ec5f5134ee11e3ed535f"
+  },
+  {
+    "name": "SC4131_N3-N4_pair.json",
+    "sha256": "c0a19a4e2d1c75b30fb8299a1c65faf3757eb72b5cfe524b69282a784083de77"
+  },
+  {
+    "name": "SC4131_Wake-N1_pair.json",
+    "sha256": "b400a98e0ad2332c68fdaaf8bc677f72bf68a7ae8c7f606e9768d1f020a2c24e"
+  },
+  {
+    "name": "SC4141_N2-N3_pair.json",
+    "sha256": "32a6fdf4d27360fa749324fba448f2cd3ded1f46deef3f724561928a5755874d"
+  },
+  {
+    "name": "SC4141_N3-N4_pair.json",
+    "sha256": "33e2352fd376edfe1626ff29f0d67b22276a0c9efaa5aeb788a2e8e26d2e5178"
+  },
+  {
+    "name": "SC4151_N1-N2_pair.json",
+    "sha256": "e420972fb6bed8ce5b9110ba3ea88b5b4072adf64adc8fa6819e52877d6d77bc"
+  },
+  {
+    "name": "SC4151_N2-N3_pair.json",
+    "sha256": "37c5552b47de3dbe7930afa0b0d2418d28f9e60d024c2f0ce987194fa25c208c"
+  },
+  {
+    "name": "SC4152_N1-N2_pair.json",
+    "sha256": "e19aea047566a22dcc6b3d8d6ab2b403ecb79aa6cce05c9cf1e5eef08bde1828"
+  },
+  {
+    "name": "SC4152_N2-N3_pair.json",
+    "sha256": "452bee238c97d19b6e3263e6c24400b44de0be69f68046a1236851d839300eda"
+  },
+  {
+    "name": "SC4161_N1-N2_pair.json",
+    "sha256": "da3d3d905a0e906eb6968826406195d98128d1f648025fc758eb5433aaf54996"
+  },
+  {
+    "name": "SC4161_N2-N3_pair.json",
+    "sha256": "43063900781378013b598b449b71f46ee6d9df04232873a5c4088c0aad3cc9d6"
+  },
+  {
+    "name": "SC4161_Wake-N1_pair.json",
+    "sha256": "3c6bba9e801ece5ecf4fd15b2421a67d2f651596c0fc92d306ee0ca573d6e137"
+  },
+  {
+    "name": "SC4162_N2-N3_pair.json",
+    "sha256": "8ca066685a01cbe8791b17d446012262ea392d67838942c519a2c43a3fb82f5b"
+  },
+  {
+    "name": "SC4171_N2-N3_pair.json",
+    "sha256": "f2e17659d679080814c293dc82a88830bb4940178e7ba4e8a93964464f0cc807"
+  },
+  {
+    "name": "SC4172_N1-N2_pair.json",
+    "sha256": "fc0ab5b64a8ab6add1100d781b3db552d7ac461b38b0fb827ecf32f38285694e"
+  },
+  {
+    "name": "SC4172_N2-N3_pair.json",
+    "sha256": "3d065c3b2ccaf679b60291a596ade01cacb80b8b5dbf029645af3b025b897088"
+  },
+  {
+    "name": "SC4181_N2-N3_pair.json",
+    "sha256": "cc76bf310a0d8b6af218287541b2da3c5f0ab2a013bb0fa222b323eb06f3bdf1"
+  },
+  {
+    "name": "SC4181_N3-N4_pair.json",
+    "sha256": "25e19faa34fc93a85b6be7958db3373ac203d0a00f836821c0f927ed793c82b4"
+  },
+  {
+    "name": "SC4182_N1-N2_pair.json",
+    "sha256": "387eba8616ec643422d99d4c6d335fdb91a16f2f56bbfe601ad6ae9383814b6d"
+  },
+  {
+    "name": "SC4182_N2-N3_pair.json",
+    "sha256": "a8fd96357352e5435d9471e40af852331fc1055b78f2f584a70096be2b8480bd"
+  },
+  {
+    "name": "SC4182_N3-N4_pair.json",
+    "sha256": "81e6b0083995de6d19fb639fcfa412cbc6a67802d12a25d5425fae71acc1e119"
+  },
+  {
+    "name": "SC4191_N1-N2_pair.json",
+    "sha256": "8feb8fa8ffe2c2dc3ebb0d079534880bd674c64acd5a69f1796037e9411056ea"
+  },
+  {
+    "name": "SC4191_N2-N3_pair.json",
+    "sha256": "5a98e9bcdae8dc02e8371af0139b7250569ec761c5f52450a8f551e45675e85a"
+  },
+  {
+    "name": "SC4191_Wake-N1_pair.json",
+    "sha256": "7750facf3c8d15c497e6e72632b3b9f11e89a77095a3349fb956162e878b7b9d"
+  },
+  {
+    "name": "SC4192_N1-N2_pair.json",
+    "sha256": "c5130e9025a98496f637bd8da289c3d03a187c683519787dbe8b9fd3522017f5"
+  },
+  {
+    "name": "SC4192_Wake-N1_pair.json",
+    "sha256": "4c843b8734e51a35df4ea6bbc5525031045d5e0424bf5424c588353b0b06fa61"
+  },
+  {
+    "name": "SC4201_N1-N2_pair.json",
+    "sha256": "016456ec40c930238a68c280e720e40ef35430ae6b127bffdde3c064fbfc29ed"
+  },
+  {
+    "name": "SC4201_Wake-N1_pair.json",
+    "sha256": "438da3f2e10a2e1cec8116674f2757efa04d9180cfa65c211fef6b9763790b97"
+  },
+  {
+    "name": "SC4202_N1-N2_pair.json",
+    "sha256": "a664a0743965b7feebdffff13d5fee63cf8bc2a46edfdb9a4c827a634dcad8dc"
+  },
+  {
+    "name": "SC4202_Wake-N1_pair.json",
+    "sha256": "d8e1602104f2e73c169a761af8920b5727f57cc0e5eaef319b09876d5a5127a8"
+  },
+  {
+    "name": "SC4211_N1-N2_pair.json",
+    "sha256": "a4991ca3ad0be29d638a45c1fcf9d89eb3ba2505bbbdab32bec94dd85a136946"
+  },
+  {
+    "name": "SC4212_N1-N2_pair.json",
+    "sha256": "37ab23daf084de92759486b4d1b54a39f05ad16b11843f277c2eac62ef00ac4c"
+  },
+  {
+    "name": "SC4212_Wake-N1_pair.json",
+    "sha256": "d870d8ad7ca3edb0fbf50139d0e4ea4942db171b518bc496b20a312b471ad061"
+  },
+  {
+    "name": "SC4221_N1-N2_pair.json",
+    "sha256": "bfc7380e9d9e88217ae3731bdc49c9dd39518d3df369b2ec5feca48ecfbf117a"
+  },
+  {
+    "name": "SC4221_N2-N3_pair.json",
+    "sha256": "944170de5af7f5c69980fd912d5b78f1c914c086999178eed0dfae685fe23915"
+  },
+  {
+    "name": "SC4222_N1-N2_pair.json",
+    "sha256": "07b7a6caf4e320db5929a73e23242d8e1996b6e39d2c851fc0d0bfcff4063e0b"
+  },
+  {
+    "name": "SC4222_N2-N3_pair.json",
+    "sha256": "70a152a566b80e809548e8385d259656ac79d31be60bcfd5a398aa270f6af88b"
+  },
+  {
+    "name": "SC4222_N3-N4_pair.json",
+    "sha256": "f898f901702f872a5a22713106a6fe994890bbf3905f98764b88b0fb485e61c4"
+  },
+  {
+    "name": "SC4231_N1-N2_pair.json",
+    "sha256": "fad9199a8f95106d6912917190d674bd0e8c3fde9fb45e19e1079b6e9e2f761e"
+  },
+  {
+    "name": "SC4232_N1-N2_pair.json",
+    "sha256": "31bc8fad440cf21de2e23f1a16bb1cef0d5a60a5b7e1816ab4f7e2daa423e532"
+  },
+  {
+    "name": "SC4241_N1-N2_pair.json",
+    "sha256": "3240470b07575aa5197540a343bfe1689c9bc73fb3af6d9b8dce8c91c17453ac"
+  },
+  {
+    "name": "SC4241_N2-N3_pair.json",
+    "sha256": "c934690b21e0f3c37b4989cc3ae149bd0577be545a27faf7b119b3958f5c6151"
+  },
+  {
+    "name": "SC4241_Wake-N1_pair.json",
+    "sha256": "7e9b82aac244f373f6e2e106120337068a58c5a5d00de9eb4a1332443477dbf4"
+  },
+  {
+    "name": "SC4242_N1-N2_pair.json",
+    "sha256": "fb564032ab8c54ef8b703b82662a56e1fa83267831625fa41006b8f59418b303"
+  },
+  {
+    "name": "SC4242_Wake-N1_pair.json",
+    "sha256": "089a5d5935d5545ca6f569848076c6525012c483688ef94f1590416eedf4b9f9"
+  },
+  {
+    "name": "SC4251_N1-N2_pair.json",
+    "sha256": "6441b5001cbf97a9ebacf6edecd8f538498723a654083ff19186ac942ab76599"
+  },
+  {
+    "name": "SC4252_N1-N2_pair.json",
+    "sha256": "3e2d2d7e040a5c91685a8b128a991b438114121ca2d6c3bce73bf4e56e9459e8"
+  },
+  {
+    "name": "SC4252_N2-N3_pair.json",
+    "sha256": "0b731326435028eff93f40ef0542cc9f075a63c38536759faa7b2d5fc7d22616"
+  },
+  {
+    "name": "SC4252_Wake-N1_pair.json",
+    "sha256": "1d327b484adb89c770617b17c9a0e653c4ee2b6b18e369beebdcc96ec63dad30"
+  },
+  {
+    "name": "SC4261_N1-N2_pair.json",
+    "sha256": "45adde7f96336ebdf90780a1a7ff9368e5f03a2f51bb147dd5ad83657c214c93"
+  },
+  {
+    "name": "SC4261_N2-N3_pair.json",
+    "sha256": "d4936815714d010bc1912d7b9dfac0532a17cdf6fafef55754e81a921143c84c"
+  },
+  {
+    "name": "SC4261_Wake-N1_pair.json",
+    "sha256": "c4667aba8cbc19b8660d786ec5006e32ad0b5bafcfe74f96ce99d53c7ccc773a"
+  },
+  {
+    "name": "SC4262_N1-N2_pair.json",
+    "sha256": "451ad3ea78312655d34e714e96203b4160c18cdc6382e4f2c8d244d0cf208ae9"
+  },
+  {
+    "name": "SC4262_Wake-N1_pair.json",
+    "sha256": "ac76dc5128049bf45b91dc3a45b7a066236ab607a942d31611a171b25a5bf89a"
+  },
+  {
+    "name": "SC4271_N1-N2_pair.json",
+    "sha256": "0f4b4f097d4850b844e46169ae88926026a6a0f68360f31936f3d05b7dfa8119"
+  },
+  {
+    "name": "SC4271_N2-N3_pair.json",
+    "sha256": "fe54b5714b7a6f8e5db48485e293f6e41af0790e7e08edc04a877f64ad33620f"
+  },
+  {
+    "name": "SC4271_N3-N4_pair.json",
+    "sha256": "d10171cf84d6e6a88e7dbadc36824ffd0a19deaa12a5dc700c7b9d85c3676ba7"
+  },
+  {
+    "name": "SC4272_N1-N2_pair.json",
+    "sha256": "4bd7f774141b3ce38b5e8b4777bce2a2b7dcabe7862971f1c2f8688956173d85"
+  },
+  {
+    "name": "SC4272_Wake-N1_pair.json",
+    "sha256": "912a77f91aca7f7c5aec3dac23e902939afbc81cb8fb8d8246f5c86ce6ddc4d1"
+  },
+  {
+    "name": "SC4281_N1-N2_pair.json",
+    "sha256": "7bcdbab86d864c33aae0f9ee0470213c1996ae7b6e34289b94a949d1b469b7ea"
+  },
+  {
+    "name": "SC4281_N2-N3_pair.json",
+    "sha256": "228e52a3e355b1d6aa0e2d6415fa4a8c8634489964f85f03b87082b6b7a42752"
+  },
+  {
+    "name": "SC4281_N3-N4_pair.json",
+    "sha256": "93210bb69a3cbe06ed7569ed8c65032e993493346bf19ce75ea065dfdde40127"
+  },
+  {
+    "name": "SC4281_Wake-N1_pair.json",
+    "sha256": "380c817a5fa899b997f8e70f8bb67230e3695823e682e48eda452dd994ebad04"
+  },
+  {
+    "name": "SC4282_N1-N2_pair.json",
+    "sha256": "808756be24eaa3a5f5db7ff9181cdd52d2c43a5685dc09727c33e527236e34aa"
+  },
+  {
+    "name": "SC4282_N2-N3_pair.json",
+    "sha256": "8881c0b683a9161f8370d5f9fe0dd8fa5ab05cda9d36f3752f6e246904d725b1"
+  },
+  {
+    "name": "SC4282_Wake-N1_pair.json",
+    "sha256": "bc4eae9a55e61a0b0471c33f6752d12915f3f556a9a2564fcf244ae6e6237679"
+  },
+  {
+    "name": "SC4291_N1-N2_pair.json",
+    "sha256": "b1e1209ce21d82a8355fde111d4878c5752e4ca0a9f375ef850a1bee58fcd542"
+  },
+  {
+    "name": "SC4291_Wake-N1_pair.json",
+    "sha256": "69277e6a7b06fddd78f438a0a6f7de57c0c98f196736fd0f2a78898db3219379"
+  },
+  {
+    "name": "SC4292_N1-N2_pair.json",
+    "sha256": "d081225a02a4241c3d9ac2e163385788bfa31a30bec71e279b94518f12fd5008"
+  },
+  {
+    "name": "SC4292_N2-N3_pair.json",
+    "sha256": "aa92fc44f3e080ab5e5272e2dc70cc48122c9ad901d2c8c92430bdfc8964cdc8"
+  },
+  {
+    "name": "SC4292_N3-N4_pair.json",
+    "sha256": "173c0929ae4670eadbe9255914bad5dc147c76f0c86e9d524e96b3f240903402"
+  },
+  {
+    "name": "SC4292_Wake-N1_pair.json",
+    "sha256": "44d0f33914ce78e9e7c8c485785702ce7f90f66ce50d1efec39d23fbe8ecf4ea"
+  },
+  {
+    "name": "SC4301_N1-N2_pair.json",
+    "sha256": "44b601574303f877a6b247bba913157b8fdc623cb5edb2c8febf83ae4d6216ac"
+  },
+  {
+    "name": "SC4301_Wake-N1_pair.json",
+    "sha256": "e1da1868fdde95baf7ed187826dcab51f706a4f982c77f99f3c8a45bed65ac4c"
+  },
+  {
+    "name": "SC4302_N1-N2_pair.json",
+    "sha256": "7f8cbca7a34fd0354527c03aaeb30cd170d90a0f20ce6fe1fcc50baca21c6fd7"
+  },
+  {
+    "name": "SC4302_Wake-N1_pair.json",
+    "sha256": "3b6ae98601da456bdc6810d484782ab0c1c749e1a0da0ff5652095b3d0b7bb8f"
+  },
+  {
+    "name": "SC4311_N1-N2_pair.json",
+    "sha256": "840ab0b2997dec9ee2fb45fa264cb354a7fe7d51013d6b02e2d617a0205a4e6b"
+  },
+  {
+    "name": "SC4311_N2-N3_pair.json",
+    "sha256": "069fa4a8f26135a5abfc3f40980e407d8d70411430eabde46a76d9de7e12dafd"
+  },
+  {
+    "name": "SC4311_Wake-N1_pair.json",
+    "sha256": "1f65c8e4044ff3ba02d3db89f7f9d3433bb37870ce9a654b98202979e4967df0"
+  },
+  {
+    "name": "SC4312_N1-N2_pair.json",
+    "sha256": "f7c68549434d83ff0a5396d5f9152545ef0ab949a69d0b1fc562346316b66cab"
+  },
+  {
+    "name": "SC4312_N2-N3_pair.json",
+    "sha256": "f6ee8fd214d29dc4427a8cd8590b9c13b391130032507eb1fce03684dc1af185"
+  },
+  {
+    "name": "SC4312_Wake-N1_pair.json",
+    "sha256": "d9f670ce22db8716d4a2fdf2d5de7ad2eb24092ff0cd59402fbb75ee76dc03a9"
+  },
+  {
+    "name": "SC4321_N1-N2_pair.json",
+    "sha256": "8e6772e4e5c3138a6fccf7226c2d86f3765167ba07eab1cbacc4c54664405e78"
+  },
+  {
+    "name": "SC4322_N1-N2_pair.json",
+    "sha256": "bb3aa482a28dacf0cf14431d9b9e6ca9a522ef81895fa01b267682e9b18b3f3b"
+  },
+  {
+    "name": "SC4331_N1-N2_pair.json",
+    "sha256": "a1b9dd7126b2e153c0d98865a97cc482c8d5bb29b1fc9870f9ef62858f223049"
+  },
+  {
+    "name": "SC4331_Wake-N1_pair.json",
+    "sha256": "c8364c4a6d873c06a6cd5b113b625eda5c7554ef68a391f63c03c63ce6bd05ec"
+  },
+  {
+    "name": "SC4332_N1-N2_pair.json",
+    "sha256": "1e6a70914485929f93922c85484ec7c138c1401a71ac7da5bce66d714845a45c"
+  },
+  {
+    "name": "SC4332_Wake-N1_pair.json",
+    "sha256": "56602975b71eb1e6b2d12fb374975004b06ef86704c908b834c0460ea102a702"
+  },
+  {
+    "name": "SC4341_N1-N2_pair.json",
+    "sha256": "c2c04e3a166064667430491826f766ba97bd0a1a22370bb209325ce973bb56ac"
+  },
+  {
+    "name": "SC4342_N1-N2_pair.json",
+    "sha256": "01613abb999c54a39b44ba69843eebe1e1b411e60d331991d2466fd5ef428c3c"
+  },
+  {
+    "name": "SC4351_N1-N2_pair.json",
+    "sha256": "e5f080f8733fb03af86f4450ca8e22e126c7529341dc0d2995d5e255e6d88f6c"
+  },
+  {
+    "name": "SC4351_N2-N3_pair.json",
+    "sha256": "4cff3693b1b2f18c1a04f9f7e637e2f76cc69223453c3a01d5978ae5b96889e2"
+  },
+  {
+    "name": "SC4352_N1-N2_pair.json",
+    "sha256": "1a3a192f25d01c1ad1883fb258414cbd51fe61eecef007197c14246b14266eab"
+  },
+  {
+    "name": "SC4352_N2-N3_pair.json",
+    "sha256": "599cb6b1e14485fd4c8924fd9bd19ee9a7ad5b396f9f61b82f73db4e3d803a1f"
+  },
+  {
+    "name": "SC4352_Wake-N1_pair.json",
+    "sha256": "95e1712e59afe4288d2907aefe236e04e14dbc907854f18a00175aa474b98974"
+  },
+  {
+    "name": "SC4362_N1-N2_pair.json",
+    "sha256": "84c6b1a7c39935e2f53a25ae9a8b38f894c5886216e7e58871bf088216f33581"
+  },
+  {
+    "name": "SC4362_N2-N3_pair.json",
+    "sha256": "8bd898f319dd610a1962ddd7788a86d4f7bed9f5f658766537e208058ef55b10"
+  },
+  {
+    "name": "SC4371_N1-N2_pair.json",
+    "sha256": "ef87ffcf9ae36b198eec86c6c77cce1c8a006f2430b9ba39eb82ffb6351e0d58"
+  },
+  {
+    "name": "SC4372_N1-N2_pair.json",
+    "sha256": "9774dd577165454ea8bfaf29aa5a8929b9ab1f16666eaaa55870f9924b8fc028"
+  },
+  {
+    "name": "SC4372_Wake-N1_pair.json",
+    "sha256": "401ad5bdd20d6ff617c4287cd63cdbf99b86f88fd2fd36dd8113c2e649f599ad"
+  },
+  {
+    "name": "SC4381_N1-N2_pair.json",
+    "sha256": "db96dfdc9a00126f1047c24688e706f21db1816c517f63b74a97954dd8dd3bd7"
+  },
+  {
+    "name": "SC4382_N1-N2_pair.json",
+    "sha256": "56fdba16c0b6fcec21e3597891add00c7f3bf421556dc523c8bcbe87b2342404"
+  },
+  {
+    "name": "SC4401_N1-N2_pair.json",
+    "sha256": "ff541f3fe19369438e676f07963219b60b65ccf204326ce1cccb359322428638"
+  },
+  {
+    "name": "SC4401_Wake-N1_pair.json",
+    "sha256": "7cd322e620d4a9f89181542ff48f27ec72c16745bcfdd36277b0970fbe8f1ebe"
+  },
+  {
+    "name": "SC4402_N1-N2_pair.json",
+    "sha256": "55569b17e22b26a9ca2c7764dcf43f25590f5f83c0af0a3528045a67b685f906"
+  },
+  {
+    "name": "SC4402_N2-N3_pair.json",
+    "sha256": "cfde7e1d2b790af39b59bb2f8c5ba557124aa8133a1d5eb9309a48cbccfcdb77"
+  },
+  {
+    "name": "SC4402_Wake-N1_pair.json",
+    "sha256": "9860e82619a2a427fe2ec2a11bd6d09a39db9c7aa6ff01284f2a505f4f5d7d55"
+  },
+  {
+    "name": "SC4411_N1-N2_pair.json",
+    "sha256": "f3a22d1e2202562ffcd5a81ea9bb3f7355474a384b68b484c9720d4bffeceba5"
+  },
+  {
+    "name": "SC4411_N2-N3_pair.json",
+    "sha256": "a66b376f02a8ab17339c0a06c8b9f9b39c3aaa96d51ce86200d81e330ed1a9b3"
+  },
+  {
+    "name": "SC4411_Wake-N1_pair.json",
+    "sha256": "1fd894c8040edbddae1ba450d3fb6ef4d86216935fd2bd0427b24ccc17e3ce0b"
+  },
+  {
+    "name": "SC4412_N1-N2_pair.json",
+    "sha256": "ae4732341219b84dbf62d5ba676004494a71557f1d6d0ba3ac4c9b76120f5f52"
+  },
+  {
+    "name": "SC4412_N2-N3_pair.json",
+    "sha256": "3fc221726cda8c67c1ca3345ebefee43fbc1aa5a74f06dd167179094c23bb266"
+  },
+  {
+    "name": "SC4412_N3-N4_pair.json",
+    "sha256": "5f1f5daf63532d20a56485118131a5612eb629ab3647907b692958ecd0b1fd42"
+  },
+  {
+    "name": "SC4412_Wake-N1_pair.json",
+    "sha256": "d73193d496ec06a1a69662db40136473fc677538ea2fc811ab04530fd59da2d5"
+  },
+  {
+    "name": "SC4422_N1-N2_pair.json",
+    "sha256": "3ed6d72bb0a2a558ceca4eb832376681fab5a97e22ba23223bee1243baa521f6"
+  },
+  {
+    "name": "SC4422_N2-N3_pair.json",
+    "sha256": "4ee5e5e750cf26c3cb4696d2b8100813cdb6499123ae34c12e63b92319a0fbd5"
+  },
+  {
+    "name": "SC4422_N3-N4_pair.json",
+    "sha256": "30f713d69cc9c9607725ddfb9c9e82c0c6e4f6e2e9a39c30585bf315940ab67b"
+  },
+  {
+    "name": "SC4431_N1-N2_pair.json",
+    "sha256": "fd4c8868e8d4f60a377aba09e99b154d368da8721769b26ed69b50c5ab6768b5"
+  },
+  {
+    "name": "SC4431_N2-N3_pair.json",
+    "sha256": "e22ed5b1d161147cdc2d412dfd6f8443db8f9b815272b04a6eb11a0d497a24e0"
+  },
+  {
+    "name": "SC4432_N2-N3_pair.json",
+    "sha256": "d522c9cf2c9813c61b0d365914887ab5bd177fbcd7a14c2418818bafcca990cc"
+  },
+  {
+    "name": "SC4441_N1-N2_pair.json",
+    "sha256": "356c1999331f2aff79f4025763b4a5d6cb97fb47e9d6a264b2a6b6b50243c586"
+  },
+  {
+    "name": "SC4441_N2-N3_pair.json",
+    "sha256": "faa1c925e80760dda6df7d1d0e8ef411daaa50fd17864d4443003e5c7f9b5ccc"
+  },
+  {
+    "name": "SC4441_Wake-N1_pair.json",
+    "sha256": "8ed6eb1e0702d361e932ade9313ccedbcfe896d9daa3671566c7dec53a63167e"
+  },
+  {
+    "name": "SC4442_N1-N2_pair.json",
+    "sha256": "4a86f84abb0d4bf57630a38779d32df86eec790603c9bdca3c204a3502ed7ff3"
+  },
+  {
+    "name": "SC4442_N2-N3_pair.json",
+    "sha256": "f9b539625f543ca7e2e0e6a19981ee6763dca7f6befc89b8ca69f8d31abcdfe8"
+  },
+  {
+    "name": "SC4442_Wake-N1_pair.json",
+    "sha256": "31ece1f425106669c4ffee2d38f803cd705a8eb1c2d6276eb4b01c4e696ff5ef"
+  },
+  {
+    "name": "SC4451_N1-N2_pair.json",
+    "sha256": "6ff5b2b7885ffcdcf5989aa587c0f334b5bb262ed16fa13975c8e2b9e0c75a86"
+  },
+  {
+    "name": "SC4451_N2-N3_pair.json",
+    "sha256": "17086368702010741f6800fb93b7d37c6332c91ddd79e044a1a97086f8a16792"
+  },
+  {
+    "name": "SC4451_N3-N4_pair.json",
+    "sha256": "3c6a67dba267e1c9b55ef56e64c0b5eee6a91b8ad7b2bdba16c5383b6d123d76"
+  },
+  {
+    "name": "SC4451_Wake-N1_pair.json",
+    "sha256": "c662d632c4a0460ce686734db354322731c6d286ade75002fe2a62116bc982b2"
+  },
+  {
+    "name": "SC4452_N1-N2_pair.json",
+    "sha256": "545883d3ae49790f9ac9e709d401a231467a8e9eeba27c53e9527ab464be08fe"
+  },
+  {
+    "name": "SC4452_N2-N3_pair.json",
+    "sha256": "6b6a262d05c3801e205168b720da646e7f3e6030cd2a7dbfab1f9e76e70b1c34"
+  },
+  {
+    "name": "SC4452_N3-N4_pair.json",
+    "sha256": "3c144f30b26794dffb72dd80f388fab6a66721562c6b0470efa7665ab4678e71"
+  },
+  {
+    "name": "SC4452_Wake-N1_pair.json",
+    "sha256": "70b998d25e9b57958ce70dfd07ec36e5982a137f0bb1af9b93c1183e2999d4bc"
+  },
+  {
+    "name": "SC4461_N1-N2_pair.json",
+    "sha256": "eb5d835fce687370f3430b8f4ad65dd55fca7482eef3debc523b20a26da1df69"
+  },
+  {
+    "name": "SC4461_Wake-N1_pair.json",
+    "sha256": "4ec8217f35d57e031b014620a3b79d4eea50d338ad6dabffc8b0d2b5c1e01bd7"
+  },
+  {
+    "name": "SC4462_N1-N2_pair.json",
+    "sha256": "b97c28e91668cf3c160de7a3f4ec90523d012739795da4a16d6f9eddf764e901"
+  },
+  {
+    "name": "SC4471_N1-N2_pair.json",
+    "sha256": "bb1ffdc260d1e29d5df22893b60d184feac6bb7fa5e634d34da0b25932da558f"
+  },
+  {
+    "name": "SC4471_N2-N3_pair.json",
+    "sha256": "fdc35e18cd6212f3a084b65175e5ddf9d388ad87cb9b4580c0e1d1f412a7b0c0"
+  },
+  {
+    "name": "SC4471_N3-N4_pair.json",
+    "sha256": "150159da4fe7494a934f72d2bf83ff5e074683fac341b268533dc380a5e1aaa1"
+  },
+  {
+    "name": "SC4471_Wake-N1_pair.json",
+    "sha256": "da8e0d8a0b65f597e63c37863ff783259223fd4210312e043aa91fe97c13ee7f"
+  },
+  {
+    "name": "SC4472_N1-N2_pair.json",
+    "sha256": "e32b7973d393d1ca261ce37435c94adf266b94111dd4f03a0af217de4a701e2f"
+  },
+  {
+    "name": "SC4472_N2-N3_pair.json",
+    "sha256": "9fa6ddeeaad5eebf7b8210f67f1acf55df9549f954c91d231ba4e52bde8b6c14"
+  },
+  {
+    "name": "SC4472_N3-N4_pair.json",
+    "sha256": "44e12cf6c14504f4b3f4787180c2880807282c41e1e44b1ca8200ce3e39a4127"
+  },
+  {
+    "name": "SC4472_Wake-N1_pair.json",
+    "sha256": "9384d7656a4c88ad06c0002b7ef095b386b80544cdf5238353aa10dcc629bd43"
+  },
+  {
+    "name": "SC4481_N1-N2_pair.json",
+    "sha256": "329d24b989d7c1fb9f50a03a0afaf4ed243da921c560b2613e6c4ed6f0c2ab30"
+  },
+  {
+    "name": "SC4481_N2-N3_pair.json",
+    "sha256": "d3752d7c25ab3db35f0af102368f873b97aa1075443ba5ce5825002f2c3b0268"
+  },
+  {
+    "name": "SC4481_Wake-N1_pair.json",
+    "sha256": "0a8c4b65ccbb0f2630b5095de1c45e32289a5851ca9b468ba8d149880230749d"
+  },
+  {
+    "name": "SC4482_N1-N2_pair.json",
+    "sha256": "89a8e6058f3b7f113566f65f4041fb8180f3ae08ab0f46d68b9c31739aaeafe2"
+  },
+  {
+    "name": "SC4482_N2-N3_pair.json",
+    "sha256": "748c3c8ed07b0331a4736198f4bd1f4617f639c72306c3ec63c0adec84042528"
+  },
+  {
+    "name": "SC4491_N1-N2_pair.json",
+    "sha256": "942b942cc698c8bee5c26603e8f00df23e260d61259e86c40ab5a116a21f8664"
+  },
+  {
+    "name": "SC4491_Wake-N1_pair.json",
+    "sha256": "82b61896f5e266bc734ff66e8b08c863052225a9326a628be576578a6c2ae585"
+  },
+  {
+    "name": "SC4492_N1-N2_pair.json",
+    "sha256": "80d08d458e6121d202e56028631824210577f302ebca4c8e8541fa4ed3bdc882"
+  },
+  {
+    "name": "SC4492_Wake-N1_pair.json",
+    "sha256": "6dcd12dc589be310c8377644ff7e827f5fdf81efe0a0f12c047af4f5e41a27c3"
+  },
+  {
+    "name": "SC4501_N1-N2_pair.json",
+    "sha256": "c3f4686fa8d96bcfcba62ddac5000a2791a4b2eeb5c69ab7449e47f7649edb14"
+  },
+  {
+    "name": "SC4501_Wake-N1_pair.json",
+    "sha256": "bd68b347b32d91cfbdc5d0feed51a354fec08cefec0f5d746ab8a64564e662b9"
+  },
+  {
+    "name": "SC4502_N1-N2_pair.json",
+    "sha256": "5b04057ea5a3af96b8b94923c62748e739156dcff6e061260536b71267d4e173"
+  },
+  {
+    "name": "SC4511_N1-N2_pair.json",
+    "sha256": "5379c36da4cf3cf99a6eadb42ccffa3159cd4ca52e4a6539d05fe0d00a6a1ca3"
+  },
+  {
+    "name": "SC4512_N1-N2_pair.json",
+    "sha256": "68c3a3e5413cef0b7ca77ba2f66cea275cb8ca99bfe3b3360661cd41e3495da6"
+  },
+  {
+    "name": "SC4512_Wake-N1_pair.json",
+    "sha256": "54cd5ca414a30148e2f4af2f42c4998f7778a4bef7f52e21d0c9aab59b520ce5"
+  },
+  {
+    "name": "SC4522_N1-N2_pair.json",
+    "sha256": "176e3dd648d17385612e4a06750da4ab84ac77051bc187116b54eac625f7787c"
+  },
+  {
+    "name": "SC4522_Wake-N1_pair.json",
+    "sha256": "a25cd91a13e7dc7dc481c2ea281949746d391009479476beba3b7a171fc049a8"
+  },
+  {
+    "name": "SC4531_N1-N2_pair.json",
+    "sha256": "3f0ad92d288465e5b07269321d522fbdf9133218710e35ce873d0b2b6f35f059"
+  },
+  {
+    "name": "SC4531_N2-N3_pair.json",
+    "sha256": "77cacbf5e5f39482f287fef1b2fc357ca94cc338934ae56b0d74de07e6f7a487"
+  },
+  {
+    "name": "SC4531_Wake-N1_pair.json",
+    "sha256": "9b2001e1707ba123b3337317f5b57fc89b09f24ebcdc6ab639290a77f0b9525a"
+  },
+  {
+    "name": "SC4532_N1-N2_pair.json",
+    "sha256": "add74243ae25b3538ee4c331e40dd23f537c9129a64a6676264b0c708bf69e47"
+  },
+  {
+    "name": "SC4541_N1-N2_pair.json",
+    "sha256": "445adf08b96efe15e1032c294744d40875b39a45d9d81c6aceea3f172b1a7439"
+  },
+  {
+    "name": "SC4541_Wake-N1_pair.json",
+    "sha256": "8ea28428516dd1f0bf9417842b64f2978f73eb5e7584c6de8e3a5088cd156783"
+  },
+  {
+    "name": "SC4542_N1-N2_pair.json",
+    "sha256": "a8bcd60132f41a88ce6777ff9483a1280d73ccc3406fc6a831690c0bb0af0699"
+  },
+  {
+    "name": "SC4542_N2-N3_pair.json",
+    "sha256": "1b19950dd6b8680c03c87d8d64e9261a23957ea0f476ecdd6d7003efa482971e"
+  },
+  {
+    "name": "SC4542_Wake-N1_pair.json",
+    "sha256": "5b4b583110bb373e8ff023737e793c4e3101c634996d99d393244ca54d94d4e0"
+  },
+  {
+    "name": "SC4551_N1-N2_pair.json",
+    "sha256": "56ae976da9a822bc89ee5631de74f244154077c8940b7d463a29c2a173d42fb7"
+  },
+  {
+    "name": "SC4551_Wake-N1_pair.json",
+    "sha256": "1452ce26064c038f7634ded9ec195412a037449210a40886a44e10865622d664"
+  },
+  {
+    "name": "SC4552_N1-N2_pair.json",
+    "sha256": "4e1c2556279d6dd19915fdba9636177ad01c0230831caab79b493ed557c43adb"
+  },
+  {
+    "name": "SC4552_Wake-N1_pair.json",
+    "sha256": "35265a351d436e6b6d436e734cf6e017b5a8f428cc3f4decb0c2ce9f77a4fb66"
+  },
+  {
+    "name": "SC4561_N1-N2_pair.json",
+    "sha256": "e9999cd99e04c528d546d09e5f43b07ed2648e6b186f534849cd05ffb509e2c5"
+  },
+  {
+    "name": "SC4561_N2-N3_pair.json",
+    "sha256": "b231233ab8a0cc19536a1b21810f581c21818b4c54133def0929296e73902d8f"
+  },
+  {
+    "name": "SC4561_Wake-N1_pair.json",
+    "sha256": "9946ebd928648f80884ad5f306e2810e22d7602e894cb3190819e4280633d610"
+  },
+  {
+    "name": "SC4562_N1-N2_pair.json",
+    "sha256": "9e1d2a5ddf9081aad7ac82e7c3a3a5583727efd0cada7516f5ede865ccd02c62"
+  },
+  {
+    "name": "SC4562_Wake-N1_pair.json",
+    "sha256": "e28241f1c66d32fef6151046633da8e0eaca333d88a83b309c085f5534b56946"
+  },
+  {
+    "name": "SC4571_N1-N2_pair.json",
+    "sha256": "80e26d0ec3c1ba012359dcd5f42abc4b1ebb965c3fb7838e83ff98f8a38e69cd"
+  },
+  {
+    "name": "SC4571_Wake-N1_pair.json",
+    "sha256": "96233ab0e632fb26ecdce989c24b7f133d72f0cdaa09565a25ee28b49e80e240"
+  },
+  {
+    "name": "SC4572_N1-N2_pair.json",
+    "sha256": "a37c53d4fa4e72ba344f71c26dee60cae0938d0d5fe50738517fb1d60514f223"
+  },
+  {
+    "name": "SC4581_N1-N2_pair.json",
+    "sha256": "f845edc77ae99a1d462fffe536ba3cb3056ff30695cc50e1b55aaae075757f78"
+  },
+  {
+    "name": "SC4581_Wake-N1_pair.json",
+    "sha256": "453f8258ec6b8045aafbaadd3b083adc4a771e39f8b7ed449665c4ee4c5b76a2"
+  },
+  {
+    "name": "SC4582_N1-N2_pair.json",
+    "sha256": "28a7f0585788eeb0544e6c425e032113cc840ae50b0f75e902fa4a3abc30241e"
+  },
+  {
+    "name": "SC4582_Wake-N1_pair.json",
+    "sha256": "3bcbe0b43f4bdb29a1854dee83fee6dcafb1a4b5ec5245dfc0826ba5818d4de2"
+  },
+  {
+    "name": "SC4591_N1-N2_pair.json",
+    "sha256": "a1aac13162cf5fca2602890240e2068d98cf0dd9078af321f576433146d2b3b8"
+  },
+  {
+    "name": "SC4591_N2-N3_pair.json",
+    "sha256": "2032c78e5e2c6e13fcedacefe1d9cfceaa64ae88877dd3d58b264b9b4037a80f"
+  },
+  {
+    "name": "SC4591_Wake-N1_pair.json",
+    "sha256": "3b606ee5dd693310e1758745574513817e21b2cbf7343d2a06700e40bc2b4469"
+  },
+  {
+    "name": "SC4592_N1-N2_pair.json",
+    "sha256": "cd4199e0e549779b772a392558090ff588ef79d04175fa521dce8f113c3e376c"
+  },
+  {
+    "name": "SC4592_N2-N3_pair.json",
+    "sha256": "a620cbca08d228ecba0c965a7d41e7644259f751510b458e3fe90ba9d6ca08fa"
+  },
+  {
+    "name": "SC4592_Wake-N1_pair.json",
+    "sha256": "48630d78955a9d54e5626cebb8c26415f5b5fcc968bae508eb339cbad28c2d37"
+  },
+  {
+    "name": "SC4601_N2-N3_pair.json",
+    "sha256": "b8fbb1d12de9057430d4a388aad39e11f2279795148c58410bc1058ee252fb37"
+  },
+  {
+    "name": "SC4602_N1-N2_pair.json",
+    "sha256": "3de069c4943fcabcfdaf264f37599d82690ac46f79ed9715bb271b2cbe4f06c1"
+  },
+  {
+    "name": "SC4602_N2-N3_pair.json",
+    "sha256": "febea4a49f6ec0872c4196c8e623607af15e2093dae827cbd6da653fe2416c3c"
+  },
+  {
+    "name": "SC4602_Wake-N1_pair.json",
+    "sha256": "ae6374792d6c8c9165dadc7917004e5df345e12616c131e1eab5d211e7e4dfae"
+  },
+  {
+    "name": "SC4611_N1-N2_pair.json",
+    "sha256": "8a9773796546dbf8d106acf8e335dec9a5019a271e5a236e46faa219d89a4d04"
+  },
+  {
+    "name": "SC4611_N2-N3_pair.json",
+    "sha256": "361c53c3a61c9e1530ecb41f71472efb59cf9ddd6ef4721edf0a33ceb28aea46"
+  },
+  {
+    "name": "SC4611_Wake-N1_pair.json",
+    "sha256": "69e5e04fdd6511d8a0fc52404ec5952a7afa0d2776fe882938464ec955e67ec8"
+  },
+  {
+    "name": "SC4612_N1-N2_pair.json",
+    "sha256": "0ce0bff06cbac12da83cf1ec03d97327d58dfa04135f14372493c66dbc61feb3"
+  },
+  {
+    "name": "SC4612_N2-N3_pair.json",
+    "sha256": "7d83d173fc28e1efd709586b1545d70d2cc238c6c9fc533383196ea4629a10ea"
+  },
+  {
+    "name": "SC4612_Wake-N1_pair.json",
+    "sha256": "67edce43b4e101480261e6deb3085e4ece36378762fa45f0f2c0704381de7265"
+  },
+  {
+    "name": "SC4621_N1-N2_pair.json",
+    "sha256": "aeb3c8e04432588ffe3af8ab9456e6650c647eec130fc0345db6c73fd47629ef"
+  },
+  {
+    "name": "SC4621_Wake-N1_pair.json",
+    "sha256": "e78e7c3e7e6979134cf28eb201d28e22bcb566c44698135a0612694cf1ac1a42"
+  },
+  {
+    "name": "SC4622_N1-N2_pair.json",
+    "sha256": "d10fe81d48c77ff216e21795a267173d1208f9e5bddc5d905c2de911c40a07a0"
+  },
+  {
+    "name": "SC4622_Wake-N1_pair.json",
+    "sha256": "020bc3c7ed6a7e246bce1f578b9e704920b7da85b77f900b1d0f2fa0dfe39919"
+  },
+  {
+    "name": "SC4631_N1-N2_pair.json",
+    "sha256": "0006205fe153daa5a146ae47ee3f826797c639164027bfff960f7e4392a2d232"
+  },
+  {
+    "name": "SC4631_N2-N3_pair.json",
+    "sha256": "a7c031762b24fad7011e184a85cd50a74dba2f9d9ef4e914631e373b013ef50f"
+  },
+  {
+    "name": "SC4631_Wake-N1_pair.json",
+    "sha256": "abf979dca87a802c2f66a8ad13eba8f06a4b30f95be9762eaf829c20f29ca91b"
+  },
+  {
+    "name": "SC4632_N1-N2_pair.json",
+    "sha256": "fb28aeac31f95953d41f645a883f3df58bf3569e026b5808f6a3ca4d46409e73"
+  },
+  {
+    "name": "SC4632_Wake-N1_pair.json",
+    "sha256": "0d5205d5cd9cdbd90c0e9bcdb71b4b38ae82f25c73993f98100a42f25d8e7853"
+  },
+  {
+    "name": "SC4641_N1-N2_pair.json",
+    "sha256": "c3417e915523cd51c430268ab67dd01957a6b64d0fd94f22902523c4837bbfcc"
+  },
+  {
+    "name": "SC4641_Wake-N1_pair.json",
+    "sha256": "983d310c18c52782ec3a8a55b97505e2998d1b8cc18639e4ceb413e58afcb659"
+  },
+  {
+    "name": "SC4642_N1-N2_pair.json",
+    "sha256": "72a3f6f64ced466d97480aa0553c2432f8743f74b2f5104d41def04eaa829651"
+  },
+  {
+    "name": "SC4642_Wake-N1_pair.json",
+    "sha256": "441fbc17dacd738f328748058e7b611692947506eaf5f0d06ecbbc1ee68edc65"
+  },
+  {
+    "name": "SC4651_N1-N2_pair.json",
+    "sha256": "d53e1c22cea028e04cffc020d9fa77408bb0211461e36e53a73a1dd99f805854"
+  },
+  {
+    "name": "SC4651_N2-N3_pair.json",
+    "sha256": "a8827c4b836751635e0b3c07bdf3299a735eea20f7d6a27ae6b9b822fd73cd14"
+  },
+  {
+    "name": "SC4651_Wake-N1_pair.json",
+    "sha256": "16c3eebe2815fb530d3aac4f368b214a735442ee2fbc7eac0d969ec0569922f3"
+  },
+  {
+    "name": "SC4652_N1-N2_pair.json",
+    "sha256": "249734c5f5585dd1b63c5b2a0a79538ca4f3bb03aec00ef27999174ca0df83c7"
+  },
+  {
+    "name": "SC4652_N2-N3_pair.json",
+    "sha256": "94cd56a71a08cdd58cac580fe038d6f205f575a77ff4adb9c3cf0aef21d451ee"
+  },
+  {
+    "name": "SC4652_N3-N4_pair.json",
+    "sha256": "62276a37a55f3328c40409e831a697a3d6b65394b1a452308995913205fee4b1"
+  },
+  {
+    "name": "SC4652_Wake-N1_pair.json",
+    "sha256": "21e5c4c14269d5c1dc79927fd24bbc803cfb28290f93f34d6406bf35f1581227"
+  },
+  {
+    "name": "SC4661_N1-N2_pair.json",
+    "sha256": "d3f2619bf6ca1dd3bc41b4c20fab9b6074b724f33d051a96613c1afa5baca64c"
+  },
+  {
+    "name": "SC4661_Wake-N1_pair.json",
+    "sha256": "781640bac5f11ae49796b6ae4c4bcb895f53dd8e0a3246d60d99237c3da9bc47"
+  },
+  {
+    "name": "SC4662_N1-N2_pair.json",
+    "sha256": "499a062e38fee7d39992e77bb2e4db487e7a76edd632da15c7edf410c1482111"
+  },
+  {
+    "name": "SC4662_N2-N3_pair.json",
+    "sha256": "2b3d8dc6cf923ba3a942220106ea6b0c17ac942accea41c4ae5573a92e68d78c"
+  },
+  {
+    "name": "SC4662_Wake-N1_pair.json",
+    "sha256": "497c6f0ded819bfe56831f4e4153c5ff47b85c443eee80b590ed4f1cca4f5971"
+  },
+  {
+    "name": "SC4671_N1-N2_pair.json",
+    "sha256": "49c6b20da90436b7010c895f9246244ec396abd91ae1f4ddf6410cec59f7d629"
+  },
+  {
+    "name": "SC4671_Wake-N1_pair.json",
+    "sha256": "3458727beefaa57b4c35f08bacc499045a2aa032c5d6426fcc40165c2a9a6076"
+  },
+  {
+    "name": "SC4672_N1-N2_pair.json",
+    "sha256": "c149215a85e842e51d77deb32de1ed5af8d180a26cbca968d4300d3920565427"
+  },
+  {
+    "name": "SC4672_Wake-N1_pair.json",
+    "sha256": "0d50b91be444c326f389258377c6c3e6ffac286f17dbebd9cbadf0fef13423d5"
+  },
+  {
+    "name": "SC4701_N1-N2_pair.json",
+    "sha256": "fe5875cc30dcc1b270a0751c92c86aff9d39f0c1b9a9f02e82c6ce358e78d5e6"
+  },
+  {
+    "name": "SC4701_Wake-N1_pair.json",
+    "sha256": "11a28131b74f5cf9e168f4c49d68232661e9ab4de47349da1509411520e67a41"
+  },
+  {
+    "name": "SC4702_N1-N2_pair.json",
+    "sha256": "f7083874f3b8be93977c8d656065b6f9ff9c236fbca9b96a56fed7f7044e90f6"
+  },
+  {
+    "name": "SC4702_Wake-N1_pair.json",
+    "sha256": "41246eef62118ead67e3c4863fca2c62567169a22734694295c871094ffdd6de"
+  },
+  {
+    "name": "SC4711_N1-N2_pair.json",
+    "sha256": "122f2d095116cfe0e998221cf2bee5569bfc1bb990418e7538c494e5340b8a53"
+  },
+  {
+    "name": "SC4711_Wake-N1_pair.json",
+    "sha256": "0dcafb9a249bd7fc30e8a7aafe74d30a5f87f7cef20d0bf646127ca3d09c03cc"
+  },
+  {
+    "name": "SC4712_N1-N2_pair.json",
+    "sha256": "6b1aa02106f3e661004b453ba98c13beca52ae32d11180cc7970327aa315c092"
+  },
+  {
+    "name": "SC4712_Wake-N1_pair.json",
+    "sha256": "36fda3bcbfe404e13cf7c53ac463c62fa04939181a41e359f47a61fca57daf2f"
+  },
+  {
+    "name": "SC4721_N1-N2_pair.json",
+    "sha256": "2990b2b8f4ead1d97da89f36124d76ac1c0bb5aaecdbd4bfcaa05b89e820962b"
+  },
+  {
+    "name": "SC4721_Wake-N1_pair.json",
+    "sha256": "a68ec70e4341a19b0f685d336bbb61d44ad30412ca941070b2fb7a8d0a06fdff"
+  },
+  {
+    "name": "SC4722_N1-N2_pair.json",
+    "sha256": "fc47eb41e9ae3db2db9f651101bac38b7f1b1dc89466075d65a0cae86389e48a"
+  },
+  {
+    "name": "SC4722_Wake-N1_pair.json",
+    "sha256": "fca421d77001a3aedc814f8c354fdd7a4f807aee134a68720c7c259a1497820a"
+  },
+  {
+    "name": "SC4731_N1-N2_pair.json",
+    "sha256": "626fb90fd08bfdcfe690b8b0a0554b4813727fe8eb62a44a016788c0bb7fb540"
+  },
+  {
+    "name": "SC4731_Wake-N1_pair.json",
+    "sha256": "0341ebf2f916397d68579bdfd138495b4c11a29775346dc69268b04361bfe0de"
+  },
+  {
+    "name": "SC4732_N1-N2_pair.json",
+    "sha256": "353825b8e1406fa89119e8932fa6acb7469dcdcdcce889ac12d6aef21c2d371d"
+  },
+  {
+    "name": "SC4732_Wake-N1_pair.json",
+    "sha256": "dff25162452dbfd304ba5527b547701901b1d2ed784993320980d54bb37f89d5"
+  },
+  {
+    "name": "SC4741_N1-N2_pair.json",
+    "sha256": "1dbebe5fb6431d4e74655955c4d881adf8bf6117bb68ed6abd03f96ef8e7fbc2"
+  },
+  {
+    "name": "SC4742_N1-N2_pair.json",
+    "sha256": "5f72022f8b3c71aed965e727686de7561a4a70b44b763b38c00192825ee39c90"
+  },
+  {
+    "name": "SC4742_Wake-N1_pair.json",
+    "sha256": "ae85259a9a5ca6da46e78a4935cb7cee84b5cf3c6701dc3656c4f4cc92fd02d0"
+  },
+  {
+    "name": "SC4751_N1-N2_pair.json",
+    "sha256": "aba7a35c4031cdfacf08b17d5e6e9e4c4eb9b4bd5a36e50e755552d2c7e1aea2"
+  },
+  {
+    "name": "SC4751_Wake-N1_pair.json",
+    "sha256": "230e0925c9e7f973b7e88748b1b8b0a8af2b88bc7b18f513760b1ae86d0ecd0d"
+  },
+  {
+    "name": "SC4752_N1-N2_pair.json",
+    "sha256": "ad7720f5dc23dced0c1c969cc6775ba0e431195d7f34963f91f2a0727bc7f518"
+  },
+  {
+    "name": "SC4752_Wake-N1_pair.json",
+    "sha256": "b8f7fd67d27e9f6e53fbbb87bd2094e85151899c9a3104acf0fff76fd328e932"
+  },
+  {
+    "name": "SC4761_N1-N2_pair.json",
+    "sha256": "36ba5b536fe67cda6990d3ca6515c59ad7e8cb2293c4aeeef35db1e860574d0b"
+  },
+  {
+    "name": "SC4761_Wake-N1_pair.json",
+    "sha256": "3bd0589462cc7437e1b3efa8cb89c013b5afc11f056427e93c842ab70d7ce77c"
+  },
+  {
+    "name": "SC4762_N1-N2_pair.json",
+    "sha256": "300d27ee679696696b1ff512f5aca1c470f0edcd603846c120328d0b193df6a9"
+  },
+  {
+    "name": "SC4762_Wake-N1_pair.json",
+    "sha256": "5fd346a424976997860615959d4fa2d08747738594f03a69ba95a123f12e7466"
+  },
+  {
+    "name": "SC4771_N1-N2_pair.json",
+    "sha256": "178bd0954c3e80631021debf97b6fb1d215eb43268bb7755882d8d78461ce670"
+  },
+  {
+    "name": "SC4771_Wake-N1_pair.json",
+    "sha256": "96667b36ce3924ca15d5a1f6ec3a709023dce600647e4c9ebc5184fd0c96e206"
+  },
+  {
+    "name": "SC4772_N1-N2_pair.json",
+    "sha256": "024be0399fd8f23fb7e292c597a8deb953fcea7ea89be8f5d3c9c35693faa34d"
+  },
+  {
+    "name": "SC4772_N2-N3_pair.json",
+    "sha256": "e1d179f99396c0b568196e52d5d44c50f2a98b8819928c0f45c55a3449479d17"
+  },
+  {
+    "name": "SC4772_Wake-N1_pair.json",
+    "sha256": "52c1ddfb2aaa855c9ffa052ef17947d72e7bde68f46f6c7ada2d60652b985753"
+  },
+  {
+    "name": "SC4801_N1-N2_pair.json",
+    "sha256": "f3b400f984cac6c3e0365a447b666087052d663a7d7e39d4e83d384629f59a3b"
+  },
+  {
+    "name": "SC4801_Wake-N1_pair.json",
+    "sha256": "00d4ce1965a3e6930294c7ef05b9eb20d06107f9d66241e4af05caf27835c268"
+  },
+  {
+    "name": "SC4802_N1-N2_pair.json",
+    "sha256": "ab2c340443a099018119bdbda532cc1ad13dbd9c234181d105ff57716b9c6347"
+  },
+  {
+    "name": "SC4802_Wake-N1_pair.json",
+    "sha256": "285321e37663821a9bcebc3a7259944e711995a8da4a64d21b62051490e41f68"
+  },
+  {
+    "name": "SC4811_N1-N2_pair.json",
+    "sha256": "799e9de0d61fb82d2c1e5fd5f93ab19a21d4ba52700baa957a3e363b770ccd97"
+  },
+  {
+    "name": "SC4811_N2-N3_pair.json",
+    "sha256": "c5a685ae928660427046fccee2181ef794a6c59c2964c121217ddcf0019df96c"
+  },
+  {
+    "name": "SC4811_Wake-N1_pair.json",
+    "sha256": "e68b65461e77ab31e0fa6402f1c1d7977f366a6f0b3db3cd09bde82b6ab88352"
+  },
+  {
+    "name": "SC4812_N1-N2_pair.json",
+    "sha256": "21dad1bdbab619e164edb88c14ca927aa0ca8f160288c073456b3bb5743ba469"
+  },
+  {
+    "name": "SC4812_N2-N3_pair.json",
+    "sha256": "ecdd0a3bd20ff7b0f0e16575155ef7b646d94bea00487c83a5764a45c5495a9c"
+  },
+  {
+    "name": "SC4812_Wake-N1_pair.json",
+    "sha256": "4da0df564839f027eee8e6803239a3be694ec18e7f71315c56fe8d9d1be15405"
+  },
+  {
+    "name": "SC4821_N1-N2_pair.json",
+    "sha256": "c51de56ed3494302bc579ce2ce47d41e8ee07f6e3ed739cfac88de236d846d9c"
+  },
+  {
+    "name": "SC4821_N2-N3_pair.json",
+    "sha256": "350acce979f08f1146bf37e253ece0848b895226f2e419e8e1acdff173bdfd65"
+  },
+  {
+    "name": "SC4821_N3-N4_pair.json",
+    "sha256": "9586dd659acebbb0ed4dcffed474d19088de02d1e20596f6c4ec64d15944c951"
+  },
+  {
+    "name": "SC4821_Wake-N1_pair.json",
+    "sha256": "325de8313fbda6820a1ac26c965f34c5b72c762781202ebbea4b2828798eb646"
+  },
+  {
+    "name": "SC4822_N1-N2_pair.json",
+    "sha256": "5afbe8909aa902b37bae33f8d68b350799d93c00d1ee617576aa970f22ebaf21"
+  },
+  {
+    "name": "SC4822_N2-N3_pair.json",
+    "sha256": "eb13e2c9560cbfcb3a4c885777dcde3f425a4f973551a0a6e1d267ee44af1a14"
+  },
+  {
+    "name": "SC4822_N3-N4_pair.json",
+    "sha256": "29cc094c9a4ed44d7fff554636d9e764b198edfe2d7f1ffc2d0fddbbe7e7278d"
+  },
+  {
+    "name": "SC4822_Wake-N1_pair.json",
+    "sha256": "2f6df926db551b6170b2d493999ef253bafa66252eebf9405080c5e1daf45965"
+  }
+]

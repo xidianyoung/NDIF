@@ -1,0 +1,21 @@
+========================================================================================
+NDIF on the three regularly indexed non-neural series -- primary configuration
+========================================================================================
+
+nile  (hydrology)   n = 100 in 4 segments, dt = 1
+   L1 refused        L2 admitted       L3 refused        binding G2
+   G1 nu    =   -1.449   indeterminate   [two-lag solution outside the admissible range; the single-timescale-plus-white model does not hold here]
+   G2 theta =    1.080   binding
+   G3 rate recovery =  0.870, variance recovery = 0.957
+
+sunspots  (solar physics)   n = 300 in 6 segments, dt = 1
+   L1 indeterminate  L2 admitted       L3 indeterminate  binding G1
+   G1 nu    =   -0.672   indeterminate   [two-lag solution outside the admissible range; the single-timescale-plus-white model does not hold here]
+   G2 theta =   -0.332   cleared
+   G3 rate recovery =  0.870, variance recovery = 1.025
+
+macro_unemp  (macroeconomics)   n = 200 in 5 segments, dt = 0.25
+   L1 refused        L2 admitted       L3 refused        binding G2
+   G1 nu    =   -0.059   indeterminate   [two-lag solution outside the admissible range; the single-timescale-plus-white model does not hold here]
+   G2 theta =   -0.834   binding
+   G3 rate recovery =  0.268, variance recovery = 0.966

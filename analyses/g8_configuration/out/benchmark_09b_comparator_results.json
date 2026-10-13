@@ -1,0 +1,34 @@
+{
+ "ols|comparator": {
+  "n": 394,
+  "accepted": 365,
+  "inaccurate_accepted": 277,
+  "accurate": 92,
+  "accurate_not_accepted": 4,
+  "not_evaluable": 0
+ },
+ "ols|certificate": {
+  "n": 394,
+  "accepted": 72,
+  "inaccurate_accepted": 5,
+  "accurate": 92,
+  "accurate_not_accepted": 25,
+  "not_evaluable": 0
+ },
+ "kalman|comparator": {
+  "n": 394,
+  "accepted": 269,
+  "inaccurate_accepted": 47,
+  "accurate": 239,
+  "accurate_not_accepted": 17,
+  "not_evaluable": 0
+ },
+ "kalman|certificate": {
+  "n": 394,
+  "accepted": 179,
+  "inaccurate_accepted": 21,
+  "accurate": 239,
+  "accurate_not_accepted": 81,
+  "not_evaluable": 0
+ }
+}

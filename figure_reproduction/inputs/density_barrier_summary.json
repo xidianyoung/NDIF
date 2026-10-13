@@ -1,0 +1,68 @@
+{
+ "known_barrier_one_well": {
+  "n": 256,
+  "n_ok": 256,
+  "frac_barrier_exactly_zero": 1.0,
+  "median_barrier": 0.0,
+  "median_separation": 0.38325270943127865,
+  "true_barrier_min": 1.860489996998226,
+  "true_barrier_max": 21.70753613589496,
+  "true_barrier_median": 3.794032442493736,
+  "true_barrier_hi_range": [
+   2.1731317666248975,
+   15.878684512410135
+  ],
+  "known_barrier_read_zero": {
+   "n": 256,
+   "n_with_known_barrier": 256,
+   "true_barrier_range": [
+    1.860489996998226,
+    21.70753613589496
+   ],
+   "true_barrier_median": 3.794032442493736
+  }
+ },
+ "known_barrier_two_wells": {
+  "n": 256,
+  "n_ok": 256,
+  "frac_barrier_exactly_zero": 0.0,
+  "median_barrier": 8.390718133356252,
+  "median_separation": 8.538766809979684,
+  "true_barrier_min": 1.860489996998226,
+  "true_barrier_max": 21.70753613589496,
+  "true_barrier_median": 3.794032442493736,
+  "true_barrier_hi_range": [
+   2.1731317666248975,
+   15.878684512410135
+  ],
+  "n_positive": 256,
+  "slope_through_origin": 0.12335808581878635,
+  "one_over_slope": 8.106481171157316,
+  "r2_through_origin": 0.9993730306466712,
+  "max_abs_resid": 1.2821469258068845,
+  "expected_slope": 0.125,
+  "known_barrier_read_zero": {
+   "n": 0,
+   "n_with_known_barrier": 256,
+   "true_barrier_range": null,
+   "true_barrier_median": null
+  }
+ },
+ "single_basin": {
+  "n": 256,
+  "n_ok": 256,
+  "frac_barrier_exactly_zero": 0.875,
+  "median_barrier": 0.0,
+  "median_separation": 0.41779703967847526,
+  "true_barrier_min": 0.0,
+  "true_barrier_max": 0.0,
+  "true_barrier_median": 0.0,
+  "true_barrier_hi_range": null,
+  "n_positive": 32,
+  "slope_through_origin": 0.055199428154077926,
+  "one_over_slope": 18.116129703530703,
+  "r2_through_origin": 0.6331506765272322,
+  "max_abs_resid": 1.2007442183073345,
+  "expected_slope": 0.125
+ }
+}

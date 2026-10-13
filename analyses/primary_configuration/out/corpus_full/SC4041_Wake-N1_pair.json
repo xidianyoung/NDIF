@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4041",
+ "contrast": "Wake vs N1",
+ "lo": "Wake",
+ "hi": "N1",
+ "n_segments_lo": 8,
+ "n_segments_hi": 17,
+ "status": "cleared",
+ "passed": true,
+ "separation": 0.9990110621627105,
+ "floor": 0.24864395265507747,
+ "margin": 0.7503671095076331,
+ "detail": {
+  "floor": 0.24864395265507747,
+  "null_median": 0.11994413924197546,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.8615949153900146
+}

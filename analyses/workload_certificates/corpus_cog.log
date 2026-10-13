@@ -1,0 +1,8 @@
+==============================================================================
+NDIF certificates, COG-BCI (28 participants x 2 task families; sub-27 and sub-28 session 1 excluded as duplicates), lag-1 least-squares rate, package defaults
+56 recordings
+==============================================================================
+  L1: indeterminate 56
+  L2: admitted 56
+  L3: refused 55, indeterminate 1  | binds: G1 x32, G3 x13, G2 x10
+  median G1 white share 0.7830801090585615, G1 indeterminate in 24 of 56; median G3 recovery 0.10727864364169472; median detection margin x10.497841205429733

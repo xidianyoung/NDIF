@@ -1,0 +1,51 @@
+{
+ "script": "benchmark_05_corpus_full.py",
+ "cache": "analyses/sleep_feature_cache",
+ "out_dir": "analyses/primary_configuration/out/corpus_full",
+ "estimators": [
+  "ols",
+  "kalman"
+ ],
+ "gates_ols": [
+  "G0",
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G5",
+  "G6",
+  "G7"
+ ],
+ "gates_kalman": [
+  "G0",
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G7"
+ ],
+ "min_epochs": 6,
+ "pairs": [
+  [
+   "Wake",
+   "N1"
+  ],
+  [
+   "N1",
+   "N2"
+  ],
+  [
+   "N2",
+   "N3"
+  ],
+  [
+   "N3",
+   "N4"
+  ]
+ ],
+ "replicates": "package defaults",
+ "primary_rule": "SC*_win1.npz whose stem does not end in L",
+ "n_nights": 153,
+ "n_cells": 602,
+ "started": "2026-09-26 19:33:39"
+}

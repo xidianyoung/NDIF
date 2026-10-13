@@ -1,0 +1,99 @@
+{
+ "window_s": 2.0,
+ "method": "Benjamini-Hochberg (scipy.stats.false_discovery_control)",
+ "family": "four directional-spread contrasts (label-permutation P) and four apparent-rate contrasts (Wilcoxon P), 2-s window",
+ "p_entered": "at the reporting bounds: permutation P >= 1/(draws + 1); Wilcoxon P below 1e-4 entered as 1e-4",
+ "n_contrasts": 8,
+ "n_adjusted_below_0_05": 4,
+ "max_adjusted_p_below_0_05": 0.0003999200159968006,
+ "contrasts": [
+  {
+   "contrast": "Wake/N1",
+   "key": "width|Wake>N1",
+   "quantity": "directional spread",
+   "test": "within-night stage-label permutation",
+   "p": 0.0001999600079984003,
+   "bound": 0.0001999600079984003,
+   "p_entered": 0.0001999600079984003,
+   "p_adjusted": 0.0003999200159968006,
+   "p_adjusted_unbounded": 0.0003999200159968006
+  },
+  {
+   "contrast": "N1/N2",
+   "key": "width|N1>N2",
+   "quantity": "directional spread",
+   "test": "within-night stage-label permutation",
+   "p": 0.5994801039792041,
+   "bound": 0.0001999600079984003,
+   "p_entered": 0.5994801039792041,
+   "p_adjusted": 0.6527635040598475,
+   "p_adjusted_unbounded": 0.6527635040598475
+  },
+  {
+   "contrast": "N2/N3",
+   "key": "width|N2>N3",
+   "quantity": "directional spread",
+   "test": "within-night stage-label permutation",
+   "p": 0.0001999600079984003,
+   "bound": 0.0001999600079984003,
+   "p_entered": 0.0001999600079984003,
+   "p_adjusted": 0.0003999200159968006,
+   "p_adjusted_unbounded": 0.0003999200159968006
+  },
+  {
+   "contrast": "N3/N4",
+   "key": "width|N3>N4",
+   "quantity": "directional spread",
+   "test": "within-night stage-label permutation",
+   "p": 0.05378924215156969,
+   "bound": 0.0001999600079984003,
+   "p_entered": 0.05378924215156969,
+   "p_adjusted": 0.0860627874425115,
+   "p_adjusted_unbounded": 0.0860627874425115
+  },
+  {
+   "contrast": "Wake/N1",
+   "key": "lam_mean_1|Wake>N1",
+   "quantity": "apparent rate",
+   "test": "paired two-sided Wilcoxon",
+   "p": 1.7929352721496346e-08,
+   "bound": 0.0001,
+   "p_entered": 0.0001,
+   "p_adjusted": 0.0003999200159968006,
+   "p_adjusted_unbounded": 7.171741088598538e-08
+  },
+  {
+   "contrast": "N1/N2",
+   "key": "lam_mean_1|N1>N2",
+   "quantity": "apparent rate",
+   "test": "paired two-sided Wilcoxon",
+   "p": 3.3182853232613214e-12,
+   "bound": 0.0001,
+   "p_entered": 0.0001,
+   "p_adjusted": 0.0003999200159968006,
+   "p_adjusted_unbounded": 2.654628258609057e-11
+  },
+  {
+   "contrast": "N2/N3",
+   "key": "lam_mean_1|N2>N3",
+   "quantity": "apparent rate",
+   "test": "paired two-sided Wilcoxon",
+   "p": 0.6527635040598475,
+   "bound": 0.0001,
+   "p_entered": 0.6527635040598475,
+   "p_adjusted": 0.6527635040598475,
+   "p_adjusted_unbounded": 0.6527635040598475
+  },
+  {
+   "contrast": "N3/N4",
+   "key": "lam_mean_1|N3>N4",
+   "quantity": "apparent rate",
+   "test": "paired two-sided Wilcoxon",
+   "p": 0.20244979858398438,
+   "bound": 0.0001,
+   "p_entered": 0.20244979858398438,
+   "p_adjusted": 0.2699330647786458,
+   "p_adjusted_unbounded": 0.2699330647786458
+  }
+ ]
+}

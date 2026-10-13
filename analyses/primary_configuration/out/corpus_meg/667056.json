@@ -1,0 +1,258 @@
+{
+ "kind": "cell",
+ "recording": "HCP MEG 667056",
+ "estimator": "ols",
+ "n_segments": 20,
+ "n_windows": 293,
+ "dim": 8,
+ "dt": 2.5,
+ "levels_present": [
+  0,
+  1
+ ],
+ "gates_consulted": [
+  "G0",
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G5",
+  "G6",
+  "G7"
+ ],
+ "replicates": "package defaults",
+ "levels": {
+  "L1": {
+   "status": "refused",
+   "binding_gate": "G5",
+   "margin": -0.2939961050498736,
+   "detection_margin": "separations above 0.294 clear the zero-truth floor at this geometry",
+   "grounds": "G5 binds: separation (Mahalanobis) = 0, criterion observed > 95.0th pct of zero-truth (0.294)"
+  },
+  "L2": {
+   "status": "admitted",
+   "binding_gate": "G0",
+   "margin": 0.0,
+   "detection_margin": "a change in state variance of at least x1.21 would have been detected at 80% power",
+   "grounds": "all governing gates cleared; tightest is G0 at margin 0"
+  },
+  "L3": {
+   "status": "refused",
+   "binding_gate": "G3",
+   "margin": -0.7368605588829702,
+   "detection_margin": null,
+   "grounds": "G3 binds: recovered fraction (rate channel) = 0.06314, criterion |slope - 1| <= 0.2 AND |bias| <= 0.2 log units"
+  }
+ },
+ "gates": [
+  {
+   "gate": "G0",
+   "passed": true,
+   "value": 1.0,
+   "margin": 0.0,
+   "criterion": "ratio >= 1 (no shared samples)",
+   "statistic": "step/window",
+   "cost_s": 5.0999999530176865e-06,
+   "note": "",
+   "detail": {
+    "window_s": 2.5,
+    "step_s": 2.5,
+    "overlap_fraction": 0.0
+   }
+  },
+  {
+   "gate": "G1",
+   "passed": null,
+   "value": null,
+   "margin": null,
+   "criterion": "nu <= 0.2",
+   "statistic": "nu (white variance share)",
+   "cost_s": 0.0035368999999718653,
+   "note": "two-lag solution outside the admissible range; the single-timescale-plus-white model does not hold here",
+   "detail": {
+    "two_lag": {
+     "r1": -0.019302273074567784,
+     "r2": -0.028549510034966526,
+     "nu": null,
+     "a": null,
+     "ok": false
+    },
+    "nu_random_directions": 0.9351042759882092
+   }
+  },
+  {
+   "gate": "G2",
+   "passed": null,
+   "value": null,
+   "margin": null,
+   "criterion": "|theta| <= 0.5 and CI excludes 1",
+   "statistic": "theta in lambda ~ dt^(-theta)",
+   "cost_s": 0.0007419999999456195,
+   "note": "too few usable decimation levels",
+   "detail": {
+    "per_factor": {
+     "1": 1.6512785938836725,
+     "2": 0.9467422239828505
+    }
+   }
+  },
+  {
+   "gate": "G3",
+   "passed": false,
+   "value": 0.06313944111702983,
+   "margin": -0.7368605588829702,
+   "criterion": "|slope - 1| <= 0.2 AND |bias| <= 0.2 log units",
+   "statistic": "recovered fraction (rate channel)",
+   "cost_s": 0.2957556999999724,
+   "note": "",
+   "detail": {
+    "rate_recovery": 0.06313944111702983,
+    "variance_recovery": 1.006179766867319,
+    "bias_log": null,
+    "slope_ok": false,
+    "bias_ok": false,
+    "bias_tol": 0.2,
+    "variance_ok": true,
+    "detection_margin_fold": null,
+    "detection_margin_fold_variance": 1.2089056075634963,
+    "nu_injected": 0.9999999999999877,
+    "estimator": "ols",
+    "ladder": [
+     0.6,
+     0.8,
+     1.0,
+     1.25,
+     1.7
+    ],
+    "n_rep": 24,
+    "n_segments": 20,
+    "n_block": 15
+   }
+  },
+  {
+   "gate": "G4",
+   "passed": true,
+   "value": 0.441875,
+   "margin": 0.5081249999999999,
+   "criterion": "agreement <= 0.95",
+   "statistic": "agreement with dynamics-deleted surrogate",
+   "cost_s": 0.17115739999985635,
+   "note": "",
+   "detail": {
+    "agreement_isotropic": 0.03375,
+    "agreement_random_hurwitz": 0.441875,
+    "readout_mean_fitted": -0.3829057635576839,
+    "readout_mean_isotropic": -0.11086887318748746,
+    "readout_sd_fitted": 0.07937375657722427,
+    "random_surrogate_available": true
+   }
+  },
+  {
+   "gate": "G5",
+   "passed": false,
+   "value": 0.0,
+   "margin": -0.2939961050498736,
+   "criterion": "observed > 95.0th pct of zero-truth (0.294)",
+   "statistic": "separation (Mahalanobis)",
+   "cost_s": 0.2266508000000158,
+   "note": "",
+   "detail": {
+    "floor": 0.2939961050498736,
+    "null_median": 0.0,
+    "n_null": 200,
+    "q": 95.0
+   }
+  },
+  {
+   "gate": "G6",
+   "passed": true,
+   "value": 1.0,
+   "margin": 0.05,
+   "criterion": "TPR >= 0.8 and FPR <= 0.05",
+   "statistic": "TPR at delta=3.0 / FPR",
+   "cost_s": 2.0258949000001394,
+   "note": "",
+   "detail": {
+    "tpr": 1.0,
+    "fpr": 0.0,
+    "delta": 3.0,
+    "n_rep": 60
+   }
+  },
+  {
+   "gate": "G7",
+   "passed": false,
+   "value": 0.26748617244516937,
+   "margin": -0.23251382755483063,
+   "criterion": "share >= 0.5",
+   "statistic": "share of rate summary from identified modes",
+   "cost_s": 0.17507829999999558,
+   "note": "",
+   "detail": {
+    "n_modes": 8,
+    "n_identified": 1,
+    "rates": [
+     0.6595523536067177,
+     0.6595523536067177,
+     0.6867929107180173,
+     0.7901380552749434,
+     0.7901380552749434,
+     0.9261277200602521,
+     1.3155820331781465,
+     2.098791988236156
+    ],
+    "null_lo": [
+     0.5306312091136561,
+     0.5807993953495779,
+     0.6655151930863465,
+     0.6975601052864437,
+     0.7207949359693444,
+     0.7942232515770578,
+     0.8152024664253338,
+     0.9445877864829404
+    ],
+    "null_hi": [
+     0.8049390300060791,
+     0.8640158625029232,
+     0.9004221372996951,
+     0.9532410961096118,
+     1.0139291099645322,
+     1.2846605028460722,
+     1.597994184767703,
+     2.0707199493785624
+    ]
+   }
+  }
+ ],
+ "design": {
+  "dt": 2.5,
+  "window_s": 2.5,
+  "step_s": 2.5,
+  "name": "HCP MEG 667056",
+  "modality": "MEG",
+  "has_labels": true,
+  "has_axis": false
+ },
+ "provenance": {
+  "ndif_version": "1.0.0",
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.4.4",
+  "n_samples": 293,
+  "d": 8,
+  "n_segments": 20,
+  "total_cost_s": 2.89882109999985,
+  "gates_run": [
+   "G0",
+   "G1",
+   "G2",
+   "G3",
+   "G4",
+   "G5",
+   "G6",
+   "G7"
+  ],
+  "estimator": "ols"
+ },
+ "wall_s": 2.8991565704345703
+}

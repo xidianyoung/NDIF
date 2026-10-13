@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4811",
+ "contrast": "N1 vs N2",
+ "lo": "N1",
+ "hi": "N2",
+ "n_segments_lo": 9,
+ "n_segments_hi": 35,
+ "status": "cleared",
+ "passed": true,
+ "separation": 0.7842404184042884,
+ "floor": 0.16306297264894506,
+ "margin": 0.6211774457553433,
+ "detail": {
+  "floor": 0.16306297264894506,
+  "null_median": 0.06646374650531611,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 1.098383903503418
+}

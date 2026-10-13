@@ -1,0 +1,1 @@
+{"seed": 20261026, "train_score": 1.0, "steps": 1200, "recipe": "network_lib.train_original_recipe(network_lib.flipflop_batch, tag, 1200, seed)"}

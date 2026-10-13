@@ -1,0 +1,40 @@
+{
+ "outputs": 808,
+ "relative_error_tolerance": 0.25,
+ "tolerance_sweep": {
+  "0.10": {
+   "admitted": 261,
+   "inaccurate_admitted": 109,
+   "percent_inaccurate": 41.8
+  },
+  "0.15": {
+   "admitted": 261,
+   "inaccurate_admitted": 78,
+   "percent_inaccurate": 29.9
+  },
+  "0.20": {
+   "admitted": 261,
+   "inaccurate_admitted": 48,
+   "percent_inaccurate": 18.4
+  },
+  "0.25": {
+   "admitted": 261,
+   "inaccurate_admitted": 28,
+   "percent_inaccurate": 10.7
+  },
+  "0.30": {
+   "admitted": 261,
+   "inaccurate_admitted": 19,
+   "percent_inaccurate": 7.3
+  }
+ },
+ "offset_subtraction": {
+  "admitted": 261,
+  "inaccurate": 28,
+  "inaccurate_after": 4,
+  "mean_log_error": 0.08431088599336566,
+  "mean_log_error_after": 0.0032365565466514813,
+  "sd_log_error": 0.11052562206843299,
+  "sd_log_error_after": 0.09500786186602539
+ }
+}

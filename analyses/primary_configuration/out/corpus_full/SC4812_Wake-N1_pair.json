@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4812",
+ "contrast": "Wake vs N1",
+ "lo": "Wake",
+ "hi": "N1",
+ "n_segments_lo": 12,
+ "n_segments_hi": 14,
+ "status": "cleared",
+ "passed": true,
+ "separation": 0.8615653527958745,
+ "floor": 0.22496463318380583,
+ "margin": 0.6366007196120687,
+ "detail": {
+  "floor": 0.22496463318380583,
+  "null_median": 0.08957564617104305,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.7545859813690186
+}

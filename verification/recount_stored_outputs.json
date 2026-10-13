@@ -1,0 +1,421 @@
+{
+ "benchmark.outputs": {
+  "value": 320,
+  "expected": 320,
+  "ok": true
+ },
+ "benchmark.accurate_admitted": {
+  "value": 91,
+  "expected": 91,
+  "ok": true
+ },
+ "benchmark.inaccurate_admitted": {
+  "value": 23,
+  "expected": 23,
+  "ok": true
+ },
+ "benchmark.accurate_not_admitted": {
+  "value": 24,
+  "expected": 24,
+  "ok": true
+ },
+ "benchmark.inaccurate_not_admitted": {
+  "value": 182,
+  "expected": 182,
+  "ok": true
+ },
+ "sleep.cells_per_estimator": {
+  "value": {
+   "kalman": 602,
+   "ols": 602
+  },
+  "expected": {
+   "ols": 602,
+   "kalman": 602
+  },
+  "ok": true
+ },
+ "sleep.ols_L3": {
+  "value": {
+   "refused": 590,
+   "indeterminate": 12
+  },
+  "expected": {
+   "refused": 590,
+   "indeterminate": 12
+  },
+  "ok": true
+ },
+ "sleep.kalman_L3": {
+  "value": {
+   "refused": 511,
+   "admitted": 87,
+   "indeterminate": 4
+  },
+  "expected": {
+   "refused": 511,
+   "admitted": 87,
+   "indeterminate": 4
+  },
+  "ok": true
+ },
+ "sleep.ols_first_failed": {
+  "value": {
+   "G1": 557,
+   "G3": 22,
+   "G2": 11
+  },
+  "expected": {
+   "G1": 557,
+   "G2": 11,
+   "G3": 22
+  },
+  "ok": true
+ },
+ "sleep.kalman_first_failed": {
+  "value": {
+   "G3": 248,
+   "G2": 263
+  },
+  "expected": {
+   "G2": 263,
+   "G3": 248
+  },
+  "ok": true
+ },
+ "sleep.rescored_from_gate_flags_mismatches": {
+  "value": [],
+  "expected": [],
+  "ok": true
+ },
+ "sleep.adjacent_stage_pairs": {
+  "value": {
+   "True": 336
+  },
+  "expected": {
+   "True": 336
+  },
+  "ok": true
+ },
+ "meg.n": {
+  "value": 83,
+  "expected": 83,
+  "ok": true
+ },
+ "meg.L1": {
+  "value": {
+   "admitted": 72,
+   "refused": 11
+  },
+  "expected": {
+   "admitted": 72,
+   "refused": 11
+  },
+  "ok": true
+ },
+ "meg.L2": {
+  "value": {
+   "admitted": 83
+  },
+  "expected": {
+   "admitted": 83
+  },
+  "ok": true
+ },
+ "meg.L3": {
+  "value": {
+   "refused": 83
+  },
+  "expected": {
+   "refused": 83
+  },
+  "ok": true
+ },
+ "meg.L3_first_failed": {
+  "value": {
+   "G3": 82,
+   "G2": 1
+  },
+  "expected": {
+   "G3": 82,
+   "G2": 1
+  },
+  "ok": true
+ },
+ "cog.n": {
+  "value": 56,
+  "expected": 56,
+  "ok": true
+ },
+ "cog.L1": {
+  "value": {
+   "indeterminate": 56
+  },
+  "expected": {
+   "indeterminate": 56
+  },
+  "ok": true
+ },
+ "cog.L2": {
+  "value": {
+   "admitted": 56
+  },
+  "expected": {
+   "admitted": 56
+  },
+  "ok": true
+ },
+ "cog.L3": {
+  "value": {
+   "refused": 55,
+   "indeterminate": 1
+  },
+  "expected": {
+   "refused": 55,
+   "indeterminate": 1
+  },
+  "ok": true
+ },
+ "cog.L3_first_failed": {
+  "value": {
+   "G1": 32,
+   "G2": 10,
+   "G3": 13
+  },
+  "expected": {
+   "G1": 32,
+   "G2": 10,
+   "G3": 13
+  },
+  "ok": true
+ },
+ "g8.recordings": {
+  "value": 404,
+  "expected": 404,
+  "ok": true
+ },
+ "g8.outputs": {
+  "value": 808,
+  "expected": 808,
+  "ok": true
+ },
+ "g8.admitted": {
+  "value": 261,
+  "expected": 261,
+  "ok": true
+ },
+ "g8.inaccurate_admitted": {
+  "value": 28,
+  "expected": 28,
+  "ok": true
+ },
+ "g8.accurate_outputs": {
+  "value": 339,
+  "expected": 339,
+  "ok": true
+ },
+ "g8.accurate_admitted": {
+  "value": 233,
+  "expected": 233,
+  "ok": true
+ },
+ "g8.misspecification_outputs": {
+  "value": 200,
+  "expected": 200,
+  "ok": true
+ },
+ "g8.misspecification_L3": {
+  "value": {
+   "refused": 187,
+   "admitted": 10,
+   "indeterminate": 3
+  },
+  "expected": {
+   "admitted": 10,
+   "refused": 187,
+   "indeterminate": 3
+  },
+  "ok": true
+ },
+ "g8.misspecification_inaccurate_admitted": {
+  "value": 10,
+  "expected": 10,
+  "ok": true
+ },
+ "g8.two_timescale_family": {
+  "value": {
+   "refused": 40
+  },
+  "expected": {
+   "refused": 40
+  },
+  "ok": true
+ },
+ "g8.sleep_matched_recordings": {
+  "value": 320,
+  "expected": 320,
+  "ok": true
+ },
+ "g8.sleep_matched_outputs": {
+  "value": 640,
+  "expected": 640,
+  "ok": true
+ },
+ "g8.sleep_matched_scoreable": {
+  "value": 633,
+  "expected": 633,
+  "ok": true
+ },
+ "g8.sleep_matched_accurate": {
+  "value": 210,
+  "expected": 210,
+  "ok": true
+ },
+ "g8.sleep_matched_accurate_admitted": {
+  "value": 16,
+  "expected": 16,
+  "ok": true
+ },
+ "g8.sleep_cells": {
+  "value": 1204,
+  "expected": 1204,
+  "ok": true
+ },
+ "g8.sleep_ols_L3": {
+  "value": {
+   "refused": 583,
+   "admitted": 11,
+   "indeterminate": 8
+  },
+  "expected": {
+   "admitted": 11,
+   "refused": 583,
+   "indeterminate": 8
+  },
+  "ok": true
+ },
+ "g8.sleep_kalman_L3": {
+  "value": {
+   "refused": 590,
+   "admitted": 6,
+   "indeterminate": 6
+  },
+  "expected": {
+   "admitted": 6,
+   "refused": 590,
+   "indeterminate": 6
+  },
+  "ok": true
+ },
+ "g8.co2_calendar_ols_L3": {
+  "value": {
+   "refused|G2": 4
+  },
+  "expected": {
+   "refused|G2": 4
+  },
+  "ok": true
+ },
+ "g8.matched_ls_admissions": {
+  "value": 72,
+  "expected": 72,
+  "ok": true
+ },
+ "g8.matched_ls_ndif_inaccurate": {
+  "value": 5,
+  "expected": 5,
+  "ok": true
+ },
+ "g8.ml_comparator_results": {
+  "ols|comparator": {
+   "n": 394,
+   "accepted": 365,
+   "inaccurate_accepted": 277,
+   "accurate": 92,
+   "accurate_not_accepted": 4,
+   "not_evaluable": 0
+  },
+  "ols|certificate": {
+   "n": 394,
+   "accepted": 72,
+   "inaccurate_accepted": 5,
+   "accurate": 92,
+   "accurate_not_accepted": 25,
+   "not_evaluable": 0
+  },
+  "kalman|comparator": {
+   "n": 394,
+   "accepted": 269,
+   "inaccurate_accepted": 47,
+   "accurate": 239,
+   "accurate_not_accepted": 17,
+   "not_evaluable": 0
+  },
+  "kalman|certificate": {
+   "n": 394,
+   "accepted": 179,
+   "inaccurate_accepted": 21,
+   "accurate": 239,
+   "accurate_not_accepted": 81,
+   "not_evaluable": 0
+  }
+ },
+ "landscape.records": {
+  "value": {
+   "ds003838": 64,
+   "eegmmidb": 104,
+   "meg": 83,
+   "fmri": 198,
+   "sleep": 197
+  },
+  "expected": {
+   "ds003838": 64,
+   "eegmmidb": 104,
+   "meg": 83,
+   "fmri": 198,
+   "sleep": 197
+  },
+  "ok": true
+ },
+ "landscape.awake_minusI_agree": {
+  "value": 445,
+  "expected": 445,
+  "ok": true
+ },
+ "landscape.awake_random_stable_agree": {
+  "value": 445,
+  "expected": 445,
+  "ok": true
+ },
+ "landscape.sleep_minusI_agree": {
+  "value": 165,
+  "expected": 165,
+  "ok": true
+ },
+ "landscape.sleep_random_stable_agree": {
+  "value": 131,
+  "expected": 131,
+  "ok": true
+ },
+ "landscape.constant_one_counter_awake": {
+  "value": 446,
+  "expected": 446,
+  "ok": true
+ },
+ "landscape.constant_one_counter_all": {
+  "value": 607,
+  "expected": 607,
+  "ok": true
+ },
+ "landscape.threshold_best_agree": {
+  "value": 623,
+  "expected": 623,
+  "ok": true
+ },
+ "landscape.threshold_reference_agree": {
+  "value": 557,
+  "expected": 557,
+  "ok": true
+ },
+ "status": "PASS"
+}

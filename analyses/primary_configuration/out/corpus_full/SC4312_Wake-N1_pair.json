@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4312",
+ "contrast": "Wake vs N1",
+ "lo": "Wake",
+ "hi": "N1",
+ "n_segments_lo": 11,
+ "n_segments_hi": 19,
+ "status": "cleared",
+ "passed": true,
+ "separation": 1.6710440700816787,
+ "floor": 0.2216228920524806,
+ "margin": 1.4494211780291981,
+ "detail": {
+  "floor": 0.2216228920524806,
+  "null_median": 0.09931068508638574,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 0.7172331809997559
+}

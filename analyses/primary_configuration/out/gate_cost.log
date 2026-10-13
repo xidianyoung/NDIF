@@ -1,0 +1,20 @@
+reference geometry: 24000 x 3 in 60 segments; 5 reps per cell
+      ols G0  median    0.000 s  [0.000, 0.000]  cleared
+      ols G1  median    0.010 s  [0.010, 0.010]  cleared
+      ols G2  median    0.014 s  [0.014, 0.014]  cleared
+      ols G3  median    5.750 s  [2.698, 6.369]  cleared
+      ols G4  median    1.356 s  [1.346, 1.413]  cleared
+      ols G5  median    1.920 s  [1.904, 1.940]  cleared
+      ols G6  median   15.737 s  [15.499, 16.204]  cleared
+      ols G7  median    1.301 s  [1.278, 1.335]  cleared
+   kalman G0  median    0.000 s  [0.000, 0.000]  cleared
+   kalman G1  median    0.033 s  [0.032, 0.034]  cleared
+   kalman G2  median    8.736 s  [8.726, 8.767]  cleared
+   kalman G3  median  412.455 s  [410.949, 416.699]  cleared
+   kalman G4  median    1.278 s  [1.258, 1.290]  cleared
+   kalman G5  median    1.904 s  [1.904, 1.924]  cleared
+   kalman G6  median   15.426 s  [15.315, 15.517]  cleared
+   kalman G7  median    1.300 s  [1.265, 1.301]  cleared
+
+  total per certification: ols 26.1 s, kalman 441.1 s
+written: analyses/primary_configuration/out/gate_cost.json

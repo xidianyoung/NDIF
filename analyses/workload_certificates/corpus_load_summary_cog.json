@@ -1,0 +1,594 @@
+{
+ "COG-BCI": {
+  "n": 56,
+  "L1": {
+   "status": {
+    "indeterminate": 56
+   },
+   "binding_refused": {}
+  },
+  "L2": {
+   "status": {
+    "admitted": 56
+   },
+   "binding_refused": {}
+  },
+  "L3": {
+   "status": {
+    "refused": 55,
+    "indeterminate": 1
+   },
+   "binding_refused": {
+    "G1": 32,
+    "G2": 10,
+    "G3": 13
+   }
+  },
+  "median_g1_nu": 0.7830801090585615,
+  "median_g3_recovery": 0.10727864364169472,
+  "median_detection_margin_fold": 10.497841205429733,
+  "g1_indeterminate": 24,
+  "rows": [
+   {
+    "recording": "COG-BCI sub-01/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7727947221286965,
+    "g3_recovery": 0.10727864364169472,
+    "detection_margin_fold": 14.560738746669568
+   },
+   {
+    "recording": "COG-BCI sub-01/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.8499893220390786,
+    "g3_recovery": 0.07019985202570118,
+    "detection_margin_fold": 82.11236986303003
+   },
+   {
+    "recording": "COG-BCI sub-02/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.8237569441199246,
+    "g3_recovery": 0.08969327349701287,
+    "detection_margin_fold": 73.93258028670692
+   },
+   {
+    "recording": "COG-BCI sub-02/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.9905808447393606,
+    "g3_recovery": 0.09915790926538917,
+    "detection_margin_fold": 11.257910287050372
+   },
+   {
+    "recording": "COG-BCI sub-03/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7830801090585615,
+    "g3_recovery": 0.08761310372374345,
+    "detection_margin_fold": 47.90179715417429
+   },
+   {
+    "recording": "COG-BCI sub-03/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.024558680242001012,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "COG-BCI sub-04/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7698381822440248,
+    "g3_recovery": 0.3141134116003689,
+    "detection_margin_fold": 2.95279125427458
+   },
+   {
+    "recording": "COG-BCI sub-04/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.9808030722740786,
+    "g3_recovery": 0.07317862581814895,
+    "detection_margin_fold": 23.260692615928598
+   },
+   {
+    "recording": "COG-BCI sub-05/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.8530406603414845,
+    "g3_recovery": -0.06403346407790061,
+    "detection_margin_fold": 631.0780989300781
+   },
+   {
+    "recording": "COG-BCI sub-05/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "indeterminate",
+    "L3_binding": "G1",
+    "g1_nu": null,
+    "g3_recovery": null,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "COG-BCI sub-06/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6184409179318191,
+    "g3_recovery": 0.32752643212749183,
+    "detection_margin_fold": 2.3772489113316073
+   },
+   {
+    "recording": "COG-BCI sub-06/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7753098748505846,
+    "g3_recovery": 0.138578353130293,
+    "detection_margin_fold": 4.250992651787393
+   },
+   {
+    "recording": "COG-BCI sub-07/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7202473881259803,
+    "g3_recovery": -0.017904281660567314,
+    "detection_margin_fold": 355897830.69263864
+   },
+   {
+    "recording": "COG-BCI sub-07/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.8946166291665061,
+    "g3_recovery": 0.5796399164008909,
+    "detection_margin_fold": 1.3748399391581834
+   },
+   {
+    "recording": "COG-BCI sub-08/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6865155736333777,
+    "g3_recovery": 0.1784398385875091,
+    "detection_margin_fold": 4.492686612665424
+   },
+   {
+    "recording": "COG-BCI sub-08/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.88478143125097,
+    "g3_recovery": 0.057560841175172364,
+    "detection_margin_fold": 61.70540369022792
+   },
+   {
+    "recording": "COG-BCI sub-09/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.922649075495203,
+    "g3_recovery": 0.042656133674664934,
+    "detection_margin_fold": 207232113.4376454
+   },
+   {
+    "recording": "COG-BCI sub-09/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.8962478346462329,
+    "g3_recovery": 0.16308461120990336,
+    "detection_margin_fold": 3.065684638957418
+   },
+   {
+    "recording": "COG-BCI sub-10/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7666263649031819,
+    "g3_recovery": 0.020716519923894477,
+    "detection_margin_fold": 5075770.624038003
+   },
+   {
+    "recording": "COG-BCI sub-10/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.8837260066860799,
+    "g3_recovery": 0.34610672009300664,
+    "detection_margin_fold": 1.7552109867730112
+   },
+   {
+    "recording": "COG-BCI sub-11/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6264001064863292,
+    "g3_recovery": 0.25404499540889025,
+    "detection_margin_fold": 2.665920467994208
+   },
+   {
+    "recording": "COG-BCI sub-11/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6258256337470747,
+    "g3_recovery": 0.25298632577621033,
+    "detection_margin_fold": 2.6132937511724004
+   },
+   {
+    "recording": "COG-BCI sub-12/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.772752813464546,
+    "g3_recovery": 0.692400160852583,
+    "detection_margin_fold": 1.707623058012322
+   },
+   {
+    "recording": "COG-BCI sub-12/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.013683611214741483,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "COG-BCI sub-13/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7815136664877776,
+    "g3_recovery": 0.07653421084217346,
+    "detection_margin_fold": 1244.6549918384533
+   },
+   {
+    "recording": "COG-BCI sub-13/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.936019211749021,
+    "g3_recovery": 0.19969410222000308,
+    "detection_margin_fold": 2.352886427855978
+   },
+   {
+    "recording": "COG-BCI sub-14/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.8930284587811237,
+    "g3_recovery": 0.09320032970885968,
+    "detection_margin_fold": 18064.927993107118
+   },
+   {
+    "recording": "COG-BCI sub-14/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.9999136303994793,
+    "g3_recovery": 0.06614305391913122,
+    "detection_margin_fold": 2678.0497256599438
+   },
+   {
+    "recording": "COG-BCI sub-15/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.75602240262404,
+    "g3_recovery": 0.05887788605106345,
+    "detection_margin_fold": 1967.5316466089685
+   },
+   {
+    "recording": "COG-BCI sub-15/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.999950031834225,
+    "g3_recovery": 0.06162948126470526,
+    "detection_margin_fold": 82.12228937129609
+   },
+   {
+    "recording": "COG-BCI sub-16/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7185694170745627,
+    "g3_recovery": 0.1288091518058516,
+    "detection_margin_fold": 12.456005581800094
+   },
+   {
+    "recording": "COG-BCI sub-16/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.9756330942788567,
+    "g3_recovery": 0.22211780890585917,
+    "detection_margin_fold": 3.575615743436057
+   },
+   {
+    "recording": "COG-BCI sub-17/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7198192173976239,
+    "g3_recovery": 0.2325304654985516,
+    "detection_margin_fold": 4.406792693411126
+   },
+   {
+    "recording": "COG-BCI sub-17/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.9675164199714764,
+    "g3_recovery": 0.1867300708749021,
+    "detection_margin_fold": 3.068875124633947
+   },
+   {
+    "recording": "COG-BCI sub-18/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6471336827765322,
+    "g3_recovery": -0.11790014610768933,
+    "detection_margin_fold": 20.35829276830384
+   },
+   {
+    "recording": "COG-BCI sub-18/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.05677460525541669,
+    "detection_margin_fold": 37278722.602892265
+   },
+   {
+    "recording": "COG-BCI sub-19/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6436711025543245,
+    "g3_recovery": -0.3961216656651561,
+    "detection_margin_fold": 2.9109343385631674
+   },
+   {
+    "recording": "COG-BCI sub-19/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.04474930201805758,
+    "detection_margin_fold": 169570.34351314208
+   },
+   {
+    "recording": "COG-BCI sub-20/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7121301514470658,
+    "g3_recovery": 0.1182479454974671,
+    "detection_margin_fold": 10.497841205429733
+   },
+   {
+    "recording": "COG-BCI sub-20/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.13382051596761832,
+    "detection_margin_fold": 27.23598397546979
+   },
+   {
+    "recording": "COG-BCI sub-21/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6878942486579755,
+    "g3_recovery": 0.2025007209407649,
+    "detection_margin_fold": 5.362101357707077
+   },
+   {
+    "recording": "COG-BCI sub-21/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.8536789357530934,
+    "g3_recovery": 0.3346035832903333,
+    "detection_margin_fold": 1.7046612989794132
+   },
+   {
+    "recording": "COG-BCI sub-22/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6694546733237836,
+    "g3_recovery": 0.2924138791380284,
+    "detection_margin_fold": 2.9261680222026807
+   },
+   {
+    "recording": "COG-BCI sub-22/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.924831722362607,
+    "g3_recovery": -0.2715454293072277,
+    "detection_margin_fold": 4.114266345086713
+   },
+   {
+    "recording": "COG-BCI sub-23/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.5501285854383001,
+    "g3_recovery": 1.026285809706258,
+    "detection_margin_fold": 1.4256631532803081
+   },
+   {
+    "recording": "COG-BCI sub-23/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.9396825024461699,
+    "g3_recovery": 0.08202384137289605,
+    "detection_margin_fold": 11.1807804900202
+   },
+   {
+    "recording": "COG-BCI sub-24/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6140244454980118,
+    "g3_recovery": 0.3299674452138636,
+    "detection_margin_fold": 2.3153394498207103
+   },
+   {
+    "recording": "COG-BCI sub-24/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.9201632147513289,
+    "g3_recovery": 0.018155643374218898,
+    "detection_margin_fold": 92735.06982282009
+   },
+   {
+    "recording": "COG-BCI sub-25/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6510666867270948,
+    "g3_recovery": 0.30172926325370214,
+    "detection_margin_fold": 2.8657371605583775
+   },
+   {
+    "recording": "COG-BCI sub-25/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.8305336424860095,
+    "g3_recovery": 0.23161680304987856,
+    "detection_margin_fold": 2.157318692745316
+   },
+   {
+    "recording": "COG-BCI sub-26/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.6545569876471703,
+    "g3_recovery": 0.07648690478562256,
+    "detection_margin_fold": 70.8250211906048
+   },
+   {
+    "recording": "COG-BCI sub-26/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": 0.9819575731882462,
+    "g3_recovery": 0.35162478164638045,
+    "detection_margin_fold": 1.803599857074647
+   },
+   {
+    "recording": "COG-BCI sub-28/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.8739040371658089,
+    "g3_recovery": 0.059590060509259815,
+    "detection_margin_fold": 1561333.6952925976
+   },
+   {
+    "recording": "COG-BCI sub-28/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.12165385716900211,
+    "detection_margin_fold": 2911.2182046471403
+   },
+   {
+    "recording": "COG-BCI sub-29/matb",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G1",
+    "g1_nu": 0.7277657026851099,
+    "g3_recovery": 0.20578774913755057,
+    "detection_margin_fold": 5.3752059916330595
+   },
+   {
+    "recording": "COG-BCI sub-29/nback",
+    "L1": "indeterminate",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": 0.9009846413095564,
+    "g3_recovery": 0.11533132123065182,
+    "detection_margin_fold": 5.477863151714897
+   }
+  ]
+ }
+}

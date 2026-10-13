@@ -1,0 +1,71 @@
+{
+ "per_cohort": {
+  "ds003838": {
+   "n_records": 64,
+   "n_subjects": 64,
+   "rec_agree_minusI": 64,
+   "rec_agree_rand_all": 64,
+   "rec_rand_draw_agree": 1.0,
+   "sub_agree_minusI": 64,
+   "sub_agree_rand_all": 64,
+   "n_anchor_ge2": 0,
+   "median_separation": 0.48971831186370735
+  },
+  "eegmmidb": {
+   "n_records": 104,
+   "n_subjects": 104,
+   "rec_agree_minusI": 104,
+   "rec_agree_rand_all": 104,
+   "rec_rand_draw_agree": 1.0,
+   "sub_agree_minusI": 104,
+   "sub_agree_rand_all": 104,
+   "n_anchor_ge2": 0,
+   "median_separation": 0.45775487066967446
+  },
+  "meg": {
+   "n_records": 83,
+   "n_subjects": 83,
+   "rec_agree_minusI": 83,
+   "rec_agree_rand_all": 83,
+   "rec_rand_draw_agree": 1.0,
+   "sub_agree_minusI": 83,
+   "sub_agree_rand_all": 83,
+   "n_anchor_ge2": 0,
+   "median_separation": 0.4763710684886815
+  },
+  "fmri": {
+   "n_records": 198,
+   "n_subjects": 99,
+   "rec_agree_minusI": 194,
+   "rec_agree_rand_all": 194,
+   "rec_rand_draw_agree": 0.9818181818181818,
+   "sub_agree_minusI": 95,
+   "sub_agree_rand_all": 95,
+   "n_anchor_ge2": 2,
+   "median_separation": 0.8812309434704505
+  },
+  "sleep": {
+   "n_records": 197,
+   "n_subjects": 100,
+   "rec_agree_minusI": 165,
+   "rec_agree_rand_all": 131,
+   "rec_rand_draw_agree": 0.8324873096446701,
+   "sub_agree_minusI": 74,
+   "sub_agree_rand_all": 52,
+   "n_anchor_ge2": 36,
+   "median_separation": 2.544158862392241
+  }
+ },
+ "awake_pooled": {
+  "n_records": 449,
+  "n_subjects": 350,
+  "rec_agree_minusI": 445,
+  "rec_agree_rand_all": 445,
+  "sub_agree_minusI": 346,
+  "sub_agree_rand_all": 346,
+  "n_anchor_ge2_records": 2,
+  "constant_one_counter_agree_records": 446
+ },
+ "n_starts": 200,
+ "n_rand": 5
+}

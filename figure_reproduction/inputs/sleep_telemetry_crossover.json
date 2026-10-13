@@ -1,0 +1,975 @@
+{
+ "design": "Sleep-EDF Telemetry is a temazepam/placebo crossover: each participant contributes one night under each condition.  The arms are analysed separately; within an arm each participant contributes exactly one night.",
+ "n_recordings": 42,
+ "n_subjects": 21,
+ "assignment": {
+  "ST7011": "placebo",
+  "ST7012": "temazepam",
+  "ST7021": "temazepam",
+  "ST7022": "placebo",
+  "ST7041": "placebo",
+  "ST7042": "temazepam",
+  "ST7051": "temazepam",
+  "ST7052": "placebo",
+  "ST7061": "placebo",
+  "ST7062": "temazepam",
+  "ST7071": "placebo",
+  "ST7072": "temazepam",
+  "ST7081": "temazepam",
+  "ST7082": "placebo",
+  "ST7091": "temazepam",
+  "ST7092": "placebo",
+  "ST7101": "placebo",
+  "ST7102": "temazepam",
+  "ST7111": "temazepam",
+  "ST7112": "placebo",
+  "ST7121": "placebo",
+  "ST7122": "temazepam",
+  "ST7131": "temazepam",
+  "ST7132": "placebo",
+  "ST7141": "placebo",
+  "ST7142": "temazepam",
+  "ST7151": "placebo",
+  "ST7152": "temazepam",
+  "ST7171": "placebo",
+  "ST7172": "temazepam",
+  "ST7181": "temazepam",
+  "ST7182": "placebo",
+  "ST7191": "temazepam",
+  "ST7192": "placebo",
+  "ST7201": "placebo",
+  "ST7202": "temazepam",
+  "ST7211": "temazepam",
+  "ST7212": "placebo",
+  "ST7221": "placebo",
+  "ST7222": "temazepam",
+  "ST7241": "placebo",
+  "ST7242": "temazepam"
+ },
+ "dropped": {
+  "ST7161": "fewer than two fine stages: ['N2']",
+  "ST7162": "fewer than two fine stages: ['N2']"
+ },
+ "arms": {
+  "placebo": {
+   "n_nights": 21,
+   "n_subjects": 21,
+   "stage_n": {
+    "Wake": 8,
+    "N1": 19,
+    "N2": 21,
+    "N3": 16,
+    "N4": 9,
+    "REM": 18
+   },
+   "contrasts": {
+    "onestep|width|Wake>N1": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 8,
+      "k_a_greater": 3,
+      "fold": 0.9494914857605352,
+      "mean_fold": 1.0276902249437851,
+      "fold_ci95": [
+       0.8669296275945368,
+       1.3142069131832232
+      ],
+      "sign_p": 0.7265625,
+      "wilcoxon_p": 0.84375,
+      "median_log_ratio": -0.05182871584684646
+     },
+     "night": {
+      "n_nights": 8,
+      "k_a_greater": 3,
+      "fold": 0.9494914857605352,
+      "sign_p": 0.7265625,
+      "median_log_ratio": -0.05182871584684646
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 8,
+      "null_n_subjects_before_subsample": {
+       "mean": 8.0,
+       "p5": 8.0,
+       "p95": 8.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.0029343002358699546,
+      "null_median_log_ratio_p95": [
+       -0.1814786328553761,
+       0.17396086622913665
+      ],
+      "null_fold_mean": 1.0029386095086763,
+      "null_frac_mean": 0.504625,
+      "p_perm_ge": 0.7831084457771115,
+      "p_perm_le": 0.2178910544727636,
+      "p_perm_two_sided": 0.4357821089455272
+     }
+    },
+    "onestep|width|N1>N2": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 19,
+      "k_a_greater": 5,
+      "fold": 0.8793516033409685,
+      "mean_fold": 0.9778401836148585,
+      "fold_ci95": [
+       0.8389606882163317,
+       0.9878495176683764
+      ],
+      "sign_p": 0.063568115234375,
+      "wilcoxon_p": 0.14468765258789062,
+      "median_log_ratio": -0.12857045747627857
+     },
+     "night": {
+      "n_nights": 19,
+      "k_a_greater": 5,
+      "fold": 0.8793516033409685,
+      "sign_p": 0.063568115234375,
+      "median_log_ratio": -0.12857045747627857
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 19,
+      "null_n_subjects_before_subsample": {
+       "mean": 18.6155,
+       "p5": 18.0,
+       "p95": 19.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.0003854410797737234,
+      "null_median_log_ratio_p95": [
+       -0.13957903145342998,
+       0.15582862508389186
+      ],
+      "null_fold_mean": 1.0003855153717314,
+      "null_frac_mean": 0.4989590643274854,
+      "p_perm_ge": 0.960519740129935,
+      "p_perm_le": 0.04047976011994003,
+      "p_perm_two_sided": 0.08095952023988005
+     }
+    },
+    "onestep|width|N2>N3": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 16,
+      "k_a_greater": 15,
+      "fold": 1.17785036463655,
+      "mean_fold": 1.2142260637612046,
+      "fold_ci95": [
+       1.120382250003816,
+       1.3132305749502837
+      ],
+      "sign_p": 0.000518798828125,
+      "wilcoxon_p": 6.103515625e-05,
+      "median_log_ratio": 0.16369105223451763
+     },
+     "night": {
+      "n_nights": 16,
+      "k_a_greater": 15,
+      "fold": 1.17785036463655,
+      "sign_p": 0.000518798828125,
+      "median_log_ratio": 0.16369105223451763
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 16,
+      "null_n_subjects_before_subsample": {
+       "mean": 15.605,
+       "p5": 15.0,
+       "p95": 16.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.00034197587892492205,
+      "null_median_log_ratio_p95": [
+       -0.16906194795940085,
+       0.16728151999188878
+      ],
+      "null_fold_mean": 1.0003420343593419,
+      "null_frac_mean": 0.5012562500000001,
+      "p_perm_ge": 0.029985007496251874,
+      "p_perm_le": 0.9705147426286856,
+      "p_perm_two_sided": 0.05997001499250375
+     }
+    },
+    "onestep|width|N3>N4": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 7,
+      "k_a_greater": 7,
+      "fold": 1.2824327428510915,
+      "mean_fold": 1.2398698349323893,
+      "fold_ci95": [
+       1.1580527406701602,
+       1.327325268394786
+      ],
+      "sign_p": 0.015625,
+      "wilcoxon_p": 0.015625,
+      "median_log_ratio": 0.24875885446627508
+     },
+     "night": {
+      "n_nights": 7,
+      "k_a_greater": 7,
+      "fold": 1.2824327428510915,
+      "sign_p": 0.015625,
+      "median_log_ratio": 0.24875885446627508
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 7,
+      "null_n_subjects_before_subsample": {
+       "mean": 7.5945,
+       "p5": 7.0,
+       "p95": 8.0,
+       "frac_exceeding_observed": 0.5945
+      },
+      "null_median_log_ratio_mean": 0.002989058458265402,
+      "null_median_log_ratio_p95": [
+       -0.20130424961592536,
+       0.21653817826177235
+      ],
+      "null_fold_mean": 1.0029935301477693,
+      "null_frac_mean": 0.501,
+      "p_perm_ge": 0.015492253873063468,
+      "p_perm_le": 0.9895052473763118,
+      "p_perm_two_sided": 0.030984507746126936
+     }
+    },
+    "onestep_bc|lam|Wake>N1": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 8,
+      "k_a_greater": 3,
+      "fold": 0.7391503718967449,
+      "mean_fold": 0.7613889853157803,
+      "fold_ci95": [
+       0.5131489750941667,
+       1.0531753832717676
+      ],
+      "sign_p": 0.7265625,
+      "wilcoxon_p": 0.1484375,
+      "median_log_ratio": -0.3022538984940636
+     },
+     "night": {
+      "n_nights": 8,
+      "k_a_greater": 3,
+      "fold": 0.7391503718967449,
+      "sign_p": 0.7265625,
+      "median_log_ratio": -0.3022538984940636
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 8,
+      "null_n_subjects_before_subsample": {
+       "mean": 8.0,
+       "p5": 8.0,
+       "p95": 8.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.0064801642366329746,
+      "null_median_log_ratio_p95": [
+       -0.470599319835675,
+       0.5140413027591517
+      ],
+      "null_fold_mean": 1.0065012059275493,
+      "null_frac_mean": 0.500625,
+      "p_perm_ge": 0.8990504747626187,
+      "p_perm_le": 0.1024487756121939,
+      "p_perm_two_sided": 0.2048975512243878
+     }
+    },
+    "onestep_bc|lam|N1>N2": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 19,
+      "k_a_greater": 1,
+      "fold": 0.6912248892444688,
+      "mean_fold": 0.5882697105230179,
+      "fold_ci95": [
+       0.5274576183694201,
+       0.783687608953691
+      ],
+      "sign_p": 7.62939453125e-05,
+      "wilcoxon_p": 7.62939453125e-06,
+      "median_log_ratio": -0.3692900533956993
+     },
+     "night": {
+      "n_nights": 19,
+      "k_a_greater": 1,
+      "fold": 0.6912248892444688,
+      "sign_p": 7.62939453125e-05,
+      "median_log_ratio": -0.3692900533956993
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 19,
+      "null_n_subjects_before_subsample": {
+       "mean": 18.6155,
+       "p5": 18.0,
+       "p95": 19.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.0013262382537131785,
+      "null_median_log_ratio_p95": [
+       -0.23362715405995482,
+       0.23362715405995477
+      ],
+      "null_fold_mean": 0.99867464081158,
+      "null_frac_mean": 0.49810087719298246,
+      "p_perm_ge": 0.9985007496251874,
+      "p_perm_le": 0.001999000499750125,
+      "p_perm_two_sided": 0.00399800099950025
+     }
+    },
+    "onestep_bc|lam|N2>N3": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 16,
+      "k_a_greater": 10,
+      "fold": 1.0680741094395796,
+      "mean_fold": 1.0781866892049952,
+      "fold_ci95": [
+       0.9179202594478408,
+       1.1709654004415257
+      ],
+      "sign_p": 0.454498291015625,
+      "wilcoxon_p": 0.2978515625,
+      "median_log_ratio": 0.06585712899159818
+     },
+     "night": {
+      "n_nights": 16,
+      "k_a_greater": 10,
+      "fold": 1.0680741094395796,
+      "sign_p": 0.454498291015625,
+      "median_log_ratio": 0.06585712899159818
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 16,
+      "null_n_subjects_before_subsample": {
+       "mean": 15.605,
+       "p5": 15.0,
+       "p95": 16.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.0013732353702607277,
+      "null_median_log_ratio_p95": [
+       -0.2289361086942705,
+       0.223134540011792
+      ],
+      "null_fold_mean": 1.0013741786897024,
+      "null_frac_mean": 0.5030479166666667,
+      "p_perm_ge": 0.31784107946026985,
+      "p_perm_le": 0.6826586706646677,
+      "p_perm_two_sided": 0.6356821589205397
+     }
+    },
+    "onestep_bc|lam|N3>N4": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 7,
+      "k_a_greater": 3,
+      "fold": 0.9370640869126335,
+      "mean_fold": 1.041359580002539,
+      "fold_ci95": [
+       0.8311759817978738,
+       1.3447535605219645
+      ],
+      "sign_p": 1.0,
+      "wilcoxon_p": 1.0,
+      "median_log_ratio": -0.06500360323134133
+     },
+     "night": {
+      "n_nights": 7,
+      "k_a_greater": 3,
+      "fold": 0.9370640869126335,
+      "sign_p": 1.0,
+      "median_log_ratio": -0.06500360323134133
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 7,
+      "null_n_subjects_before_subsample": {
+       "mean": 7.5945,
+       "p5": 7.0,
+       "p95": 8.0,
+       "frac_exceeding_observed": 0.5945
+      },
+      "null_median_log_ratio_mean": 0.00285287359012512,
+      "null_median_log_ratio_p95": [
+       -0.3592524882555524,
+       0.3625776435430166
+      ],
+      "null_fold_mean": 1.002856946906617,
+      "null_frac_mean": 0.5030714285714285,
+      "p_perm_ge": 0.657671164417791,
+      "p_perm_le": 0.3658170914542729,
+      "p_perm_two_sided": 0.7316341829085458
+     }
+    }
+   }
+  },
+  "temazepam": {
+   "n_nights": 21,
+   "n_subjects": 21,
+   "stage_n": {
+    "Wake": 4,
+    "N1": 16,
+    "N2": 21,
+    "N3": 15,
+    "N4": 8,
+    "REM": 17
+   },
+   "contrasts": {
+    "onestep|width|Wake>N1": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 4,
+      "k_a_greater": 3,
+      "fold": 1.1839116805056507,
+      "mean_fold": 1.129291131994127,
+      "fold_ci95": [
+       0.9313892823850991,
+       1.2458157705205173
+      ],
+      "sign_p": 0.625,
+      "wilcoxon_p": null,
+      "median_log_ratio": 0.1688239395120058
+     },
+     "night": {
+      "n_nights": 4,
+      "k_a_greater": 3,
+      "fold": 1.1839116805056507,
+      "sign_p": 0.625,
+      "median_log_ratio": 0.1688239395120058
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 4,
+      "null_n_subjects_before_subsample": {
+       "mean": 4.0,
+       "p5": 4.0,
+       "p95": 4.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.0009501471501268284,
+      "null_median_log_ratio_p95": [
+       -0.15371370905865492,
+       0.1545754588006127
+      ],
+      "null_fold_mean": 1.0009505986829266,
+      "null_frac_mean": 0.503875,
+      "p_perm_ge": 0.019490254872563718,
+      "p_perm_le": 0.9820089955022488,
+      "p_perm_two_sided": 0.038980509745127435
+     }
+    },
+    "onestep|width|N1>N2": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 16,
+      "k_a_greater": 2,
+      "fold": 0.924335468166682,
+      "mean_fold": 0.882722580021149,
+      "fold_ci95": [
+       0.8293167831719093,
+       0.9423243789861796
+      ],
+      "sign_p": 0.004180908203125,
+      "wilcoxon_p": 0.00030517578125,
+      "median_log_ratio": -0.0786802124446201
+     },
+     "night": {
+      "n_nights": 16,
+      "k_a_greater": 2,
+      "fold": 0.924335468166682,
+      "sign_p": 0.004180908203125,
+      "median_log_ratio": -0.0786802124446201
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 16,
+      "null_n_subjects_before_subsample": {
+       "mean": 16.0,
+       "p5": 16.0,
+       "p95": 16.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.00038885390618130354,
+      "null_median_log_ratio_p95": [
+       -0.09011382119325052,
+       0.09255872322637436
+      ],
+      "null_fold_mean": 0.9996112216877002,
+      "null_frac_mean": 0.4979375,
+      "p_perm_ge": 0.9555222388805598,
+      "p_perm_le": 0.04547726136931534,
+      "p_perm_two_sided": 0.09095452273863068
+     }
+    },
+    "onestep|width|N2>N3": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 15,
+      "k_a_greater": 14,
+      "fold": 1.1955408072830649,
+      "mean_fold": 1.219550719979744,
+      "fold_ci95": [
+       1.0706024755735575,
+       1.2842674696137153
+      ],
+      "sign_p": 0.0009765625,
+      "wilcoxon_p": 0.0001220703125,
+      "median_log_ratio": 0.17859864140567888
+     },
+     "night": {
+      "n_nights": 15,
+      "k_a_greater": 14,
+      "fold": 1.1955408072830649,
+      "sign_p": 0.0009765625,
+      "median_log_ratio": 0.17859864140567888
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 15,
+      "null_n_subjects_before_subsample": {
+       "mean": 15.0,
+       "p5": 15.0,
+       "p95": 15.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.0013235837298488334,
+      "null_median_log_ratio_p95": [
+       -0.14136536765383717,
+       0.14121969125177827
+      ],
+      "null_fold_mean": 0.9986772918207654,
+      "null_frac_mean": 0.4973666666666667,
+      "p_perm_ge": 0.0069965017491254375,
+      "p_perm_le": 0.9945027486256871,
+      "p_perm_two_sided": 0.013993003498250875
+     }
+    },
+    "onestep|width|N3>N4": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 8,
+      "k_a_greater": 8,
+      "fold": 1.1850496054411326,
+      "mean_fold": 1.1891275754743942,
+      "fold_ci95": [
+       1.1457993652754308,
+       1.2387727374004225
+      ],
+      "sign_p": 0.0078125,
+      "wilcoxon_p": 0.0078125,
+      "median_log_ratio": 0.16978463484269918
+     },
+     "night": {
+      "n_nights": 8,
+      "k_a_greater": 8,
+      "fold": 1.1850496054411326,
+      "sign_p": 0.0078125,
+      "median_log_ratio": 0.16978463484269918
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 8,
+      "null_n_subjects_before_subsample": {
+       "mean": 8.0,
+       "p5": 8.0,
+       "p95": 8.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.0006138405678294593,
+      "null_median_log_ratio_p95": [
+       -0.16415912861677892,
+       0.16610642115809005
+      ],
+      "null_fold_mean": 0.9993863477937486,
+      "null_frac_mean": 0.4979375,
+      "p_perm_ge": 0.021989005497251374,
+      "p_perm_le": 0.9785107446276862,
+      "p_perm_two_sided": 0.04397801099450275
+     }
+    },
+    "onestep_bc|lam|Wake>N1": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 4,
+      "k_a_greater": 1,
+      "fold": 0.5224250787307457,
+      "mean_fold": 0.5459920048284174,
+      "fold_ci95": [
+       0.28529490421030457,
+       1.1413085863415324
+      ],
+      "sign_p": 0.625,
+      "wilcoxon_p": null,
+      "median_log_ratio": -0.6492736954135017
+     },
+     "night": {
+      "n_nights": 4,
+      "k_a_greater": 1,
+      "fold": 0.5224250787307457,
+      "sign_p": 0.625,
+      "median_log_ratio": -0.6492736954135017
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 4,
+      "null_n_subjects_before_subsample": {
+       "mean": 4.0,
+       "p5": 4.0,
+       "p95": 4.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.006051175866069604,
+      "null_median_log_ratio_p95": [
+       -0.7617893627957686,
+       0.6910020756098723
+      ],
+      "null_fold_mean": 0.9939670956253651,
+      "null_frac_mean": 0.49625,
+      "p_perm_ge": 0.9600199900049975,
+      "p_perm_le": 0.04097951024487756,
+      "p_perm_two_sided": 0.08195902048975512
+     }
+    },
+    "onestep_bc|lam|N1>N2": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 16,
+      "k_a_greater": 4,
+      "fold": 0.6876946480359959,
+      "mean_fold": 0.6947904723862349,
+      "fold_ci95": [
+       0.5814084079254309,
+       0.8853156510302279
+      ],
+      "sign_p": 0.076812744140625,
+      "wilcoxon_p": 0.005157470703125,
+      "median_log_ratio": -0.37441036509757064
+     },
+     "night": {
+      "n_nights": 16,
+      "k_a_greater": 4,
+      "fold": 0.6876946480359959,
+      "sign_p": 0.076812744140625,
+      "median_log_ratio": -0.37441036509757064
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 16,
+      "null_n_subjects_before_subsample": {
+       "mean": 16.0,
+       "p5": 16.0,
+       "p95": 16.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": 0.00041750665636139936,
+      "null_median_log_ratio_p95": [
+       -0.2985245956133581,
+       0.2814776353487773
+      ],
+      "null_fold_mean": 1.0004175938243962,
+      "null_frac_mean": 0.50284375,
+      "p_perm_ge": 0.9955022488755623,
+      "p_perm_le": 0.004997501249375313,
+      "p_perm_two_sided": 0.009995002498750625
+     }
+    },
+    "onestep_bc|lam|N2>N3": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 15,
+      "k_a_greater": 10,
+      "fold": 1.1282209107472025,
+      "mean_fold": 1.1861300460118622,
+      "fold_ci95": [
+       0.9688643791084501,
+       1.6593617856128862
+      ],
+      "sign_p": 0.30175781249999994,
+      "wilcoxon_p": 0.072998046875,
+      "median_log_ratio": 0.12064197676215266
+     },
+     "night": {
+      "n_nights": 15,
+      "k_a_greater": 10,
+      "fold": 1.1282209107472025,
+      "sign_p": 0.30175781249999994,
+      "median_log_ratio": 0.12064197676215266
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 15,
+      "null_n_subjects_before_subsample": {
+       "mean": 15.0,
+       "p5": 15.0,
+       "p95": 15.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.0028008173434486976,
+      "null_median_log_ratio_p95": [
+       -0.3627866129980515,
+       0.3627866129980514
+      ],
+      "null_fold_mean": 0.997203101286138,
+      "null_frac_mean": 0.49910000000000004,
+      "p_perm_ge": 0.3003498250874563,
+      "p_perm_le": 0.7131434282858571,
+      "p_perm_two_sided": 0.6006996501749126
+     }
+    },
+    "onestep_bc|lam|N3>N4": {
+     "testable": true,
+     "subject": {
+      "n_subjects": 8,
+      "k_a_greater": 4,
+      "fold": 1.0118462583482186,
+      "mean_fold": 1.0374481300772362,
+      "fold_ci95": [
+       0.7880630046269752,
+       1.3228169431506633
+      ],
+      "sign_p": 1.0,
+      "wilcoxon_p": 0.9453125,
+      "median_log_ratio": 0.011776640696227567
+     },
+     "night": {
+      "n_nights": 8,
+      "k_a_greater": 4,
+      "fold": 1.0118462583482186,
+      "sign_p": 1.0,
+      "median_log_ratio": 0.011776640696227567
+     },
+     "perm_null": {
+      "n_perm": 2000,
+      "observed_n_subjects": 8,
+      "null_n_subjects_before_subsample": {
+       "mean": 8.0,
+       "p5": 8.0,
+       "p95": 8.0,
+       "frac_exceeding_observed": 0.0
+      },
+      "null_median_log_ratio_mean": -0.003479832313678503,
+      "null_median_log_ratio_p95": [
+       -0.40796211275279853,
+       0.3947419201814
+      ],
+      "null_fold_mean": 0.9965262152858759,
+      "null_frac_mean": 0.499375,
+      "p_perm_ge": 0.4617691154422789,
+      "p_perm_le": 0.5397301349325337,
+      "p_perm_two_sided": 0.9235382308845578
+     }
+    }
+   }
+  }
+ },
+ "drug_contrast": {
+  "onestep|width|Wake": {
+   "testable": true,
+   "n_subjects": 3,
+   "k_temazepam_greater": 0,
+   "fold_temazepam_over_placebo": 0.894739786662363,
+   "sign_p": 0.25,
+   "wilcoxon_p": null
+  },
+  "onestep|width|N1": {
+   "testable": true,
+   "n_subjects": 15,
+   "k_temazepam_greater": 4,
+   "fold_temazepam_over_placebo": 0.944076509149687,
+   "sign_p": 0.11846923828124999,
+   "wilcoxon_p": 0.041259765625
+  },
+  "onestep|width|N2": {
+   "testable": true,
+   "n_subjects": 21,
+   "k_temazepam_greater": 11,
+   "fold_temazepam_over_placebo": 1.0022323783860416,
+   "sign_p": 1.0,
+   "wilcoxon_p": 0.5854024887084961
+  },
+  "onestep|width|N3": {
+   "testable": true,
+   "n_subjects": 13,
+   "k_temazepam_greater": 6,
+   "fold_temazepam_over_placebo": 0.9933548669770547,
+   "sign_p": 1.0,
+   "wilcoxon_p": 0.684814453125
+  },
+  "onestep|width|N4": {
+   "testable": true,
+   "n_subjects": 5,
+   "k_temazepam_greater": 3,
+   "fold_temazepam_over_placebo": 1.050353276057091,
+   "sign_p": 1.0,
+   "wilcoxon_p": null
+  },
+  "onestep|width|REM": {
+   "testable": true,
+   "n_subjects": 15,
+   "k_temazepam_greater": 8,
+   "fold_temazepam_over_placebo": 1.0300157739182847,
+   "sign_p": 1.0,
+   "wilcoxon_p": 0.52447509765625
+  },
+  "onestep_bc|lam|Wake": {
+   "testable": true,
+   "n_subjects": 3,
+   "k_temazepam_greater": 2,
+   "fold_temazepam_over_placebo": 1.2528985635468879,
+   "sign_p": 1.0,
+   "wilcoxon_p": null
+  },
+  "onestep_bc|lam|N1": {
+   "testable": true,
+   "n_subjects": 15,
+   "k_temazepam_greater": 9,
+   "fold_temazepam_over_placebo": 1.306269272102473,
+   "sign_p": 0.6072387695312499,
+   "wilcoxon_p": 0.0946044921875
+  },
+  "onestep_bc|lam|N2": {
+   "testable": true,
+   "n_subjects": 21,
+   "k_temazepam_greater": 11,
+   "fold_temazepam_over_placebo": 1.0045768455050894,
+   "sign_p": 1.0,
+   "wilcoxon_p": 0.5620746612548828
+  },
+  "onestep_bc|lam|N3": {
+   "testable": true,
+   "n_subjects": 13,
+   "k_temazepam_greater": 6,
+   "fold_temazepam_over_placebo": 0.9557395435288127,
+   "sign_p": 1.0,
+   "wilcoxon_p": 0.946044921875
+  },
+  "onestep_bc|lam|N4": {
+   "testable": true,
+   "n_subjects": 5,
+   "k_temazepam_greater": 1,
+   "fold_temazepam_over_placebo": 0.8695164087755288,
+   "sign_p": 0.375,
+   "wilcoxon_p": null
+  },
+  "onestep_bc|lam|REM": {
+   "testable": true,
+   "n_subjects": 15,
+   "k_temazepam_greater": 6,
+   "fold_temazepam_over_placebo": 0.9004932800673157,
+   "sign_p": 0.6072387695312499,
+   "wilcoxon_p": 0.45428466796875
+  }
+ },
+ "cassette_comparison": {
+  "onestep|width|Wake>N1": {
+   "n_subjects": 52,
+   "k_a_greater": 40,
+   "fold": 1.1855377844051165,
+   "mean_fold": 1.2119982424961089,
+   "fold_ci95": [
+    1.05476157970439,
+    1.2447696752246276
+   ],
+   "sign_p": 0.0001275387838557407,
+   "wilcoxon_p": 3.120248088981373e-06,
+   "median_log_ratio": 0.1701964981412013
+  },
+  "onestep|width|N1>N2": {
+   "n_subjects": 67,
+   "k_a_greater": 33,
+   "fold": 0.9998895587550893,
+   "mean_fold": 0.9726074510094929,
+   "fold_ci95": [
+    0.933433052005765,
+    1.0622298645100092
+   ],
+   "sign_p": 1.0,
+   "wilcoxon_p": 0.49594464690310125,
+   "median_log_ratio": -0.00011044734399406897
+  },
+  "onestep|width|N2>N3": {
+   "n_subjects": 40,
+   "k_a_greater": 37,
+   "fold": 1.1803817653661808,
+   "mean_fold": 1.2102586754356968,
+   "fold_ci95": [
+    1.1039401004266283,
+    1.271951476310419
+   ],
+   "sign_p": 1.946500560734421e-08,
+   "wilcoxon_p": 1.000444171950221e-10,
+   "median_log_ratio": 0.16583791612437726
+  },
+  "onestep|width|N3>N4": {
+   "n_subjects": 14,
+   "k_a_greater": 14,
+   "fold": 1.1109818765098376,
+   "mean_fold": 1.142237517277504,
+   "fold_ci95": [
+    1.0701062759335036,
+    1.2490890097519702
+   ],
+   "sign_p": 0.0001220703125,
+   "wilcoxon_p": 0.0001220703125,
+   "median_log_ratio": 0.10524419775201488
+  },
+  "onestep_bc|lam|Wake>N1": {
+   "n_subjects": 52,
+   "k_a_greater": 15,
+   "fold": 0.8226995310555898,
+   "mean_fold": 0.7980342098259543,
+   "fold_ci95": [
+    0.703533539758524,
+    0.9746620023811163
+   ],
+   "sign_p": 0.003185253447776759,
+   "wilcoxon_p": 8.347841953909353e-05,
+   "median_log_ratio": -0.1951642348139911
+  },
+  "onestep_bc|lam|N1>N2": {
+   "n_subjects": 67,
+   "k_a_greater": 7,
+   "fold": 0.7387332153874545,
+   "mean_fold": 0.7190087350953472,
+   "fold_ci95": [
+    0.6634340531820033,
+    0.8044751210166875
+   ],
+   "sign_p": 1.3280368233066496e-11,
+   "wilcoxon_p": 3.1329084880817955e-11,
+   "median_log_ratio": -0.30281843080764836
+  },
+  "onestep_bc|lam|N2>N3": {
+   "n_subjects": 40,
+   "k_a_greater": 16,
+   "fold": 0.8837317029138372,
+   "mean_fold": 0.929485726063509,
+   "fold_ci95": [
+    0.802578175899374,
+    1.0492190263865213
+   ],
+   "sign_p": 0.26818725105476915,
+   "wilcoxon_p": 0.0918240616483672,
+   "median_log_ratio": -0.1236017659021337
+  },
+  "onestep_bc|lam|N3>N4": {
+   "n_subjects": 14,
+   "k_a_greater": 5,
+   "fold": 0.9072919553648252,
+   "mean_fold": 0.8939643970744647,
+   "fold_ci95": [
+    0.8134306394773133,
+    1.0417898813273698
+   ],
+   "sign_p": 0.4239501953125,
+   "wilcoxon_p": 0.020263671875,
+   "median_log_ratio": -0.09729098941168896
+  }
+ }
+}

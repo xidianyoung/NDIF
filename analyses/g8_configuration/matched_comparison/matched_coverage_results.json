@@ -1,0 +1,158 @@
+{
+  "analysis": "Post hoc comparison.",
+  "scope": "384 single-timescale recordings and 10 Student t recordings with equal segments.",
+  "expected_recordings": 404,
+  "paired_recordings": 394,
+  "absent_comparator_records": [
+    {
+      "key": "variants|100|0",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 0
+    },
+    {
+      "key": "variants|100|1",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 1
+    },
+    {
+      "key": "variants|100|3",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 3
+    },
+    {
+      "key": "variants|100|4",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 4
+    },
+    {
+      "key": "variants|100|5",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 5
+    },
+    {
+      "key": "variants|100|2",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 2
+    },
+    {
+      "key": "variants|100|6",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 6
+    },
+    {
+      "key": "variants|100|7",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 7
+    },
+    {
+      "key": "variants|100|8",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 8
+    },
+    {
+      "key": "variants|100|9",
+      "family": "unequal",
+      "cell": 100,
+      "rep": 9
+    }
+  ],
+  "absent_reason": "All 10 unequal-length recordings (cell 100) are absent: the comparator requires equal segment lengths.",
+  "accuracy_rule": "Inaccurate iff absolute relative error >= 0.25.",
+  "coverage_rule": "For each estimator, rank abs(err_exact) ascending and accept exactly as many recordings as the certificate admits. Exact ties are ordered lexicographically by key, never by truth. The unmatched comparator (integer-truncated percent error <= 20) is reported separately as original_bootstrap.",
+  "uncertainty": "5000 paired condition-stratified bootstrap draws, seed 20261009. Coverage is re-matched on each draw; percentile CI for comparator risk minus certificate risk, conditional on the simulation design.",
+  "g3_curve": "Exploratory thresholds of the stored G3 margin among recordings that pass G0, G2, G8 and G1. The margin omits the Monte Carlo uncertainty band, so a zero threshold is not the admission rule.",
+  "limitations": "Compares the stored estimator-matched parametric bootstrap only.",
+  "results": {
+    "ols": {
+      "fixed_certificate": {
+        "n": 394,
+        "admitted": 72,
+        "inaccurate_admitted": 5,
+        "accurate": 92,
+        "accurate_not_admitted": 25,
+        "coverage": 0.18274111675126903,
+        "risk": 0.06944444444444445,
+        "accurate_retention": 0.7282608695652174
+      },
+      "original_bootstrap": {
+        "n": 394,
+        "admitted": 365,
+        "inaccurate_admitted": 277,
+        "accurate": 92,
+        "accurate_not_admitted": 4,
+        "coverage": 0.9263959390862944,
+        "risk": 0.7589041095890411,
+        "accurate_retention": 0.9565217391304348
+      },
+      "matched_bootstrap": {
+        "n": 394,
+        "admitted": 72,
+        "inaccurate_admitted": 63,
+        "accurate": 92,
+        "accurate_not_admitted": 83,
+        "coverage": 0.18274111675126903,
+        "risk": 0.875,
+        "accurate_retention": 0.09782608695652174
+      },
+      "bootstrap_abs_error_cutoff": 0.013793891342079015,
+      "cutoff_tie_total": 1,
+      "excess_bootstrap_risk": 0.8055555555555556,
+      "paired_stratified_bootstrap_ci95": [
+        0.7397260273972602,
+        0.8591549295774648
+      ],
+      "bootstrap_draws": 5000,
+      "g3_sweep_max_coverage": 0.2715736040609137
+    },
+    "kalman": {
+      "fixed_certificate": {
+        "n": 394,
+        "admitted": 179,
+        "inaccurate_admitted": 21,
+        "accurate": 239,
+        "accurate_not_admitted": 81,
+        "coverage": 0.4543147208121827,
+        "risk": 0.11731843575418995,
+        "accurate_retention": 0.6610878661087866
+      },
+      "original_bootstrap": {
+        "n": 394,
+        "admitted": 269,
+        "inaccurate_admitted": 47,
+        "accurate": 239,
+        "accurate_not_admitted": 17,
+        "coverage": 0.682741116751269,
+        "risk": 0.17472118959107807,
+        "accurate_retention": 0.9288702928870293
+      },
+      "matched_bootstrap": {
+        "n": 394,
+        "admitted": 179,
+        "inaccurate_admitted": 16,
+        "accurate": 239,
+        "accurate_not_admitted": 76,
+        "coverage": 0.4543147208121827,
+        "risk": 0.0893854748603352,
+        "accurate_retention": 0.6820083682008368
+      },
+      "bootstrap_abs_error_cutoff": 0.1154178203077165,
+      "cutoff_tie_total": 1,
+      "excess_bootstrap_risk": -0.027932960893854747,
+      "paired_stratified_bootstrap_ci95": [
+        -0.07344632768361582,
+        0.011560693641618497
+      ],
+      "bootstrap_draws": 5000,
+      "g3_sweep_max_coverage": 0.649746192893401
+    }
+  }
+}

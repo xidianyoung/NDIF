@@ -1,0 +1,9 @@
+{
+ "seed": 20261013,
+ "train_score": 1.0,
+ "n_fixed_points": 1,
+ "n_stable": 0,
+ "completeness": 0.0,
+ "fp_separation_gain1": null,
+ "usable": false
+}

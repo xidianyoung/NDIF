@@ -1,0 +1,9 @@
+{
+ "seed": 20261000,
+ "train_score": 1.0,
+ "n_fixed_points": 3,
+ "n_stable": 2,
+ "completeness": 1.0,
+ "fp_separation_gain1": 10.533911225996826,
+ "usable": true
+}

@@ -1,0 +1,865 @@
+{
+ "HCP MEG": {
+  "n": 83,
+  "L1": {
+   "status": {
+    "admitted": 72,
+    "refused": 11
+   },
+   "binding_refused": {
+    "G5": 11
+   }
+  },
+  "L2": {
+   "status": {
+    "admitted": 83
+   },
+   "binding_refused": {}
+  },
+  "L3": {
+   "status": {
+    "refused": 83
+   },
+   "binding_refused": {
+    "G3": 82,
+    "G2": 1
+   }
+  },
+  "median_g1_nu": null,
+  "median_g3_recovery": 0.08511993914224356,
+  "median_detection_margin_fold": 3.834140552619148,
+  "g1_indeterminate": 83,
+  "rows": [
+   {
+    "recording": "HCP MEG 100307",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0850044930319684,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 102816",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08500428825665156,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 104012",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.0804525968946533,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 105923",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142026079650896,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 106521",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08504151414116087,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 108323",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.9479352352669971,
+    "detection_margin_fold": 3.834140552619148
+   },
+   {
+    "recording": "HCP MEG 109123",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.8997893785857327,
+    "detection_margin_fold": 3.1194540768365897
+   },
+   {
+    "recording": "HCP MEG 111514",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3141329246294076,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 112920",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142443059326921,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 113922",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512025205480511,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 116726",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08508337085951438,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 125525",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08510132773533398,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 133019",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142337628498379,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 140117",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0018017359565904905,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 146129",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3141333390660109,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 149741",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.08045289054768372,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 151526",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31113772382435256,
+    "detection_margin_fold": 33.00713673245195
+   },
+   {
+    "recording": "HCP MEG 156334",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3141327505024973,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 158136",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142709922803545,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 162026",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31415292332902,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 162935",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08500795810652301,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 164636",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31427098166852463,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 166438",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512037109551585,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 169040",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.08038668695839478,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 172029",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512037896820494,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 175237",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31421062910343794,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 175540",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0851190376012898,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 177746",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.13008441919178143,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 182840",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31425035509241583,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 185442",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G2",
+    "g1_nu": null,
+    "g3_recovery": 0.08512038254476349,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 189349",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08502620412250363,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 191033",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.07672954376374932,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 191437",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31413337479960146,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 191841",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08511469092985144,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 192641",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0856630478869618,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 195041",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31425180205604447,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 198653",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.314133456691703,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 200109",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.08045283763733543,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 204521",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142429404658008,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 205119",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142707393506418,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 212318",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142445556106133,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 212823",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08500429472056568,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 214524",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08510103497549744,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 223929",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512024665194465,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 248339",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512005756721766,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 250427",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0850042917676311,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 255639",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31426272895587465,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 257845",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08511993914224356,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 283543",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0851193520858263,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 293748",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142392863823107,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 352738",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3141643574127776,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 353740",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08504495913921621,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 358144",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31413293915009066,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 406836",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08511911801338652,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 433839",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0631490959973706,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 500222",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0850042874625255,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 512835",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08511639874059958,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 555348",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.08040184367880142,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 568963",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31427036982391776,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 581450",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0631472808963806,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 599671",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.08040831464095693,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 601127",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.001811575776608572,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 660951",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3141330461256098,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 662551",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08500428755216348,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 665254",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08511922455683493,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 667056",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.06313944111702983,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 679770",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08514296154630915,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 680957",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08506646480896782,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 706040",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.0850042873510901,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 707749",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.0804527540918939,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 715950",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.085099520506311,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 725751",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08511942622464883,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 735148",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512032856443558,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 783462",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08512001908830605,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 814649",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08510184762921506,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 825048",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.0804116975283803,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 872764",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31424602543219843,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 877168",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142703430343695,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 891667",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.3142601249497289,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 898176",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.31427208551682273,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 912447",
+    "L1": "refused",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08501581423912975,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 917255",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": -0.080433705879104,
+    "detection_margin_fold": null
+   },
+   {
+    "recording": "HCP MEG 990366",
+    "L1": "admitted",
+    "L2": "admitted",
+    "L3": "refused",
+    "L3_binding": "G3",
+    "g1_nu": null,
+    "g3_recovery": 0.08500578067641065,
+    "detection_margin_fold": null
+   }
+  ]
+ }
+}

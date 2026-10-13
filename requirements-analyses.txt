@@ -1,0 +1,11 @@
+# Additional libraries of the analyses of the recordings and of the trained networks (analyses/*), on top of
+# requirements.txt.  The versions are those used for the reported analyses (Python 3.13.9 on Windows 11).
+# Reading the EEG/MEG recordings (EDF, BrainVision, FieldTrip/MAT) and band-power features
+mne==1.11.0
+h5py==3.15.1
+# Sleep-EDF subject tables (analyses/rate_identifiability/sleep_lag_profile.py)
+xlrd==2.0.2
+# Basin graph of the pairwise maximum-entropy readout (analyses/landscape_readouts/elapy_functions.py)
+networkx==3.6.1
+# Trained recurrent networks (analyses/recurrent_networks); a CUDA GPU is used when available
+torch==2.9.0

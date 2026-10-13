@@ -1,0 +1,22 @@
+{
+ "kind": "pair",
+ "recording": "SC4722",
+ "contrast": "Wake vs N1",
+ "lo": "Wake",
+ "hi": "N1",
+ "n_segments_lo": 15,
+ "n_segments_hi": 26,
+ "status": "cleared",
+ "passed": true,
+ "separation": 0.9121322344576251,
+ "floor": 0.18718042178294364,
+ "margin": 0.7249518126746815,
+ "detail": {
+  "floor": 0.18718042178294364,
+  "null_median": 0.09429819258495717,
+  "n_null": 200,
+  "q": 95.0
+ },
+ "replicates": "package defaults",
+ "wall_s": 1.0609521865844727
+}

@@ -1,0 +1,267 @@
+{
+ "kind": "cell",
+ "recording": "SC4362",
+ "stage": "N3",
+ "estimator": "ols",
+ "n_segments": 6,
+ "n_windows": 360,
+ "dim": 8,
+ "win_s": 1.0,
+ "gates_consulted": [
+  "G0",
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G5",
+  "G6",
+  "G7"
+ ],
+ "replicates": "package defaults",
+ "levels": {
+  "L1": {
+   "status": "indeterminate",
+   "binding_gate": "G5",
+   "margin": null,
+   "detection_margin": null,
+   "grounds": "G5 could not be evaluated (no condition labels supplied)"
+  },
+  "L2": {
+   "status": "admitted",
+   "binding_gate": "G0",
+   "margin": 0.0,
+   "detection_margin": "a change in state variance of at least x1.18 would have been detected at 80% power",
+   "grounds": "all governing gates cleared; tightest is G0 at margin 0"
+  },
+  "L3": {
+   "status": "refused",
+   "binding_gate": "G1",
+   "margin": -0.6131767721942327,
+   "detection_margin": "a change in relaxation rate of at least x4.46 would have been detected at 80% power",
+   "grounds": "G1 binds: nu (white variance share) = 0.8132, criterion nu <= 0.2 for an observation-naive estimator; not binding for an observation-aware one"
+  }
+ },
+ "gates": [
+  {
+   "gate": "G0",
+   "passed": true,
+   "value": 1.0,
+   "margin": 0.0,
+   "criterion": "ratio >= 1 (no shared samples)",
+   "statistic": "step/window",
+   "cost_s": 6.200018106028438e-06,
+   "note": "",
+   "detail": {
+    "window_s": 1.0,
+    "step_s": 1.0,
+    "overlap_fraction": 0.0
+   }
+  },
+  {
+   "gate": "G1",
+   "passed": false,
+   "value": 0.8131767721942327,
+   "margin": -0.6131767721942327,
+   "criterion": "nu <= 0.2 for an observation-naive estimator; not binding for an observation-aware one",
+   "statistic": "nu (white variance share)",
+   "cost_s": 0.0013158000074326992,
+   "note": "",
+   "detail": {
+    "two_lag": {
+     "r1": 0.12519687637904378,
+     "r2": 0.0838988708158146,
+     "nu": 0.8131767721942327,
+     "a": 0.6701354957275764,
+     "ok": true
+    },
+    "nu_random_directions": 0.7058937816884755,
+    "estimator": "ols",
+    "observation_aware": false,
+    "rate_inflation_per_dt": 1.6775924150624144
+   }
+  },
+  {
+   "gate": "G2",
+   "passed": false,
+   "value": 0.5964424149893652,
+   "margin": -0.09644241498936523,
+   "criterion": "|theta| <= 0.5 and CI excludes 1",
+   "statistic": "theta in lambda ~ dt^(-theta)",
+   "cost_s": 0.012565299984999001,
+   "note": "",
+   "detail": {
+    "ci": [
+     -0.013790647883033812,
+     1.220977518014741
+    ],
+    "per_factor": {
+     "1": 1.1648294860648611,
+     "2": 1.182249132241988,
+     "3": 1.1634142539536987,
+     "4": 0.3917991904060604
+    },
+    "excludes_one": false,
+    "estimator": "ols",
+    "factors": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "gate": "G3",
+   "passed": false,
+   "value": 0.39619809738623846,
+   "margin": -0.7015404580238678,
+   "criterion": "|slope - 1| <= 0.2 AND |bias| <= 0.2 log units",
+   "statistic": "recovered fraction (rate channel)",
+   "cost_s": 0.39675309997983277,
+   "note": "",
+   "detail": {
+    "rate_recovery": 0.39619809738623846,
+    "variance_recovery": 0.9769778831020401,
+    "bias_log": 0.9015404580238677,
+    "slope_ok": false,
+    "bias_ok": false,
+    "bias_tol": 0.2,
+    "variance_ok": true,
+    "detection_margin_fold": 4.462617859877819,
+    "detection_margin_fold_variance": 1.1770169007618365,
+    "nu_injected": 0.48694580245091446,
+    "estimator": "ols",
+    "ladder": [
+     0.6,
+     0.8,
+     1.0,
+     1.25,
+     1.7
+    ],
+    "n_rep": 24,
+    "n_segments": 6,
+    "n_block": 60
+   }
+  },
+  {
+   "gate": "G4",
+   "passed": true,
+   "value": 0.35625,
+   "margin": 0.59375,
+   "criterion": "agreement <= 0.95",
+   "statistic": "agreement with dynamics-deleted surrogate",
+   "cost_s": 0.16084239998599514,
+   "note": "",
+   "detail": {
+    "agreement_isotropic": 0.0,
+    "agreement_random_hurwitz": 0.35625,
+    "readout_mean_fitted": 0.6027406505413365,
+    "readout_mean_isotropic": 0.07691288393703921,
+    "readout_sd_fitted": 0.05387288605959347,
+    "random_surrogate_available": true
+   }
+  },
+  {
+   "gate": "G5",
+   "passed": null,
+   "value": null,
+   "margin": null,
+   "criterion": "observed > 95.0th pct of zero-truth",
+   "statistic": "separation (Mahalanobis)",
+   "cost_s": 3.3800024539232254e-05,
+   "note": "no condition labels supplied",
+   "detail": {}
+  },
+  {
+   "gate": "G6",
+   "passed": true,
+   "value": 1.0,
+   "margin": 0.05,
+   "criterion": "TPR >= 0.8 and FPR <= 0.05",
+   "statistic": "TPR at delta=3.0 / FPR",
+   "cost_s": 2.993559299997287,
+   "note": "",
+   "detail": {
+    "tpr": 1.0,
+    "fpr": 0.0,
+    "delta": 3.0,
+    "n_rep": 60
+   }
+  },
+  {
+   "gate": "G7",
+   "passed": true,
+   "value": 0.9744946691811894,
+   "margin": 0.47449466918118943,
+   "criterion": "share >= 0.5",
+   "statistic": "share of rate summary from identified modes",
+   "cost_s": 0.19736559997545555,
+   "note": "",
+   "detail": {
+    "n_modes": 8,
+    "n_identified": 7,
+    "rates": [
+     0.8564618210575411,
+     1.8540129579989226,
+     1.8857135186753193,
+     2.2090133448094162,
+     2.2090133448094162,
+     2.3531690629425865,
+     3.0458597931705294,
+     3.0458597931705294
+    ],
+    "null_lo": [
+     0.6429397521090547,
+     0.7320024600641974,
+     0.8163557729199276,
+     0.9009315150558384,
+     0.930955663780468,
+     1.0157873226825924,
+     1.1217761263166202,
+     1.2138200199878524
+    ],
+    "null_hi": [
+     0.9128578845200955,
+     1.0243750384668218,
+     1.0946194058776821,
+     1.1853775158852562,
+     1.2904956109476324,
+     1.4571636727263386,
+     1.6242052504077449,
+     2.000537179025237
+    ]
+   }
+  }
+ ],
+ "design": {
+  "dt": 1.0,
+  "window_s": 1.0,
+  "step_s": 1.0,
+  "name": "SC4362/N3",
+  "modality": "polysomnography",
+  "has_labels": false,
+  "has_axis": false
+ },
+ "provenance": {
+  "ndif_version": "1.0.0",
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.4.4",
+  "n_samples": 360,
+  "d": 8,
+  "n_segments": 6,
+  "total_cost_s": 3.7624414999736473,
+  "gates_run": [
+   "G0",
+   "G1",
+   "G2",
+   "G3",
+   "G4",
+   "G5",
+   "G6",
+   "G7"
+  ],
+  "estimator": "ols"
+ },
+ "wall_s": 3.7638051509857178
+}
